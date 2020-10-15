@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">E-Treat</string>
     <string name="signin_link"><u>Sign in</u></string>
+<resources>
+    <string name="app_name">E-Treat</string>
+    <string name="userName">SignUp_In_userName</string>
+    <string name="password">password</string>
+    <string name="re_typePassword">retypePassword</string>
 </resources>

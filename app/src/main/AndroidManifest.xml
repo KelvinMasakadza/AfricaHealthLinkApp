@@ -11,7 +11,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".SignUpActivity"></activity>
         <activity android:name=".SplashActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".DoctorActivity"></activity>
+        <activity android:name=".Home" />
+        <activity android:name=".SearchDoctor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
