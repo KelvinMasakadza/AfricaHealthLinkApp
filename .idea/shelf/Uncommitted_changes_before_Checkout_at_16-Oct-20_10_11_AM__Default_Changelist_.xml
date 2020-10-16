@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_16-Oct-20_10_11_AM_[Default_Changelist]" date="1602832308489" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16-Oct-20_10_11_AM_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 16-Oct-20 10:11 AM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value=".idea/caches/build_file_checksums.ser" />
+    <option name="AFTER_PATH" value=".idea/caches/build_file_checksums.ser" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16-Oct-20_10_11_AM_[Default_Changelist]/build_file_checksums.ser" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/6.5/fileHashes/fileHashes.lock" />
+    <option name="AFTER_PATH" value=".gradle/6.5/fileHashes/fileHashes.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16-Oct-20_10_11_AM_[Default_Changelist]/fileHashes.lock" />
+  </binary>
+</changelist>

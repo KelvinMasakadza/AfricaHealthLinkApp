@@ -1,0 +1,4 @@
+com/africahealthlinkapp/e_treat/BuildConfig.java
+ com.africahealthlinkapp.e_treat.BuildConfig
+com/africahealthlinkapp/e_treat/MainActivity.java
+ com.africahealthlinkapp.e_treat.MainActivity

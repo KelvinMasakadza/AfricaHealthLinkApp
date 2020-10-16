@@ -1,0 +1,72 @@
+Index: .idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Gradle: androidx.arch.core:core-runtime:2.0.0@aar\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4277c449ae4e7defb11901a027a49277/core-runtime-2.0.0/jars/classes.jar!/\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4277c449ae4e7defb11901a027a49277/core-runtime-2.0.0/res\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4277c449ae4e7defb11901a027a49277/core-runtime-2.0.0/AndroidManifest.xml\" />\r\n    </CLASSES>\r\n    <JAVADOC />\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/bc41b287c95bc50a3cd27cb1b7cfb301805ba7f1/core-runtime-2.0.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml	(revision 1664823a825fb793c064a484fb96eee9fb05e8e4)
++++ .idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml	(date 1602832271909)
+@@ -1,13 +1,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4277c449ae4e7defb11901a027a49277/core-runtime-2.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4277c449ae4e7defb11901a027a49277/core-runtime-2.0.0/res" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4277c449ae4e7defb11901a027a49277/core-runtime-2.0.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/bc41b287c95bc50a3cd27cb1b7cfb301805ba7f1/core-runtime-2.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/31a15a162cd7bb718e862c0cc13bfa61/lifecycle-livedata-2.0.0/jars/classes.jar!/\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/31a15a162cd7bb718e862c0cc13bfa61/lifecycle-livedata-2.0.0/res\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/31a15a162cd7bb718e862c0cc13bfa61/lifecycle-livedata-2.0.0/AndroidManifest.xml\" />\r\n    </CLASSES>\r\n    <JAVADOC />\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/740ce61935bd789380c01178bd8ce402402ebd2f/lifecycle-livedata-2.0.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml	(revision 1664823a825fb793c064a484fb96eee9fb05e8e4)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml	(date 1602832271909)
+@@ -1,13 +1,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/31a15a162cd7bb718e862c0cc13bfa61/lifecycle-livedata-2.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/31a15a162cd7bb718e862c0cc13bfa61/lifecycle-livedata-2.0.0/res" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/31a15a162cd7bb718e862c0cc13bfa61/lifecycle-livedata-2.0.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/740ce61935bd789380c01178bd8ce402402ebd2f/lifecycle-livedata-2.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af090a78eaea8296976d6555a3a135f2/lifecycle-livedata-core-2.0.0/jars/classes.jar!/\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af090a78eaea8296976d6555a3a135f2/lifecycle-livedata-core-2.0.0/res\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af090a78eaea8296976d6555a3a135f2/lifecycle-livedata-core-2.0.0/AndroidManifest.xml\" />\r\n    </CLASSES>\r\n    <JAVADOC />\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml	(revision 1664823a825fb793c064a484fb96eee9fb05e8e4)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml	(date 1602832271924)
+@@ -1,13 +1,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af090a78eaea8296976d6555a3a135f2/lifecycle-livedata-core-2.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af090a78eaea8296976d6555a3a135f2/lifecycle-livedata-core-2.0.0/res" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af090a78eaea8296976d6555a3a135f2/lifecycle-livedata-core-2.0.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
