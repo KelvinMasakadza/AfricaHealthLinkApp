@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/E-Treat.iml" filepath="$PROJECT_DIR$/.idea/modules/E-Treat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/E-Treat.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/E-Treat.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AfricaHealthLinkApp.iml" filepath="$PROJECT_DIR$/.idea/modules/AfricaHealthLinkApp.iml" />
     </modules>
   </component>
 </project>

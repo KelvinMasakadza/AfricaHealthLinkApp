@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171535945914",
+    "firebase_url": "https://e-treat-7716c.firebaseio.com",
+    "project_id": "e-treat-7716c",
+    "storage_bucket": "e-treat-7716c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171535945914:android:5bb903c0e11e3f27ccb283",
+        "android_client_info": {
+          "package_name": "com.africahealthlinkapp.e_treat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171535945914-88lacqvrijpusddliefb1cslo3qivl98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.africahealthlinkapp.e_treat",
+            "certificate_hash": "c8e43a58aa41a4a6a5794e32fa201b4593b976db"
+          }
+        },
+        {
+          "client_id": "171535945914-agm14glphevtaos4m1dn8akc3tkbq65a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7VNqmdXqrLAKM3SFNtHi3K7pmxokooxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171535945914-agm14glphevtaos4m1dn8akc3tkbq65a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
