@@ -14,17 +14,16 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.imageView9, 5);
-        sViewsWithIds.put(R.id.imageView10, 6);
-        sViewsWithIds.put(R.id.guideline3, 7);
-        sViewsWithIds.put(R.id.user_email_text, 8);
-        sViewsWithIds.put(R.id.imageView11, 9);
-        sViewsWithIds.put(R.id.user_password_text, 10);
-        sViewsWithIds.put(R.id.checkBox, 11);
-        sViewsWithIds.put(R.id.textView2, 12);
-        sViewsWithIds.put(R.id.imageButton2, 13);
-        sViewsWithIds.put(R.id.textView, 14);
-        sViewsWithIds.put(R.id.load_progress_bar, 15);
+        sViewsWithIds.put(R.id.imageView10, 5);
+        sViewsWithIds.put(R.id.guideline3, 6);
+        sViewsWithIds.put(R.id.user_email_text, 7);
+        sViewsWithIds.put(R.id.imageView11, 8);
+        sViewsWithIds.put(R.id.user_password_text, 9);
+        sViewsWithIds.put(R.id.checkBox, 10);
+        sViewsWithIds.put(R.id.textView2, 11);
+        sViewsWithIds.put(R.id.imageButton2, 12);
+        sViewsWithIds.put(R.id.textView, 13);
+        sViewsWithIds.put(R.id.load_progress_bar, 14);
     }
     // views
     @NonNull
@@ -43,25 +42,24 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
     // Inverse Binding Event Handlers
 
     public ActivitySignInBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 16, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 15, sIncludes, sViewsWithIds));
     }
     private ActivitySignInBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.CheckBox) bindings[11]
+            , (android.widget.CheckBox) bindings[10]
             , (android.widget.ImageButton) bindings[3]
             , (android.widget.ImageButton) bindings[4]
-            , (androidx.constraintlayout.widget.Guideline) bindings[7]
-            , (android.widget.ImageButton) bindings[13]
-            , (android.widget.ImageView) bindings[6]
-            , (android.widget.ImageView) bindings[9]
+            , (androidx.constraintlayout.widget.Guideline) bindings[6]
+            , (android.widget.ImageButton) bindings[12]
             , (android.widget.ImageView) bindings[5]
-            , (android.widget.ProgressBar) bindings[15]
+            , (android.widget.ImageView) bindings[8]
+            , (android.widget.ProgressBar) bindings[14]
             , (android.widget.Button) bindings[1]
             , (android.widget.TextView) bindings[2]
-            , (android.widget.TextView) bindings[14]
-            , (android.widget.TextView) bindings[12]
-            , (android.widget.EditText) bindings[8]
-            , (android.widget.EditText) bindings[10]
+            , (android.widget.TextView) bindings[13]
+            , (android.widget.TextView) bindings[11]
+            , (android.widget.EditText) bindings[7]
+            , (android.widget.EditText) bindings[9]
             );
         this.facebookSignIn.setTag(null);
         this.googleSignIn.setTag(null);

@@ -45,9 +45,6 @@ public abstract class ActivitySignInBinding extends ViewDataBinding {
   public final ImageView imageView11;
 
   @NonNull
-  public final ImageView imageView9;
-
-  @NonNull
   public final ProgressBar loadProgressBar;
 
   @NonNull
@@ -73,7 +70,7 @@ public abstract class ActivitySignInBinding extends ViewDataBinding {
 
   protected ActivitySignInBinding(Object _bindingComponent, View _root, int _localFieldCount,
       CheckBox checkBox, ImageButton facebookSignIn, ImageButton googleSignIn, Guideline guideline3,
-      ImageButton imageButton2, ImageView imageView10, ImageView imageView11, ImageView imageView9,
+      ImageButton imageButton2, ImageView imageView10, ImageView imageView11,
       ProgressBar loadProgressBar, Button signInButton, TextView signUpView, TextView textView,
       TextView textView2, EditText userEmailText, EditText userPasswordText) {
     super(_bindingComponent, _root, _localFieldCount);
@@ -84,7 +81,6 @@ public abstract class ActivitySignInBinding extends ViewDataBinding {
     this.imageButton2 = imageButton2;
     this.imageView10 = imageView10;
     this.imageView11 = imageView11;
-    this.imageView9 = imageView9;
     this.loadProgressBar = loadProgressBar;
     this.signInButton = signInButton;
     this.signUpView = signUpView;

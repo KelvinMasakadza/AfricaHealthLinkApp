@@ -164,6 +164,10 @@
         "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-mdpi/splash_screen.png"
     },
     {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splash_image.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxhdpi/splash_image.png"
+    },
+    {
         "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_facebook_icon.png.flat",
         "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xhdpi/facebook_icon.png"
     },

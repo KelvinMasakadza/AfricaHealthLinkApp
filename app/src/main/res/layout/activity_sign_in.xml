@@ -12,14 +12,14 @@
             tools:context=".SignInActivity">
 
             <ImageView
-                android:id="@+id/imageView9"
                 android:layout_width="103dp"
                 android:layout_height="110dp"
                 android:layout_marginTop="40dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/auth_logo" />
+                app:srcCompat="@drawable/auth_logo"
+                tools:visibility="visible" />
 
             <ImageView
                 android:id="@+id/imageView10"

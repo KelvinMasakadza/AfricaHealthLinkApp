@@ -1096,6 +1096,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color lightBlue
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -2958,6 +2959,7 @@ drawable quantum_ic_cloud_off_vd_theme_24
 drawable quantum_ic_search_grey600_24
 drawable rounded_background
 drawable rounded_layout
+drawable splash_image
 drawable splash_screen
 drawable tablets
 drawable test_custom_background
@@ -3210,7 +3212,6 @@ id imageView4
 id imageView5
 id imageView6
 id imageView8
-id imageView9
 id incoming
 id info
 id inline

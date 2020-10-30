@@ -480,6 +480,7 @@
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="lightBlue">#6665C0DF</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -2273,7 +2274,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="default_web_client_id" translatable="false">171535945914-agm14glphevtaos4m1dn8akc3tkbq65a.apps.googleusercontent.com</string>
-    <string name="doctor_node">doctors</string>
+    <string name="doctor_node">m_doctors</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
@@ -2360,7 +2361,7 @@
     <string name="signup_link">Don\'t have an account? <u>Sign up</u></string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="userName">SignUp_In_userName</string>
-    <string name="user_node">users</string>
+    <string name="user_node">m_users</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="AndroidThemeColorAccentYellow" ns2:ignore="NewApi">
