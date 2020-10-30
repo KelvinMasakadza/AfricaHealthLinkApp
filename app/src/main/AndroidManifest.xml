@@ -15,13 +15,20 @@
         <activity android:name=".SignUpActivity"></activity>
         <activity android:name=".SplashActivity" />
         <activity android:name=".DoctorActivity"></activity>
-        <activity android:name=".Home" />
-        <activity android:name=".SearchDoctor">
+        <activity android:name=".Pharmacydetail"></activity>
+        <activity android:name=".PharmacyActivity"></activity>
+        <activity android:name=".Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SearchDoctor"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCnIVlOEnRyx70_tTxOhGqOoYSJPNMDBq8" />
+        <service android:name=".LocationService" />
     </application>
 </manifest>
