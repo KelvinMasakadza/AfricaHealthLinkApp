@@ -1,0 +1,318 @@
+[
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_icon_email.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/icon_email.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-hdpi_splash_screen.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-hdpi/splash_screen.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_rounded_background.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/rounded_background.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-hdpi_auth_logo.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-hdpi/auth_logo.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-hdpi_linkedin_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-hdpi/linkedin_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-mdpi_rounded_layout.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-mdpi/rounded_layout.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-hdpi_home_tablet.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-hdpi/home_tablet.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_linkedin_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xhdpi/linkedin_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-hdpi_google_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-hdpi/google_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_auth_logo.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxxhdpi/auth_logo.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_splash_screen.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xhdpi/splash_screen.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_icon_lock.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/icon_lock.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_google_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xhdpi/google_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/layout_activity_doctor_info.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_doctor_info.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_ic__school.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/ic__school.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-mdpi_home_tablet.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-mdpi/home_tablet.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_ic_password.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/ic_password.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_linkedin_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxxhdpi/linkedin_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_pill.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/pill.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_pharmacy2.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/pharmacy2.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/layout_activity_sign_in.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-mdpi_group_2.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-mdpi/group_2.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_ic_account_user.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/ic_account_user.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splash_screen.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxhdpi/splash_screen.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/layout_no_internet_dialog.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/no_internet_dialog.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-mdpi_google_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-mdpi/google_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_facebook_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxxhdpi/facebook_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_google_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxxhdpi/google_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_auth_logo.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxhdpi/auth_logo.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-mdpi_splash_screen.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-mdpi/splash_screen.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_facebook_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xhdpi/facebook_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-mdpi_tablets.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-mdpi/tablets.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_group_2.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xhdpi/group_2.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_phar.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/phar.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/layout_activity_doctor.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_doctor.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_pharmacy.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/pharmacy.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_home_tablet.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xhdpi/home_tablet.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/layout_main_map_activity.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/main_map_activity.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/layout_activity_pharmacydetail.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_pharmacydetail.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_group_2.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxxhdpi/group_2.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-hdpi_tablets.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-hdpi/tablets.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tablets.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxhdpi/tablets.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-hdpi_facebook_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-hdpi/facebook_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/layout_drug_list_item.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/drug_list_item.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_splash_screen.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxxhdpi/splash_screen.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_auth_logo.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xhdpi/auth_logo.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-mdpi_facebook_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-mdpi/facebook_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_ic_baseline_local_pharmacy.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/ic_baseline_local_pharmacy.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-mdpi_auth_logo.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-mdpi/auth_logo.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_ic_email.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/ic_email.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_google_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxhdpi/google_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_facebook_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxhdpi/facebook_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_home_tablet.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxxhdpi/home_tablet.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_linkedin_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxhdpi/linkedin_icon.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_tablets.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xhdpi/tablets.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_home_tablet.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxhdpi/home_tablet.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable_icon_user.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable/icon_user.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_tablets.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxxhdpi/tablets.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_group_2.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-xxhdpi/group_2.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-hdpi_group_2.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-hdpi/group_2.png"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/res/merged/debug/drawable-mdpi_linkedin_icon.png.flat",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/drawable-mdpi/linkedin_icon.png"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_up.xml",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_doctor_info.xml",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_doctor_info.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_in.xml",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_sign_in.xml"
+    }
+]

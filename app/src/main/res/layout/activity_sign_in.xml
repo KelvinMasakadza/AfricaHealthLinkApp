@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="activity" type="com.africahealthlinkapp.e_treat.SignInActivity" />
+    </data>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/themeBlue"
+            tools:context=".SignInActivity">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="103dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/auth_logo" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="40dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="@+id/user_email_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/guideline3"
+                app:srcCompat="@drawable/icon_email" />
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="255dp" />
+
+            <EditText
+                android:id="@+id/user_email_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#8FFFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView10"
+                app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="40dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="@+id/user_password_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/user_password_text"
+                app:srcCompat="@drawable/icon_lock" />
+
+            <EditText
+                android:id="@+id/user_password_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#fff"
+                android:textColorHint="#8FFFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView11"
+                app:layout_constraintTop_toBottomOf="@+id/user_email_text" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Remember me"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/user_password_text" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Forgot Password?"
+                android:textColor="#fff"
+                app:layout_constraintBottom_toBottomOf="@+id/checkBox"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/checkBox" />
+
+            <Button
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Sign In"
+                android:onClick="@{()-> activity.authenticateUser(userEmailText.getText().toString(), userPasswordText.getText().toString())}"
+                android:textAllCaps="false"
+                android:textColor="@color/themeBlue"
+                android:textSize="18sp"
+                app:backgroundTint="#FFFFFF"
+                app:cornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+            <TextView
+                android:id="@+id/sign_up_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:clickable="true"
+                android:onClick="@{()-> activity.openSignUpScreen()}"
+                android:gravity="center"
+                android:text="@string/signup_link"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sign_in_button" />
+
+            <ImageButton
+                android:id="@+id/facebook_sign_in"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="120dp"
+                android:background="@android:color/transparent"
+                android:onClick="@{()-> activity.startFacebookSignIn()}"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageButton2"
+                app:srcCompat="@drawable/facebook_icon" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toStartOf="@+id/google_sign_in"
+                app:layout_constraintStart_toEndOf="@+id/facebook_sign_in"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/linkedin_icon" />
+
+            <ImageButton
+                android:id="@+id/google_sign_in"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="100dp"
+                android:background="@android:color/transparent"
+                android:onClick="@{()-> activity.startGoogleSignIn()}"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageButton2"
+                app:srcCompat="@drawable/google_icon" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="OR"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sign_up_view" />
+
+            <ProgressBar
+                android:id="@+id/load_progress_bar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@+id/sign_in_button"
+                app:layout_constraintEnd_toEndOf="@+id/sign_in_button"
+                app:layout_constraintStart_toStartOf="@+id/sign_in_button"
+                app:layout_constraintTop_toTopOf="@+id/sign_in_button" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+

@@ -1,8 +1,14 @@
 <resources>
-    <string name="signin_link"><u>Sign in</u></string>
-<resources>
+
     <string name="app_name">E-Treat</string>
     <string name="userName">SignUp_In_userName</string>
     <string name="password">password</string>
     <string name="re_typePassword">retypePassword</string>
+    <string name="signin_link">Already have an account? <u>Sign in</u></string>
+    <string name="signup_link">Don\'t have an account? <u>Sign up</u></string>
+    <string name="user_node">m_users</string>
+    <string name="doctor_node">m_doctors</string>
+
+    <string name="facebook_app_id">294334608240708</string>
+    <string name="fb_login_protocol_scheme">fb294334608240708</string>
 </resources>

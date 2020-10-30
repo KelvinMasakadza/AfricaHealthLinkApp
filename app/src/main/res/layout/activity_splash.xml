@@ -7,12 +7,14 @@
     tools:context=".SplashActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView7"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/splash_screen" />
+        app:srcCompat="@drawable/splash_image" />
 </androidx.constraintlayout.widget.ConstraintLayout>
