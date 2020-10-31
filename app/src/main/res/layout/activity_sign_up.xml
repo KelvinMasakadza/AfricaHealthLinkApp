@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:facebook="http://schemas.android.com/apk/res-auto">
     <data>
-        <variable name="activity" type="com.africahealthlinkapp.e_treat.SignUpActivity" />
+        <variable name="activity" type="com.africahealthlinkapp.e_treat.ui.SignUpActivity" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/themeBlue"
-        tools:context=".SignUpActivity">
+        tools:context=".ui.SignUpActivity">
 
         <ImageView
             android:id="@+id/imageView2"

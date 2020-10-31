@@ -1,6 +1,8 @@
 package com.africahealthlinkapp.e_treat.databinding;
 import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.BR;
+import com.africahealthlinkapp.e_treat.ui.SignInActivity;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
@@ -98,7 +100,7 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.activity == variableId) {
-            setActivity((com.africahealthlinkapp.e_treat.SignInActivity) variable);
+            setActivity((SignInActivity) variable);
         }
         else {
             variableSet = false;
@@ -106,7 +108,7 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
             return variableSet;
     }
 
-    public void setActivity(@Nullable com.africahealthlinkapp.e_treat.SignInActivity Activity) {
+    public void setActivity(@Nullable SignInActivity Activity) {
         this.mActivity = Activity;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -129,7 +131,7 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        com.africahealthlinkapp.e_treat.SignInActivity activity = mActivity;
+        SignInActivity activity = mActivity;
         // batch finished
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
@@ -149,7 +151,7 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
                 // activity != null
                 boolean activityJavaLangObjectNull = false;
                 // activity
-                com.africahealthlinkapp.e_treat.SignInActivity activity = mActivity;
+                SignInActivity activity = mActivity;
 
 
 
@@ -166,7 +168,7 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
                 // activity != null
                 boolean activityJavaLangObjectNull = false;
                 // activity
-                com.africahealthlinkapp.e_treat.SignInActivity activity = mActivity;
+                SignInActivity activity = mActivity;
 
 
 
@@ -183,7 +185,7 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
                 // activity != null
                 boolean activityJavaLangObjectNull = false;
                 // activity
-                com.africahealthlinkapp.e_treat.SignInActivity activity = mActivity;
+                SignInActivity activity = mActivity;
 
 
 
@@ -200,7 +202,7 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
                 // activity != null
                 boolean activityJavaLangObjectNull = false;
                 // activity
-                com.africahealthlinkapp.e_treat.SignInActivity activity = mActivity;
+                SignInActivity activity = mActivity;
 
 
 

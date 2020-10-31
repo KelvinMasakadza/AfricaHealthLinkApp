@@ -1,6 +1,8 @@
 package com.africahealthlinkapp.e_treat.databinding;
 import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.BR;
+import com.africahealthlinkapp.e_treat.ui.DoctorInfoActivity;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
@@ -99,7 +101,7 @@ public class ActivityDoctorInfoBindingImpl extends ActivityDoctorInfoBinding imp
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.activity == variableId) {
-            setActivity((com.africahealthlinkapp.e_treat.DoctorInfoActivity) variable);
+            setActivity((DoctorInfoActivity) variable);
         }
         else {
             variableSet = false;
@@ -107,7 +109,7 @@ public class ActivityDoctorInfoBindingImpl extends ActivityDoctorInfoBinding imp
             return variableSet;
     }
 
-    public void setActivity(@Nullable com.africahealthlinkapp.e_treat.DoctorInfoActivity Activity) {
+    public void setActivity(@Nullable DoctorInfoActivity Activity) {
         this.mActivity = Activity;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -130,7 +132,7 @@ public class ActivityDoctorInfoBindingImpl extends ActivityDoctorInfoBinding imp
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        com.africahealthlinkapp.e_treat.DoctorInfoActivity activity = mActivity;
+        DoctorInfoActivity activity = mActivity;
         // batch finished
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
@@ -147,7 +149,7 @@ public class ActivityDoctorInfoBindingImpl extends ActivityDoctorInfoBinding imp
         // nationalIdText.getText().toString
         java.lang.String nationalIdTextGetTextToString = null;
         // activity
-        com.africahealthlinkapp.e_treat.DoctorInfoActivity activity = mActivity;
+        DoctorInfoActivity activity = mActivity;
 
 
 

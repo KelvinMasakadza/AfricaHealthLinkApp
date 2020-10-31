@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
     <data>
-        <variable name="activity" type="com.africahealthlinkapp.e_treat.DoctorInfoActivity" />
+        <variable name="activity" type="com.africahealthlinkapp.e_treat.ui.DoctorInfoActivity" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/themeBlue"
-        tools:context=".DoctorInfoActivity">
+        tools:context=".ui.DoctorInfoActivity">
 
         <EditText
             android:id="@+id/dept_text"
