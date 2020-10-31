@@ -1,68 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Home">
+<layout>
 
-        <com.google.android.material.appbar.AppBarLayout
 
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2"
+        android:fitsSystemWindows="true"
+        tools:context=".Home">
+
+        <View
             android:id="@+id/app_bar"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/app_bar_height"
-            android:background="@color/colorPrimary"
-            android:backgroundTint="@android:color/transparent"
-            android:backgroundTintMode="src_over"
-            android:elevation="4dp"
-            android:fitsSystemWindows="true"
-            android:theme="@style/AppBarOverlay"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_background" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@id/app_bar"
+            app:layout_anchorGravity="bottom|center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                app:layout_collapseMode="pin"
-                app:popupTheme="@style/PopupOverlay" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lookForDoc"
+                android:orientation="vertical">
 
-        </com.google.android.material.appbar.AppBarLayout>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/doc_img" />
 
-    <LinearLayout
-        app:layout_anchor="@id/app_bar"
-        app:layout_anchorGravity="bottom|center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:elevation="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="Doctors"
+                    android:textColor="@color/AppColor"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profile_image"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:elevation="4dp"
-            android:src="@drawable/group_2" />
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profile_image2"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:elevation="4dp"
-            android:src="@drawable/group_2" />
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profile_image3"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:elevation="4dp"
-            android:src="@drawable/group_2" />
-
-    </LinearLayout>
+            </LinearLayout>
 
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:onClick="openPharmarcies"
+                android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/tablet" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="Meds"
+                    android:textColor="@color/AppColor"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/equip" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="Diagnosis"
+                    android:textColor="@color/AppColor"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/infomationRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="50dp" />
+
+        <ProgressBar
+            android:id="@+id/loadingIfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/AppColor"
+            android:indeterminateTintMode="src_atop" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

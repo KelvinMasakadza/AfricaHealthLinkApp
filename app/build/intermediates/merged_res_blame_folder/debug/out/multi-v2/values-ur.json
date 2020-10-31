@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\New\\GAD_community_project\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
+            "outputFile": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Aisac\\.gradle\\caches\\transforms-2\\files-2.1\\055d048301101e636bc4f73db435bfa9\\jetified-places-2.4.0\\res\\values-ur\\values.xml",

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\doctormodel.xml",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\doctormodel.xml"
+    },
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\doctors_model.xml",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\doctors_model.xml"
+    },
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\info_model.xml",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\info_model.xml"
+    },
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_doctor.xml",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\activity_doctor.xml"
+    },
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_doctor_profile.xml",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\activity_doctor_profile.xml"
+    },
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_search_doctor.xml",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\activity_search_doctor.xml"
+    }
+]
