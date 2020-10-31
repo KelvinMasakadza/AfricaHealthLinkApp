@@ -1,4 +1,4 @@
-package com.africahealthlinkapp.e_treat;
+package com.africahealthlinkapp.e_treat.ui;
 
 import android.content.Intent;
 import android.location.Location;
@@ -18,10 +18,10 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.adapter.InfoAdapter;
 import com.africahealthlinkapp.e_treat.databinding.ActivityHomeBinding;
 import com.africahealthlinkapp.e_treat.models.Information;
-import com.africahealthlinkapp.e_treat.ui.SearchDoctor;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.maps.GoogleMap;
@@ -94,7 +94,7 @@ public class Home extends AppCompatActivity {
     }
 
     public void openPharmarcies(View view) {
-        //startActivity(new Intent(this, PharmacyActivity.class));
+        startActivity(new Intent(this, PharmacyActivity.class));
     }
 
     public void openDiagnosis(View view) {

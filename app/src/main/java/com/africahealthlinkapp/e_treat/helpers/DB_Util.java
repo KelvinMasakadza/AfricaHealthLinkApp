@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 
 import com.africahealthlinkapp.e_treat.MainActivity;
 import com.africahealthlinkapp.e_treat.R;
-import com.africahealthlinkapp.e_treat.SignInActivity;
+import com.africahealthlinkapp.e_treat.ui.SignInActivity;
 import com.africahealthlinkapp.e_treat.models.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;

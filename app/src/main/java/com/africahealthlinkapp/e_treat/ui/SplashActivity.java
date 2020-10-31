@@ -1,4 +1,4 @@
-package com.africahealthlinkapp.e_treat;
+package com.africahealthlinkapp.e_treat.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -10,6 +10,8 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Toast;
+
+import com.africahealthlinkapp.e_treat.R;
 
 public class SplashActivity extends AppCompatActivity {
 

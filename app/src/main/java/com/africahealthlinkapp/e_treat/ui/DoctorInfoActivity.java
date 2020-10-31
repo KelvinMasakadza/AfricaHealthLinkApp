@@ -1,4 +1,4 @@
-package com.africahealthlinkapp.e_treat;
+package com.africahealthlinkapp.e_treat.ui;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -16,6 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
 
+import com.africahealthlinkapp.e_treat.MainActivity;
+import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.databinding.ActivityDoctorInfoBinding;
 import com.africahealthlinkapp.e_treat.models.Doctor;
 import com.google.android.gms.tasks.OnCompleteListener;

@@ -1,4 +1,4 @@
-package com.africahealthlinkapp.e_treat;
+package com.africahealthlinkapp.e_treat.ui;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.databinding.ActivitySignUpBinding;
 import com.africahealthlinkapp.e_treat.helpers.AlertDialogHelper;
 import com.africahealthlinkapp.e_treat.helpers.DB_Util;

@@ -1,4 +1,4 @@
-package com.africahealthlinkapp.e_treat;
+package com.africahealthlinkapp.e_treat.ui;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.africahealthlinkapp.e_treat.adapter.DrugAdapter;
+import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.models.Drug;
 
 import java.util.ArrayList;

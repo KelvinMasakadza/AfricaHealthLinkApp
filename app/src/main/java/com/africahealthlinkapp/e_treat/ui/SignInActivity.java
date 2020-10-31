@@ -1,14 +1,11 @@
-package com.africahealthlinkapp.e_treat;
+package com.africahealthlinkapp.e_treat.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -16,6 +13,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.africahealthlinkapp.e_treat.MainActivity;
+import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.databinding.ActivitySignInBinding;
 import com.africahealthlinkapp.e_treat.helpers.AlertDialogHelper;
 import com.africahealthlinkapp.e_treat.helpers.FacebookLoginUtil;

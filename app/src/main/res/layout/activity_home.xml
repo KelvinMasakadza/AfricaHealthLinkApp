@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:background="#f2f2f2"
         android:fitsSystemWindows="true"
-        tools:context=".Home">
+        tools:context=".ui.Home">
 
         <View
             android:id="@+id/app_bar"
