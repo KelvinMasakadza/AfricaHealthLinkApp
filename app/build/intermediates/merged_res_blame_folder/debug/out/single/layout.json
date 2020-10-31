@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\doctormodel.xml",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\doctormodel.xml"
     },
@@ -26,5 +27,17 @@
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_search_doctor.xml",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\activity_search_doctor.xml"
+=======
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_up.xml",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_doctor_info.xml",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_doctor_info.xml"
+    },
+    {
+        "merged": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_in.xml",
+        "source": "/Users/merry/Documents/ANDROID/AfricaHealthLinkApp/app/src/main/res/layout/activity_sign_in.xml"
+>>>>>>> f54e5b377284e194248d2785dc6a83a06025e86d
     }
 ]

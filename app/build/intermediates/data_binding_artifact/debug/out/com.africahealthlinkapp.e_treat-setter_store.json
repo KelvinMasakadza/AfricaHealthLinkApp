@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":5,"adapterMethods":{"android:infopic":[[{"viewType":"android.widget.ImageView","valueType":"java.lang.String"},{"type":"com.africahealthlinkapp.e_treat.models.Information","method":"loadImage","requiresOldValue":false,"isStatic":true,"componentClass":null}]],"android:profilePic":[[{"viewType":"android.widget.ImageView","valueType":"java.lang.String"},{"type":"com.africahealthlinkapp.e_treat.models.Doctors","method":"loadImage","requiresOldValue":false,"isStatic":true,"componentClass":null}]]},"renamedMethods":{},"conversionMethods":{},"untaggableTypes":{},"multiValueAdapters":{},"inverseAdapters":{},"inverseMethods":{},"twoWayMethods":{},"useAndroidX":true}
+=======
+{"version":5,"adapterMethods":{},"renamedMethods":{},"conversionMethods":{},"untaggableTypes":{},"multiValueAdapters":{},"inverseAdapters":{},"inverseMethods":{},"twoWayMethods":{},"useAndroidX":true}
+>>>>>>> f54e5b377284e194248d2785dc6a83a06025e86d
