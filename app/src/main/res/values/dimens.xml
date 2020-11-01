@@ -8,4 +8,13 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="app_bar_height">200dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+    <dimen name="_3sdp">3dp</dimen>
+    <dimen name="_5sdp">5dp</dimen>
+    <dimen name="_20ssp">20sp</dimen>
+    <dimen name="_10ssp">10sp</dimen>
+    <dimen name="_10sdp">10dp</dimen>
+    <dimen name="_15sdp">15dp</dimen>
+    <dimen name="_70sdp">70dp</dimen>
+    <dimen name="_8sdp">8dp</dimen>
+    <dimen name="_35sdp">35dp</dimen>
 </resources>

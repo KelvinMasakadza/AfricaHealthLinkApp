@@ -17,28 +17,24 @@ public class InfoModelBindingImpl extends InfoModelBinding  {
     }
     // views
     @NonNull
-    private final android.widget.LinearLayout mboundView0;
+    private final androidx.cardview.widget.CardView mboundView0;
     @NonNull
-    private final android.widget.TextView mboundView1;
-    @NonNull
-    private final android.widget.ImageView mboundView2;
+    private final android.widget.ImageView mboundView1;
     // variables
     // values
     // listeners
     // Inverse Binding Event Handlers
 
     public InfoModelBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 2, sIncludes, sViewsWithIds));
     }
     private InfoModelBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             );
-        this.mboundView0 = (android.widget.LinearLayout) bindings[0];
+        this.mboundView0 = (androidx.cardview.widget.CardView) bindings[0];
         this.mboundView0.setTag(null);
-        this.mboundView1 = (android.widget.TextView) bindings[1];
+        this.mboundView1 = (android.widget.ImageView) bindings[1];
         this.mboundView1.setTag(null);
-        this.mboundView2 = (android.widget.ImageView) bindings[2];
-        this.mboundView2.setTag(null);
         setRootTag(root);
         // listeners
         invalidateAll();
@@ -98,7 +94,6 @@ public class InfoModelBindingImpl extends InfoModelBinding  {
             mDirtyFlags = 0;
         }
         com.africahealthlinkapp.e_treat.models.Information info = mInfo;
-        java.lang.String infoInfo = null;
         java.lang.String infoInfoImage = null;
 
         if ((dirtyFlags & 0x3L) != 0) {
@@ -106,8 +101,6 @@ public class InfoModelBindingImpl extends InfoModelBinding  {
 
 
                 if (info != null) {
-                    // read info.info
-                    infoInfo = info.getInfo();
                     // read info.infoImage
                     infoInfoImage = info.getInfoImage();
                 }
@@ -116,8 +109,7 @@ public class InfoModelBindingImpl extends InfoModelBinding  {
         if ((dirtyFlags & 0x3L) != 0) {
             // api target 1
 
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView1, infoInfo);
-            com.africahealthlinkapp.e_treat.models.Information.loadImage(this.mboundView2, infoInfoImage);
+            com.africahealthlinkapp.e_treat.models.Information.loadImage(this.mboundView1, infoInfoImage);
         }
     }
     // Listener Stub Implementations

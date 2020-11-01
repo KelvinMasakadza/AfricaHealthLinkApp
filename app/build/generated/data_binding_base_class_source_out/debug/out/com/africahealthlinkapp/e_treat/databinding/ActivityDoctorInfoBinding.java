@@ -16,8 +16,8 @@ import androidx.constraintlayout.widget.Guideline;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import com.africahealthlinkapp.e_treat.DoctorInfoActivity;
 import com.africahealthlinkapp.e_treat.R;
+import com.africahealthlinkapp.e_treat.ui.DoctorInfoActivity;
 import java.lang.Deprecated;
 import java.lang.Object;
 

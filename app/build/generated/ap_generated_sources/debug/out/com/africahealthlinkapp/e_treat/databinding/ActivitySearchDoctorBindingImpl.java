@@ -22,10 +22,9 @@ public class ActivitySearchDoctorBindingImpl extends ActivitySearchDoctorBinding
         sViewsWithIds.put(R.id.call_doc, 6);
         sViewsWithIds.put(R.id.orderdocBtn, 7);
         sViewsWithIds.put(R.id.layoutDoctors, 8);
-        sViewsWithIds.put(R.id.seachDoctorsToolBar, 9);
-        sViewsWithIds.put(R.id.doctorSearch, 10);
-        sViewsWithIds.put(R.id.doctorsList, 11);
-        sViewsWithIds.put(R.id.docLoadingProgress, 12);
+        sViewsWithIds.put(R.id.doctorSearch, 9);
+        sViewsWithIds.put(R.id.doctorsList, 10);
+        sViewsWithIds.put(R.id.docLoadingProgress, 11);
     }
     // views
     @NonNull
@@ -36,22 +35,21 @@ public class ActivitySearchDoctorBindingImpl extends ActivitySearchDoctorBinding
     // Inverse Binding Event Handlers
 
     public ActivitySearchDoctorBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 13, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 12, sIncludes, sViewsWithIds));
     }
     private ActivitySearchDoctorBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.Button) bindings[6]
             , (androidx.cardview.widget.CardView) bindings[1]
             , (android.widget.Button) bindings[5]
-            , (android.widget.ProgressBar) bindings[12]
+            , (android.widget.ProgressBar) bindings[11]
             , (android.widget.TextView) bindings[3]
             , (de.hdodenhof.circleimageview.CircleImageView) bindings[2]
             , (android.widget.TextView) bindings[4]
-            , (androidx.appcompat.widget.SearchView) bindings[10]
-            , (androidx.recyclerview.widget.RecyclerView) bindings[11]
+            , (androidx.appcompat.widget.SearchView) bindings[9]
+            , (androidx.recyclerview.widget.RecyclerView) bindings[10]
             , (android.widget.LinearLayout) bindings[8]
-            , (android.widget.Button) bindings[7]
-            , (androidx.appcompat.widget.Toolbar) bindings[9]
+            , (com.google.android.material.button.MaterialButton) bindings[7]
             );
         this.mboundView0 = (android.widget.FrameLayout) bindings[0];
         this.mboundView0.setTag(null);

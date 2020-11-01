@@ -13,27 +13,47 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/auth_logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat">
-        <activity
-            android:name=".ui.ProfileDoctor"
-            android:theme="@style/AppTheme.NoActionBar" />
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".ui.ProfileDoctor" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
 
-        <activity android:name=".ui.DoctorProfile" />
-        <activity android:name=".ui.Home">
+        <activity
+            android:name=".ui.DoctorProfile"
+            android:label="Profile" />
+        <activity
+            android:name=".ui.Home"
+            android:label="SignIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.DoctorActivity" />
-        <activity android:name=".ui.DoctorActivity" />
-        <activity android:name=".ui.DoctorActivity" />
-        <activity android:name=".ui.SearchDoctor" />
+        <activity
+            android:name=".ui.DoctorActivity"
+            android:label="Jobs" />
+        <activity
+            android:name=".ui.SignUpActivity"
+            android:label="SignUp"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ui.SignInActivity"
+            android:label="Home" />
+        <activity
+            android:name=".ui.Pharmacydetail"
+            android:label="Medications" />
+        <activity
+            android:name=".ui.PharmacyActivity"
+            android:label="Pharmacy" />
+        <activity
+            android:name=".ui.SearchDoctor"
+            android:label="Doctors" />
         <activity android:name=".MainActivity" />
     </application>
 </manifest>

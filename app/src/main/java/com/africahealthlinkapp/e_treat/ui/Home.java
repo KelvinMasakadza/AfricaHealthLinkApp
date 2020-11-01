@@ -112,11 +112,12 @@ public class Home extends AppCompatActivity {
 
                 for (DataSnapshot docts : information) {
                     Information c = docts.getValue(Information.class);
-                    Log.d("docts:: ", c.getInfo());
+                   // Log.d("docts:: ", c.getInfo());
                     informationList.add(c);
                     mDoctorRecycler = mHomeBinding.infomationRecycler;
                     mHomeBinding.loadingIfor.setVisibility(View.GONE);
-                    mDoctorRecycler.setLayoutManager(new LinearLayoutManager(Home.this));
+                    mDoctorRecycler.setLayoutManager(new LinearLayoutManager(Home.this,
+                            LinearLayoutManager.HORIZONTAL, false));
 
                     mInfoAdapter = new InfoAdapter(informationList, Home.this);
                     mDoctorRecycler.setAdapter(mInfoAdapter);

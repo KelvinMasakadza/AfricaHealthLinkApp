@@ -18,7 +18,7 @@ import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.africahealthlinkapp.e_treat.R;
-import com.africahealthlinkapp.e_treat.SignInActivity;
+import com.africahealthlinkapp.e_treat.ui.SignInActivity;
 import java.lang.Deprecated;
 import java.lang.Object;
 

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    xmlns:facebook="http://schemas.android.com/apk/res-auto">
+    xmlns:tools="http://schemas.android.com/tools">
+
     <data>
-        <variable name="activity" type="com.africahealthlinkapp.e_treat.ui.SignUpActivity" />
+
+        <variable
+            name="activity"
+            type="com.africahealthlinkapp.e_treat.ui.SignUpActivity" />
     </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,6 +27,8 @@
             app:srcCompat="@drawable/auth_logo" />
 
         <EditText
+            android:padding="10dp"
+            android:background="@android:color/transparent"
             android:id="@+id/first_name_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -38,6 +44,8 @@
             app:layout_constraintTop_toTopOf="@+id/guideline" />
 
         <EditText
+            android:padding="10dp"
+            android:background="@android:color/transparent"
             android:id="@+id/email_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -55,6 +63,8 @@
             app:layout_constraintTop_toBottomOf="@+id/last_name_text" />
 
         <EditText
+            android:padding="10dp"
+            android:background="@android:color/transparent"
             android:id="@+id/password_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -72,6 +82,8 @@
             app:layout_constraintTop_toBottomOf="@+id/email_text" />
 
         <EditText
+            android:padding="10dp"
+            android:background="@android:color/transparent"
             android:id="@+id/confirm_password_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -89,6 +101,8 @@
             app:layout_constraintTop_toBottomOf="@+id/password_text" />
 
         <EditText
+            android:padding="10dp"
+            android:background="@android:color/transparent"
             android:id="@+id/last_name_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -186,8 +200,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:clickable="true"
-            android:onClick="@{()-> activity.openLoginScreen()}"
             android:gravity="center"
+            android:onClick="@{()-> activity.openLoginScreen()}"
             android:text="@string/signin_link"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
@@ -201,10 +215,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
+            android:onClick="@{()-> activity.registerNewUserAccount(firstNameText.getText().toString(), lastNameText.getText().toString(), emailText.getText().toString(), passwordText.getText().toString(), confirmPasswordText.getText().toString())}"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:text="Sign Up"
-            android:onClick="@{()-> activity.registerNewUserAccount(firstNameText.getText().toString(), lastNameText.getText().toString(), emailText.getText().toString(), passwordText.getText().toString(), confirmPasswordText.getText().toString())}"
             android:textAllCaps="false"
             android:textColor="@color/themeBlue"
             android:textSize="18sp"

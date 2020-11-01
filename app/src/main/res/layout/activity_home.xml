@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
 
-    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#f2f2f2"
@@ -50,6 +50,16 @@
                     android:textSize="18dp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="look for doctors \n around you"
+                    android:textColor="@color/AppColor"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
             </LinearLayout>
 
 
@@ -75,7 +85,17 @@
                     android:layout_marginTop="5dp"
                     android:text="Meds"
                     android:textColor="@color/AppColor"
-                    android:textSize="18dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="look for Phamarcies\n around you"
+                    android:textColor="@color/AppColor"
+                    android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -99,7 +119,17 @@
                     android:layout_marginTop="5dp"
                     android:text="Diagnosis"
                     android:textColor="@color/AppColor"
-                    android:textSize="18dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="check doctors \n diagnosis"
+                    android:textColor="@color/AppColor"
+                    android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -122,5 +152,47 @@
             android:indeterminateTint="@color/AppColor"
             android:indeterminateTintMode="src_atop" />
 
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+
+                <ImageView
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20ssp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:src="@drawable/notifications"
+                    app:civ_border_color="@color/AppColor"
+                    app:civ_border_width="1dp" />
+
+                <ImageView
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_20ssp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="@dimen/_20ssp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:src="@drawable/profile_pic"
+                    app:civ_border_color="@color/AppColor"
+                    app:civ_border_width="1dp" />
+                <ImageView
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_20ssp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:src="@drawable/message" />
+            </LinearLayout>
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

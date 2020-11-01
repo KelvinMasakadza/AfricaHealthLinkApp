@@ -11,12 +11,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
-import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
 import com.africahealthlinkapp.e_treat.R;
+import com.google.android.material.button.MaterialButton;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.Deprecated;
 import java.lang.Object;
@@ -53,16 +53,12 @@ public abstract class ActivitySearchDoctorBinding extends ViewDataBinding {
   public final LinearLayout layoutDoctors;
 
   @NonNull
-  public final Button orderdocBtn;
-
-  @NonNull
-  public final Toolbar seachDoctorsToolBar;
+  public final MaterialButton orderdocBtn;
 
   protected ActivitySearchDoctorBinding(Object _bindingComponent, View _root, int _localFieldCount,
       Button callDoc, CardView cardDoc, Button closeInfo, ProgressBar docLoadingProgress,
       TextView docName, CircleImageView docPic, TextView docsPhone, SearchView doctorSearch,
-      RecyclerView doctorsList, LinearLayout layoutDoctors, Button orderdocBtn,
-      Toolbar seachDoctorsToolBar) {
+      RecyclerView doctorsList, LinearLayout layoutDoctors, MaterialButton orderdocBtn) {
     super(_bindingComponent, _root, _localFieldCount);
     this.callDoc = callDoc;
     this.cardDoc = cardDoc;
@@ -75,7 +71,6 @@ public abstract class ActivitySearchDoctorBinding extends ViewDataBinding {
     this.doctorsList = doctorsList;
     this.layoutDoctors = layoutDoctors;
     this.orderdocBtn = orderdocBtn;
-    this.seachDoctorsToolBar = seachDoctorsToolBar;
   }
 
   @NonNull

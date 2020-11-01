@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
-
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -108,7 +107,7 @@
                         android:layout_height="25dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginLeft="30dp"
-                        android:background="@drawable/round"
+                        android:background="@drawable/round_b_white"
                         android:text="call"
                         android:textColor="@android:color/white"
                         android:textSize="@dimen/text_size"
@@ -121,14 +120,14 @@
         </androidx.cardview.widget.CardView>
 
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/orderdocBtn"
+            app:cornerRadius="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:background="@drawable/round_white"
+            android:backgroundTint="@android:color/white"
             android:layout_margin="20dp"
-            app:cornerRadius="20dp"
             android:text="@string/search_for_doctors"
             android:textColor="@android:color/black"
             android:textSize="@dimen/text_size" />
@@ -139,19 +138,7 @@
             android:layout_height="match_parent"
             android:background="#88B7C4"
             android:orientation="vertical">
-            <androidx.appcompat.widget.Toolbar
-                android:background="@android:color/white"
-                android:layout_width="match_parent"
-                android:id="@+id/seachDoctorsToolBar"
-                android:layout_height="wrap_content">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
-                    android:text="Doctors"
-                    android:layout_height="wrap_content"/>
-            </androidx.appcompat.widget.Toolbar>
 
             <androidx.appcompat.widget.SearchView
                 android:background="@drawable/round_white"
