@@ -20,6 +20,7 @@ public class ActivityHomeBindingImpl extends ActivityHomeBinding  {
         sViewsWithIds.put(R.id.profile_image3, 4);
         sViewsWithIds.put(R.id.infomationRecycler, 5);
         sViewsWithIds.put(R.id.loadingIfor, 6);
+        sViewsWithIds.put(R.id.bottom_navigation, 7);
     }
     // views
     @NonNull
@@ -30,11 +31,12 @@ public class ActivityHomeBindingImpl extends ActivityHomeBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityHomeBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 8, sIncludes, sViewsWithIds));
     }
     private ActivityHomeBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.view.View) bindings[1]
+            , (com.google.android.material.bottomnavigation.BottomNavigationView) bindings[7]
             , (androidx.recyclerview.widget.RecyclerView) bindings[5]
             , (android.widget.ProgressBar) bindings[6]
             , (de.hdodenhof.circleimageview.CircleImageView) bindings[2]

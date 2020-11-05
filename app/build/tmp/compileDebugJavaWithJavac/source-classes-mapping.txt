@@ -1,3 +1,5 @@
+com/africahealthlinkapp/e_treat/databinding/ActivityPatientBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivityPatientBinding
 com/africahealthlinkapp/e_treat/models/Information.java
  com.africahealthlinkapp.e_treat.models.Information
 com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity.java
@@ -18,10 +20,19 @@ com/africahealthlinkapp/e_treat/MainActivity.java
  com.africahealthlinkapp.e_treat.MainActivity
  com.africahealthlinkapp.e_treat.MainActivity$1
  com.africahealthlinkapp.e_treat.MainActivity$2
+com/africahealthlinkapp/e_treat/databinding/PatientmodelBinding.java
+ com.africahealthlinkapp.e_treat.databinding.PatientmodelBinding
 com/africahealthlinkapp/e_treat/models/Drug.java
  com.africahealthlinkapp.e_treat.models.Drug
+com/africahealthlinkapp/e_treat/ui/Appointments.java
+ com.africahealthlinkapp.e_treat.ui.Appointments
+ com.africahealthlinkapp.e_treat.ui.Appointments$1
 com/africahealthlinkapp/e_treat/databinding/ActivitySignInBinding.java
  com.africahealthlinkapp.e_treat.databinding.ActivitySignInBinding
+com/africahealthlinkapp/e_treat/databinding/ReachoutBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ReachoutBinding
+com/africahealthlinkapp/e_treat/models/Appointment.java
+ com.africahealthlinkapp.e_treat.models.Appointment
 com/africahealthlinkapp/e_treat/ui/PharmacyActivity.java
  com.africahealthlinkapp.e_treat.ui.PharmacyActivity
  com.africahealthlinkapp.e_treat.ui.PharmacyActivity$1
@@ -33,6 +44,9 @@ com/africahealthlinkapp/e_treat/databinding/DoctormodelBinding.java
 com/africahealthlinkapp/e_treat/LocationService.java
  com.africahealthlinkapp.e_treat.LocationService
  com.africahealthlinkapp.e_treat.LocationService$1
+com/africahealthlinkapp/e_treat/adapter/AppointmentAdapter.java
+ com.africahealthlinkapp.e_treat.adapter.AppointmentAdapter
+ com.africahealthlinkapp.e_treat.adapter.AppointmentAdapter$BinginHolder
 com/africahealthlinkapp/e_treat/adapter/DrugAdapter.java
  com.africahealthlinkapp.e_treat.adapter.DrugAdapter
  com.africahealthlinkapp.e_treat.adapter.DrugAdapter$1
@@ -48,19 +62,23 @@ com/africahealthlinkapp/e_treat/ui/DoctorActivity.java
  com.africahealthlinkapp.e_treat.ui.DoctorActivity
  com.africahealthlinkapp.e_treat.ui.DoctorActivity$1
  com.africahealthlinkapp.e_treat.ui.DoctorActivity$2
+ com.africahealthlinkapp.e_treat.ui.DoctorActivity$2$1
  com.africahealthlinkapp.e_treat.ui.DoctorActivity$3
  com.africahealthlinkapp.e_treat.ui.DoctorActivity$4
  com.africahealthlinkapp.e_treat.ui.DoctorActivity$5
  com.africahealthlinkapp.e_treat.ui.DoctorActivity$6
+ com.africahealthlinkapp.e_treat.ui.DoctorActivity$7
+ com.africahealthlinkapp.e_treat.ui.DoctorActivity$8
 com/africahealthlinkapp/e_treat/helpers/DB_Util.java
  com.africahealthlinkapp.e_treat.helpers.DB_Util
  com.africahealthlinkapp.e_treat.helpers.DB_Util$1
  com.africahealthlinkapp.e_treat.helpers.DB_Util$1$1
  com.africahealthlinkapp.e_treat.helpers.DB_Util$1$2
-com/africahealthlinkapp/e_treat/databinding/ActivityDoctorBinding.java
- com.africahealthlinkapp.e_treat.databinding.ActivityDoctorBinding
 com/africahealthlinkapp/e_treat/ui/ProfileDoctor.java
  com.africahealthlinkapp.e_treat.ui.ProfileDoctor
+com/africahealthlinkapp/e_treat/models/Patients.java
+ com.africahealthlinkapp.e_treat.models.Patients
+ com.africahealthlinkapp.e_treat.models.Patients$1
 com/africahealthlinkapp/e_treat/models/User.java
  com.africahealthlinkapp.e_treat.models.User
 com/africahealthlinkapp/e_treat/adapter/InfoAdapter.java
@@ -115,3 +133,7 @@ com/africahealthlinkapp/e_treat/helpers/FacebookLoginUtil.java
 com/africahealthlinkapp/e_treat/helpers/GoogleLoginUtil.java
  com.africahealthlinkapp.e_treat.helpers.GoogleLoginUtil
  com.africahealthlinkapp.e_treat.helpers.GoogleLoginUtil$1
+com/africahealthlinkapp/e_treat/databinding/ActivityAppointmentBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivityAppointmentBinding
+com/africahealthlinkapp/e_treat/databinding/AppointmentsmodelBinding.java
+ com.africahealthlinkapp.e_treat.databinding.AppointmentsmodelBinding

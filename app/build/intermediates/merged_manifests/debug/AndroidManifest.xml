@@ -32,7 +32,8 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/auth_logo"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.NoActionBar" >
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.africahealthlinkapp.e_treat.ui.Appointments" />
         <activity android:name="com.africahealthlinkapp.e_treat.ui.ProfileDoctor" />
 
         <meta-data
@@ -46,7 +47,7 @@
             android:name="com.africahealthlinkapp.e_treat.ui.DoctorProfile"
             android:label="Profile" />
         <activity
-            android:name="com.africahealthlinkapp.e_treat.ui.Home"
+            android:name="com.africahealthlinkapp.e_treat.ui.SearchDoctor"
             android:label="SignIn" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,15 +56,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.africahealthlinkapp.e_treat.ui.DoctorActivity"
+            android:name="com.africahealthlinkapp.e_treat.ui.Home"
             android:label="Jobs" />
         <activity
             android:name="com.africahealthlinkapp.e_treat.ui.SignUpActivity"
             android:label="SignUp"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
         <activity
             android:name="com.africahealthlinkapp.e_treat.ui.SignInActivity"
-            android:label="Home" />
+            android:label="Home"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
         <activity
             android:name="com.africahealthlinkapp.e_treat.ui.Pharmacydetail"
             android:label="Medications" />
@@ -71,7 +73,7 @@
             android:name="com.africahealthlinkapp.e_treat.ui.PharmacyActivity"
             android:label="Pharmacy" />
         <activity
-            android:name="com.africahealthlinkapp.e_treat.ui.SearchDoctor"
+            android:name="com.africahealthlinkapp.e_treat.ui.DoctorActivity"
             android:label="Doctors" />
         <activity android:name="com.africahealthlinkapp.e_treat.MainActivity" />
         <activity

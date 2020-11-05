@@ -7,7 +7,13 @@ public class BR {
 
   public static final int activity = 2;
 
-  public static final int doctors = 3;
+  public static final int appointment = 3;
 
-  public static final int info = 4;
+  public static final int doctors = 4;
+
+  public static final int info = 5;
+
+  public static final int patient = 6;
+
+  public static final int patients = 7;
 }

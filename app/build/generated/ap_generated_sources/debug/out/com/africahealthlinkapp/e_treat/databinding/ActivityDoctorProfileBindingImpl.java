@@ -151,7 +151,7 @@ public class ActivityDoctorProfileBindingImpl extends ActivityDoctorProfileBindi
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.profileCourseYear, doctorsYear);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.profileDocCourse, doctorsDepartment);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.profileDocHospital, doctorsHospital);
-            com.africahealthlinkapp.e_treat.models.Doctors.loadImage(this.profileDocImage, doctorsProfilePics);
+            com.africahealthlinkapp.e_treat.models.Patients.loadImage(this.profileDocImage, doctorsProfilePics);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.profileDocName, doctorsName);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.profileUniversity, doctorsUniversity);
         }

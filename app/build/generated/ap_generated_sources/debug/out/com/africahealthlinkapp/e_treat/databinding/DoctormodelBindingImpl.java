@@ -130,7 +130,7 @@ public class DoctormodelBindingImpl extends DoctormodelBinding  {
         if ((dirtyFlags & 0x3L) != 0) {
             // api target 1
 
-            com.africahealthlinkapp.e_treat.models.Doctors.loadImage(this.mboundView1, doctorsProfilePics);
+            com.africahealthlinkapp.e_treat.models.Patients.loadImage(this.mboundView1, doctorsProfilePics);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, doctorsName);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView3, doctorsDepartment);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView4, doctorsHospital);

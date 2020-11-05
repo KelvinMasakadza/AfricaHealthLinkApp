@@ -9,6 +9,7 @@ import android.location.Location;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Looper;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -23,10 +24,15 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.FragmentActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.africahealthlinkapp.e_treat.MainActivity;
 import com.africahealthlinkapp.e_treat.R;
-import com.africahealthlinkapp.e_treat.databinding.ActivityDoctorBinding;
+import com.africahealthlinkapp.e_treat.adapter.AppointmentAdapter;
+import com.africahealthlinkapp.e_treat.databinding.ActivityPatientBinding;
+import com.africahealthlinkapp.e_treat.models.Appointment;
+import com.africahealthlinkapp.e_treat.models.Patients;
 import com.bumptech.glide.Glide;
 import com.directions.route.AbstractRouting;
 import com.directions.route.Route;
@@ -46,7 +52,6 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.firebase.auth.FirebaseAuth;
@@ -67,7 +72,7 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
     private GoogleMap mMap;
     Location mLastLocation;
     LocationRequest mLocationRequest;
-    private String  mPatientsRequests = "patientsRequests";
+    private String mPatientsRequests = "patientsRequests";
 
     private FusedLocationProviderClient mFusedLocationClient;
 
@@ -88,7 +93,7 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
 
     private SupportMapFragment mapFragment;
 
-    private CardView mPatientInfo;
+    private CardView cardjob;
 
     private ImageView mPatientProfileImage;
 
@@ -96,30 +101,40 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
     private FirebaseUser mUser;
     private DatabaseReference mDoctorsAvailable;
     private String mUserId;
-    private ActivityDoctorBinding mDbinding;
+    private ActivityPatientBinding mDbinding;
+    private DatabaseReference mAssignedCustomerRef;
+    private ValueEventListener mValueEventListener;
+    private DatabaseReference mDriverRef;
+    private DatabaseReference mHistoryRef;
+    private DatabaseReference mPatientRequest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mDbinding = DataBindingUtil.setContentView(
-                this, R.layout.activity_doctor);
+                this, R.layout.activity_patient);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         polylines = new ArrayList<>();
+        loadAppointments();
 
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 
-       // mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+        // mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         //mapFragment.getMapAsync(this);
 
 
-        mPatientInfo = findViewById(R.id.card_job);
+        cardjob = findViewById(R.id.card_job);
+        mDbinding.accept.setOnClickListener(view -> {
+            acceptRequest();
+        });
+        mDbinding.decline.setOnClickListener(view -> {
+            mDbinding.cardJob.setVisibility(View.GONE);
+            mDriverRef.removeValue();
+        });
 
         //mPatientProfileImage = findViewById(R.id.docs_ProfilePic);
 
-        mPatientName = findViewById(R.id.patient_name);
-        mPatientPhone = findViewById(R.id.patient_phone);
-        mPatientDestination = findViewById(R.id.patient_Location);
 //        welcome = findViewById(R.id.welcome);
 //        rideStatus = findViewById(R.id.ride_status);
 
@@ -138,75 +153,166 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
 //        mRideStatus = findViewById(R.id.rideStatus);
 //        mHistory = findViewById(R.id.jobs);
 
-        mRideStatus.setOnClickListener(v -> {
-            switch (status) {
-                case 1:
-                    status = 2;
-                    erasePolylines();
-                    if (destinationLatLng.latitude != 0.0 && destinationLatLng.longitude != 0.0) {
-                        getRouteToMarker(destinationLatLng);
-                    }
-                    welcome.setVisibility(View.VISIBLE);
-                    welcome.setText("Meeting completed");
+//        mRideStatus.setOnClickListener(v -> {
+//            switch (status) {
+//                case 1:
+//                    status = 2;
+//                    erasePolylines();
+//                    if (destinationLatLng.latitude != 0.0 && destinationLatLng.longitude != 0.0) {
+//                        getRouteToMarker(destinationLatLng);
+//                    }
+//                    welcome.setVisibility(View.VISIBLE);
+//                    welcome.setText("Meeting completed");
+//
+//                    break;
+//                case 2:
+//                    recordRide();
+//                    endRide();
+//                    break;
+//            }
+//        });
 
-                    break;
-                case 2:
-                    recordRide();
-                    endRide();
-                    break;
+//        mLogout.setOnClickListener(v -> {
+//            isLoggingOut = true;
+//
+//            disconnectDriver();
+//
+//            FirebaseAuth.getInstance().signOut();
+//            Intent intent = new Intent(this, MainActivity.class);
+//            startActivity(intent);
+//            finish();
+//            return;
+//        });
+//        mSettings.setOnClickListener(v -> {
+//            Intent intent = new Intent(this, MainActivity.class);
+//            startActivity(intent);
+//            return;
+//        });
+//        mHistory.setOnClickListener(v -> {
+//            Intent intent = new Intent(this, MainActivity.class);
+//            intent.putExtra("patientOrDoctor", "doctors");
+//            startActivity(intent);
+//            return;
+//        });
+        getAssignedPatient();
+        //mDbinding.cardJob.setVisibility(View.VISIBLE);
+        mDbinding.bottomNavigation.setOnNavigationItemReselectedListener(item -> {
+            int id = item.getItemId();
+            if (id == R.id.appointments_menu) {
+                startActivity(new Intent(this, DoctorActivity.class));
+            } else if (id == R.id.history_menu) {
+
+            }
+
+        });
+
+    }
+
+    private void loadAppointments() {
+        DatabaseReference mCustomerDatabase = FirebaseDatabase.getInstance().getReference().child("Appointments");
+        mCustomerDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if (dataSnapshot.exists()) {
+                    //for (DataSnapshot doctorshot : dataSnapshot.getChildren()) {
+//                    Doctors appoinment = doctorshot.getValue(Doctors.class);
+                    List<Appointment> appointmentList = new ArrayList<>();
+//                    //Doctors appoinment = new Doctors(mName, mPhone, null);
+//                    appointmentList.add(appoinment);
+                    //DataSnapshot contactSnapshot = dataSnapshot.child(doctorFoundId);
+                    Iterable<DataSnapshot> appoinment = dataSnapshot.getChildren();
+
+                    for (DataSnapshot hist : appoinment) {
+                        Appointment c = hist.getValue(Appointment.class);
+                        Log.d("hist:: ", c.getPatientName() + " " + c.getPatientPhone());
+                        appointmentList.add(c);
+                        RecyclerView mPatientRecycler = mDbinding.historyRecycler;
+                        mPatientRecycler.setVisibility(View.VISIBLE);
+                        mDbinding.historyPB.setVisibility(View.GONE);
+
+                        mPatientRecycler.setLayoutManager(new LinearLayoutManager(DoctorActivity.this));
+
+                        AppointmentAdapter appointmentAdapter = new AppointmentAdapter(appointmentList, DoctorActivity.this);
+                        mPatientRecycler.setAdapter(appointmentAdapter);
+                    }
+                } else {
+                    mDbinding.noHistory.setText("No Appointments");
+                    mDbinding.historyPB.setVisibility(View.GONE);
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
             }
         });
+    }
 
-        mLogout.setOnClickListener(v -> {
-            isLoggingOut = true;
+    private void acceptRequest() {
+        String doctorId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        mPatientRequest = FirebaseDatabase.getInstance().getReference().child("users")
+                .child("doctors").child(doctorId).child(mPatientsRequests);
+        mHistoryRef = FirebaseDatabase.getInstance().getReference().child("history");
+        DatabaseReference appointments = FirebaseDatabase.getInstance().getReference().child("Appointments");
 
-            disconnectDriver();
 
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-            finish();
-            return;
+        mDbinding.cardJob.setVisibility(View.GONE);
+        mPatientRequest.removeValue();
+        appointments.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                String pID = snapshot.getKey();
+                DatabaseReference appoin = FirebaseDatabase.getInstance()
+                        .getReference().child("users").child("patients").child(pID);
+                appoin.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        Appointment appointment = snapshot.getValue(Appointment.class);
+                        Appointment patientAppointment = new Appointment(appointment.getProfile_pics(),
+                                appointment.getUid(), null, appointment.getPatientName(),
+                                appointment.getPatientPhone(), appointment.getPatientLocation(), null, null);
+                        mHistoryRef.child(doctorId).setValue(patientAppointment);
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+                });
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
         });
-        mSettings.setOnClickListener(v -> {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-            return;
-        });
-        mHistory.setOnClickListener(v -> {
-            Intent intent = new Intent(this, MainActivity.class);
-            intent.putExtra("patientOrDoctor", "doctors");
-            startActivity(intent);
-            return;
-        });
-        getAssignedPatient();
     }
 
     private void getAssignedPatient() {
-        if (mUser != null) {
-            String doctorId = FirebaseAuth.getInstance().getCurrentUser().getUid();
-            DatabaseReference assignedCustomerRef = FirebaseDatabase.getInstance().getReference().child("users")
-                    .child("doctors").child(doctorId).child(mPatientsRequests).child("patientRideId");
+        String doctorId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        mAssignedCustomerRef = FirebaseDatabase.getInstance().getReference().child("users")
+                .child("doctors").child(doctorId).child(mPatientsRequests).child("patientId");
 
-            assignedCustomerRef.addValueEventListener(new ValueEventListener() {
-                @Override
-                public void onDataChange(DataSnapshot dataSnapshot) {
-                    if (dataSnapshot.exists()) {
-                        status = 1;
-                        PatientId = dataSnapshot.getValue().toString();
-                        getAssignedCustomerPickupLocation();
-                        getAssignedCustomerDestination();
-                        getAssignedPatientInfo();
-                    } else {
-                        endRide();
-                    }
+        mValueEventListener = new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if (dataSnapshot.exists()) {
+                    status = 1;
+                    PatientId = dataSnapshot.getValue().toString();
+                    getAssignedCustomerPickupLocation();
+                    getAssignedCustomerDestination();
+                    getAssignedPatientInfo();
+                } else {
+                    //endRide();
+                    Toast.makeText(DoctorActivity.this, "No Patient Requests Available", Toast.LENGTH_LONG).show();
                 }
+            }
 
-                @Override
-                public void onCancelled(DatabaseError databaseError) {
-                }
-            });
-        }
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+            }
+        };
+        mAssignedCustomerRef.addValueEventListener(mValueEventListener);
+
     }
 
     Marker pickupMarker;
@@ -229,8 +335,8 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
                         locationLng = Double.parseDouble(map.get(1).toString());
                     }
                     pickupLatLng = new LatLng(locationLat, locationLng);
-                    pickupMarker = mMap.addMarker(new MarkerOptions().position(pickupLatLng).title("pickup location"));
-                    getRouteToMarker(pickupLatLng);
+//                    pickupMarker = mMap.addMarker(new MarkerOptions().position(pickupLatLng).title("pickup location"));
+//                    getRouteToMarker(pickupLatLng);
                 }
             }
 
@@ -262,10 +368,10 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
                 if (dataSnapshot.exists()) {
                     Map<String, Object> map = (Map<String, Object>) dataSnapshot.getValue();
                     if (map.get("destination") != null) {
-                        destination = map.get("destination").toString();
-                        mPatientDestination.setText("Destination: " + destination);
+                        //destination = map.get("destination").toString();
+                        //mPatientDestination.setText("Destination: " + destination);
                     } else {
-                        mPatientDestination.setText("Destination: --");
+                        //mPatientDestination.setText("Destination: --");
                     }
 
                     Double destinationLat = 0.0;
@@ -289,23 +395,33 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
 
 
     private void getAssignedPatientInfo() {
-        mPatientInfo.setVisibility(View.VISIBLE);
-        DatabaseReference mCustomerDatabase = FirebaseDatabase.getInstance().getReference().child("users").child("patients")
-                .child(PatientId);
+        String patientId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        DatabaseReference mCustomerDatabase = FirebaseDatabase.getInstance().getReference()
+                .child("users").child("patients").child(patientId);
         mCustomerDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if (dataSnapshot.exists() && dataSnapshot.getChildrenCount() > 0) {
+                    mDbinding.cardJob.setVisibility(View.VISIBLE);
                     Map<String, Object> map = (Map<String, Object>) dataSnapshot.getValue();
-                    if (map.get("fName") != null) {
-                         mDbinding.patientName.setText(map.get("fName").toString());
-                    }
-                    if (map.get("phone") != null) {
-                        mDbinding.patientPhone.setText(map.get("phone").toString());
-                    }
+                    Patients patients = dataSnapshot.getValue(Patients.class);
+                    mDbinding.patientName.setText(patients.getName());
+                    mDbinding.patientPhone.setText(patients.getPhone());
+                    mDbinding.patientLocation.setText(patients.getLocation());
                     if (map.get("profile_pics") != null) {
-                        Glide.with(getApplication()).load(map.get("profile_pics").toString()).into(mPatientProfileImage);
+                        Glide.with(getApplicationContext()).load(map.get("profile_pics").toString()).into(mDbinding.patientImage);
                     }
+
+                    //                   Map<String, Object> map = (Map<String, Object>) dataSnapshot.getValue();
+//                    if (map.get("fName") != null) {
+//                         mDbinding.patientName.setText(map.get("fName").toString());
+//                    }
+//                    if (map.get("phone") != null) {
+//                        mDbinding.patientPhone.setText(map.get("phone").toString());
+//                    }
+//                    if (map.get("profile_pics") != null) {
+//                        Glide.with(getApplication()).load(map.get("profile_pics").toString()).into(mPatientProfileImage);
+//                    }
                 }
             }
 
@@ -317,12 +433,12 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
 
 
     private void endRide() {
-        rideStatus.setText("reached Patient");
+        //rideStatus.setText("reached Patient");
         erasePolylines();
 
         String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        DatabaseReference driverRef = FirebaseDatabase.getInstance().getReference().child("users").child("doctors").child(userId).child(mPatientsRequests);
-        driverRef.removeValue();
+        mDriverRef = FirebaseDatabase.getInstance().getReference().child("users").child("doctors").child(userId).child(mPatientsRequests);
+        mDriverRef.removeValue();
 
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child(mPatientsRequests);
         GeoFire geoFire = new GeoFire(ref);
@@ -336,11 +452,11 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
         if (assignedCustomerPickupLocationRefListener != null) {
             assignedCustomerPickupLocationRef.removeEventListener(assignedCustomerPickupLocationRefListener);
         }
-        mPatientInfo.setVisibility(View.GONE);
-        mDbinding.patientName.setText("");
-        mDbinding.patientPhone.setText("");
-       // mPatientDestination.setText("Destination: --");
-        mDbinding.patientImage.setImageResource(R.drawable.user_image);
+        cardjob.setVisibility(View.GONE);
+        //mDbinding.patientName.setText("");
+        // mDbinding.patientPhone.setText("");
+        // mPatientDestination.setText("Destination: --");
+        //mDbinding.patientImage.setImageResource(R.drawable.user_image);
     }
 
     private void recordRide() {
@@ -473,7 +589,7 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
         mFusedLocationClient.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper());
         mMap.setMyLocationEnabled(true);
         GeoFire mGeofire = new GeoFire(mDoctorsAvailable);
-        if (mLastLocation!=null) {
+        if (mLastLocation != null) {
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(
                     new LatLng(mLastLocation.getLatitude(),
                             mLastLocation.getLongitude()), 11));

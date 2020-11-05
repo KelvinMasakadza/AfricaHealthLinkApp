@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.Appointments">
+
+        <CalendarView
+            android:id="@+id/calenda"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_margin="@dimen/_20ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/datelay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calenda"
+            app:layout_constraintVertical_bias="0.16000003">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20ssp"
+                android:text="Date: "
+                android:textColor="@color/AppColor"
+                android:textSize="@dimen/_20ssp"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/selectedDated"
+                app:layout_constraintTop_toBottomOf="@+id/calenda" />
+
+            <TextView
+                android:id="@+id/selectedDated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20ssp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="326dp"
+                android:layout_marginBottom="246dp"
+                android:text="selected date"
+                android:textColor="@color/AppColor"
+                android:textSize="@dimen/_20ssp"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/datelay"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20ssp"
+                android:text="Time: "
+                android:textColor="@color/AppColor"
+                android:textSize="@dimen/_20ssp"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/selectedDated"
+                app:layout_constraintTop_toBottomOf="@+id/calenda" />
+
+            <TextView
+                android:id="@+id/selecteTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20ssp"
+                android:onClick="pickTime"
+                android:text="selected time"
+                android:textColor="@color/AppColor"
+                android:textSize="@dimen/_20ssp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectedDated"/>
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20ssp"
+            android:onClick="bookDoc"
+            android:text="Book"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:onClick="confirmDate"
+            android:id="@+id/confirm_date"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="60dp"
+            android:text="confirm "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calenda" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

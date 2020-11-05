@@ -13,4 +13,9 @@
     <string name="fb_login_protocol_scheme">fb294334608240708</string>
     <string name="action_settings">settings</string>
     <string name="search_for_doctors">search for doctor</string>
+    <string name="Appointments">Appointments</string>
+    <string name="History">History</string>
+    <string name="notifications">Notifications</string>
+    <string name="Messages">Messages</string>
+    <string name="Profile">Profile</string>
 </resources>

@@ -30,13 +30,13 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
     private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback5;
+    private final android.view.View.OnClickListener mCallback9;
     @Nullable
-    private final android.view.View.OnClickListener mCallback3;
+    private final android.view.View.OnClickListener mCallback7;
     @Nullable
-    private final android.view.View.OnClickListener mCallback4;
+    private final android.view.View.OnClickListener mCallback8;
     @Nullable
-    private final android.view.View.OnClickListener mCallback2;
+    private final android.view.View.OnClickListener mCallback6;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -69,10 +69,10 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
         this.signUpView.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback5 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 4);
-        mCallback3 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 2);
-        mCallback4 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 3);
-        mCallback2 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 1);
+        mCallback9 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 4);
+        mCallback7 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 2);
+        mCallback8 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 3);
+        mCallback6 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -134,10 +134,10 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.facebookSignIn.setOnClickListener(mCallback4);
-            this.googleSignIn.setOnClickListener(mCallback5);
-            this.signInButton.setOnClickListener(mCallback2);
-            this.signUpView.setOnClickListener(mCallback3);
+            this.facebookSignIn.setOnClickListener(mCallback8);
+            this.googleSignIn.setOnClickListener(mCallback9);
+            this.signInButton.setOnClickListener(mCallback6);
+            this.signUpView.setOnClickListener(mCallback7);
         }
     }
     // Listener Stub Implementations

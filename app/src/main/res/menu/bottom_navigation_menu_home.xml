@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/notify_home"
+        android:enabled="true"
+        android:icon="@drawable/notifications"
+        android:title="@string/notifications"/>
+    <item
+        android:id="@+id/message_home"
+        android:enabled="true"
+        android:icon="@drawable/message"
+        android:title="@string/Messages"/>
+    <item
+        android:id="@+id/profile_home"
+        android:enabled="true"
+        android:icon="@drawable/profile_pic"
+        android:title="@string/Profile"/>
+</menu>

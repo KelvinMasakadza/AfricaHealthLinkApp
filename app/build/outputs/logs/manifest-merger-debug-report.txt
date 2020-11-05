@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
 MERGED from [androidx.databinding:databinding-adapters:4.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\f900336a4ef692e845fc42e6dec7098a\databinding-adapters-4.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\f61014489ffa448fd8621a8dd95127f3\databinding-runtime-4.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\17fba744b25dedec3d1fcad6a290afce\jetified-play-services-auth-18.1.0\AndroidManifest.xml:17:1-40:12
@@ -98,20 +98,20 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Aisac\.
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\d9e924d41fe3bccfc9d530d8b30820eb\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\dd79d1e01e47b86b980b50da804f4b7b\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\93877cbf6b25ed5e8680f77a19bc3bbd\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
 	package
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -134,7 +134,7 @@ ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidMan
 	android:name
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:8:22-82
 application
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:10:5-58:19
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:10:5-60:19
 MERGED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\17fba744b25dedec3d1fcad6a290afce\jetified-play-services-auth-18.1.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\17fba744b25dedec3d1fcad6a290afce\jetified-play-services-auth-18.1.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\6ba704f0dad235538db014e6288f529a\jetified-facebook-android-sdk-5.15.3\AndroidManifest.xml:28:5-29:19
@@ -238,87 +238,93 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Aisac\.gr
 	android:allowBackup
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:16:9-52
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.africahealthlinkapp.e_treat.ui.Appointments
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:17:9-62
+	android:name
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:17:19-50
 activity#com.africahealthlinkapp.e_treat.ui.ProfileDoctor
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:17:9-54
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:18:9-54
 	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:17:19-51
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:18:19-51
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:19:9-21:55
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:20:9-22:55
 	android:value
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:21:13-52
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:22:13-52
 	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:20:13-58
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:21:13-58
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:22:9-24:55
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:23:9-25:55
 	android:value
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:24:13-52
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:25:13-52
 	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:23:13-58
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:24:13-58
 activity#com.africahealthlinkapp.e_treat.ui.DoctorProfile
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:26:9-28:39
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:27:9-29:39
 	android:label
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:28:13-36
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:27:13-45
-activity#com.africahealthlinkapp.e_treat.ui.Home
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:29:9-37:20
-	android:label
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:31:13-35
-	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:30:13-36
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:32:13-36:29
-action#android.intent.action.MAIN
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:33:17-69
-	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:33:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:35:17-77
-	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:35:27-74
-activity#com.africahealthlinkapp.e_treat.ui.DoctorActivity
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:38:9-40:36
-	android:label
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:40:13-33
-	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:39:13-46
-activity#com.africahealthlinkapp.e_treat.ui.SignUpActivity
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:41:9-44:58
-	android:label
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:43:13-35
-	android:theme
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:44:13-56
-	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:42:13-46
-activity#com.africahealthlinkapp.e_treat.ui.SignInActivity
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:45:9-47:36
-	android:label
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:47:13-33
-	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:46:13-46
-activity#com.africahealthlinkapp.e_treat.ui.Pharmacydetail
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:48:9-50:43
-	android:label
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:50:13-40
-	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:49:13-46
-activity#com.africahealthlinkapp.e_treat.ui.PharmacyActivity
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:51:9-53:40
-	android:label
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:53:13-37
-	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:52:13-48
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:28:13-45
 activity#com.africahealthlinkapp.e_treat.ui.SearchDoctor
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:54:9-56:39
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:label
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:56:13-36
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:32:13-35
 	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:55:13-44
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:31:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:36:27-74
+activity#com.africahealthlinkapp.e_treat.ui.Home
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:39:9-41:36
+	android:label
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:41:13-33
+	android:name
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:40:13-36
+activity#com.africahealthlinkapp.e_treat.ui.SignUpActivity
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:42:9-45:84
+	android:label
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:44:13-35
+	android:theme
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:45:13-81
+	android:name
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:43:13-46
+activity#com.africahealthlinkapp.e_treat.ui.SignInActivity
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:46:9-49:84
+	android:label
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:48:13-33
+	android:theme
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:49:13-81
+	android:name
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:47:13-46
+activity#com.africahealthlinkapp.e_treat.ui.Pharmacydetail
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:50:9-52:43
+	android:label
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:52:13-40
+	android:name
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:51:13-46
+activity#com.africahealthlinkapp.e_treat.ui.PharmacyActivity
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:53:9-55:40
+	android:label
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:54:13-48
+activity#com.africahealthlinkapp.e_treat.ui.DoctorActivity
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:56:9-58:39
+	android:label
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:57:13-46
 activity#com.africahealthlinkapp.e_treat.MainActivity
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:57:9-50
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:59:9-50
 	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:57:19-47
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:59:19-47
 uses-sdk
 INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml

@@ -254,7 +254,7 @@ public class SearchDoctor extends FragmentActivity implements OnMapReadyCallback
                                         .child(doctorFoundId).child(mPatientsRequests);
                                 mPatientRideId = FirebaseAuth.getInstance().getCurrentUser().getUid();
                                 HashMap<String, Object> map = new HashMap<>();
-                                map.put("patientRideId", mPatientRideId);
+                                map.put("patientId", mPatientRideId);
                                 map.put("destination", destination);
                                 map.put("destinationLat", destinationLatLng.latitude);
                                 map.put("destinationLng", destinationLatLng.longitude);
@@ -403,7 +403,6 @@ public class SearchDoctor extends FragmentActivity implements OnMapReadyCallback
                     mDoctorsAdapter = new DoctorsAdapter(doctorsList, SearchDoctor.this);
                     mDoctorRecycler.setAdapter(mDoctorsAdapter);
                 }
-
 //                    if (dataSnapshot.child("fName") != null) {
 //                        mName = dataSnapshot.child("fName").getValue().toString();
 //                        mDoctorName.setText(mName);
@@ -434,11 +433,7 @@ public class SearchDoctor extends FragmentActivity implements OnMapReadyCallback
             @Override
             public void onCancelled(DatabaseError databaseError) {
             }
-
-
         });
-
-
     }
 
     private DatabaseReference driveHasEndedRef;

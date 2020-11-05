@@ -11,6 +11,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
 import com.africahealthlinkapp.e_treat.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.Deprecated;
 import java.lang.Object;
@@ -18,6 +19,9 @@ import java.lang.Object;
 public abstract class ActivityHomeBinding extends ViewDataBinding {
   @NonNull
   public final View appBar;
+
+  @NonNull
+  public final BottomNavigationView bottomNavigation;
 
   @NonNull
   public final RecyclerView infomationRecycler;
@@ -35,10 +39,12 @@ public abstract class ActivityHomeBinding extends ViewDataBinding {
   public final CircleImageView profileImage3;
 
   protected ActivityHomeBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      View appBar, RecyclerView infomationRecycler, ProgressBar loadingIfor,
-      CircleImageView profileImage, CircleImageView profileImage2, CircleImageView profileImage3) {
+      View appBar, BottomNavigationView bottomNavigation, RecyclerView infomationRecycler,
+      ProgressBar loadingIfor, CircleImageView profileImage, CircleImageView profileImage2,
+      CircleImageView profileImage3) {
     super(_bindingComponent, _root, _localFieldCount);
     this.appBar = appBar;
+    this.bottomNavigation = bottomNavigation;
     this.infomationRecycler = infomationRecycler;
     this.loadingIfor = loadingIfor;
     this.profileImage = profileImage;

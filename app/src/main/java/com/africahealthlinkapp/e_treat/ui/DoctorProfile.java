@@ -1,34 +1,23 @@
 package com.africahealthlinkapp.e_treat.ui;
 
-import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.provider.MediaStore;
-import android.text.TextUtils;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
 import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.databinding.ActivityDoctorProfileBinding;
 import com.africahealthlinkapp.e_treat.models.Doctors;
-import com.bumptech.glide.Glide;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -37,16 +26,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageMetadata;
-import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;;;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.util.HashMap;
 import java.util.Map;
 
 
@@ -132,4 +114,16 @@ public class DoctorProfile extends AppCompatActivity {
 
     }
 
+    public void reachOut(View view) {
+        BottomSheetDialog dialog = new BottomSheetDialog(this);
+        dialog.setContentView(R.layout.reachout);
+       TextView appointment = dialog.findViewById(R.id.appointments);
+       dialog.show();
+               appointment.setOnClickListener(v -> {
+                   Intent intent = new Intent(this, Appointments.class);
+                   intent.putExtra("doctorId", mDoctorUid);
+                   startActivity(intent);
+        });
+
+    }
 }

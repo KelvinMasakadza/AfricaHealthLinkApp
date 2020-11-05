@@ -3,13 +3,13 @@ package com.africahealthlinkapp.e_treat.ui;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RadioGroup;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,12 +22,15 @@ import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.adapter.InfoAdapter;
 import com.africahealthlinkapp.e_treat.databinding.ActivityHomeBinding;
 import com.africahealthlinkapp.e_treat.models.Information;
+import com.africahealthlinkapp.e_treat.models.Patients;
+import com.bumptech.glide.Glide;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -38,9 +41,11 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class Home extends AppCompatActivity {
     private GoogleMap mMap;
+    private String PatientId = "";
     Location mLastLocation;
     LocationRequest mLocationRequest;
     private String mPatientsRequests = "patientsRequests";
@@ -130,4 +135,5 @@ public class Home extends AppCompatActivity {
             }
         });
     }
+
 }

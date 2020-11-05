@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_doc_img.png.flat",
-        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable\\doc_img.png"
-    },
-    {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_google_icon.png.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-xhdpi\\google_icon.png"
     },
@@ -20,6 +16,10 @@
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-mdpi\\linkedin_icon.png"
     },
     {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_maskss.png.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable\\maskss.png"
+    },
+    {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
@@ -28,8 +28,8 @@
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-xxhdpi\\home_tablet.png"
     },
     {
-        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_maskss.png.flat",
-        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable\\maskss.png"
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_appointment.xml.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\activity_appointment.xml"
     },
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_home_tablet.png.flat",
@@ -80,16 +80,20 @@
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-xxxhdpi\\auth_logo.png"
     },
     {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_patientmodel.xml.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\patientmodel.xml"
+    },
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_med.jpg.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable\\med.jpg"
+    },
+    {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search_doctor.xml.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\activity_search_doctor.xml"
-    },
-    {
-        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_doctor.xml.flat",
-        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\activity_doctor.xml"
     },
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_user.png.flat",
@@ -128,6 +132,10 @@
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-xhdpi\\splash_screen.png"
     },
     {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_patient.xml.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\activity_patient.xml"
+    },
+    {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tablets.png.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-mdpi\\tablets.png"
     },
@@ -138,6 +146,10 @@
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_home_tablet.png.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-hdpi\\home_tablet.png"
+    },
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendar.xml.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable\\calendar.xml"
     },
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_doctor.png.flat",
@@ -188,6 +200,10 @@
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-mdpi\\rounded_layout.xml"
     },
     {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_appointmentsmodel.xml.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\appointmentsmodel.xml"
+    },
+    {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -220,6 +236,10 @@
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-xxxhdpi\\user_image.png"
     },
     {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation_menu.xml.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\menu\\bottom_navigation_menu.xml"
+    },
+    {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -242,6 +262,10 @@
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_auth_logo.png.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-xhdpi\\auth_logo.png"
+    },
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_doc_img.jpg.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable\\doc_img.jpg"
     },
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_google_icon.png.flat",
@@ -348,6 +372,10 @@
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-xxhdpi\\group_2.png"
     },
     {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_history.xml.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable\\history.xml"
+    },
+    {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pharmacy2.png.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable\\pharmacy2.png"
     },
@@ -370,6 +398,10 @@
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_facebook_icon.png.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-mdpi\\facebook_icon.png"
+    },
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_reachout.xml.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\reachout.xml"
     },
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tablet.png.flat",
@@ -424,12 +456,20 @@
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable\\ic_baseline_local_pharmacy.xml"
     },
     {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation_menu_home.xml.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\menu\\bottom_navigation_menu_home.xml"
+    },
+    {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_group_2.png.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-mdpi\\group_2.png"
     },
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_email_icon.png.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-xhdpi\\email_icon.png"
+    },
+    {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_message.xml.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable\\message.xml"
     },
     {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_doctor.xml.flat",
