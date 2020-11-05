@@ -492,7 +492,6 @@ public class SearchDoctor extends FragmentActivity implements OnMapReadyCallback
         mDoctorPhone.setText("");
         //mDriverCar.setText("Destination: --");
         mDoctorProfileImage.setImageResource(R.drawable.profile_pic);
-        mDoctorRecycler.setVisibility(View.GONE);
         mMapsBinding.doctorSearch.setVisibility(View.GONE);
 
     }

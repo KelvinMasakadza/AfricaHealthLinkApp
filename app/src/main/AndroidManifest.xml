@@ -28,7 +28,7 @@
             android:name=".ui.DoctorProfile"
             android:label="Profile" />
         <activity
-            android:name=".ui.SearchDoctor"
+            android:name=".ui.Home"
             android:label="SignIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +37,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.Home"
+            android:name=".ui.SearchDoctor"
             android:label="Jobs" />
         <activity
             android:name=".ui.SignUpActivity"
@@ -54,8 +54,12 @@
             android:name=".ui.PharmacyActivity"
             android:label="Pharmacy" />
         <activity
-            android:name=".ui.DoctorActivity"
+            android:name=".ui.DoctorHome"
             android:label="Doctors" />
+        <activity
+            android:name=".ui.Profile"
+            android:label="Doctors" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
         <activity android:name=".MainActivity" />
     </application>
 

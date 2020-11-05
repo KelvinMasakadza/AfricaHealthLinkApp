@@ -28,6 +28,10 @@
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\activity_search_doctor.xml"
     },
     {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile.xml",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\doctormodel.xml",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\layout\\doctormodel.xml"
     },

@@ -6,85 +6,89 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/_8sdp"
+    android:background="@color/AppColor"
     android:layout_marginLeft="@dimen/_3sdp"
     android:layout_marginTop="@dimen/_20ssp"
     android:layout_marginRight="@dimen/_3sdp"
     android:padding="@dimen/_3sdp">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="@dimen/_3sdp"
-        android:layout_marginBottom="@dimen/_5sdp"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:weightSum="7"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="@dimen/_35sdp"
-            android:layout_weight="1"
-            android:src="@drawable/pill">
-
-        </ImageView>
-
-        <TextView
-            android:id="@+id/textview_name"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-
-            android:layout_weight="2"
-            android:gravity="center"
-            android:padding="@dimen/_3sdp"
-            android:text="name"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@android:color/black" />
-
-        <TextView
-            android:id="@+id/textview_dose"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="@dimen/_3sdp"
-            android:text="dose"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@android:color/black" />
-
-        <TextView
-            android:id="@+id/textview_price"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="@dimen/_3sdp"
-            android:text="price"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@android:color/black" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="@dimen/_3sdp"
-            android:text="$"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@android:color/black" />
-
-        <Button
-            android:id="@+id/add_drug"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@drawable/add"
-            android:gravity="center"
-            android:padding="@dimen/_3sdp">
-
-        </Button>
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/pill">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textview_name"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="@dimen/_3sdp"
+                android:text="name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+
+            <TextView
+                android:id="@+id/textview_price"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_3sdp"
+                android:text="price"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_3sdp"
+                android:text="$"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/add_drug"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end|center_vertical"
+                android:background="@drawable/add"
+                android:gravity="center"
+                android:layout_marginEnd="@dimen/_20ssp">
+
+            </Button>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

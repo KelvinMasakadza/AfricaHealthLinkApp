@@ -29,9 +29,7 @@ public class ActivityDoctorInfoBindingImpl extends ActivityDoctorInfoBinding imp
         sViewsWithIds.put(R.id.imageView6, 14);
         sViewsWithIds.put(R.id.imageView1, 15);
         sViewsWithIds.put(R.id.imageView8, 16);
-        sViewsWithIds.put(R.id.textView3, 17);
-        sViewsWithIds.put(R.id.linkedIn_acc_button, 18);
-        sViewsWithIds.put(R.id.account_progress, 19);
+        sViewsWithIds.put(R.id.account_progress, 17);
     }
     // views
     @NonNull
@@ -44,12 +42,12 @@ public class ActivityDoctorInfoBindingImpl extends ActivityDoctorInfoBinding imp
     // Inverse Binding Event Handlers
 
     public ActivityDoctorInfoBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 18, sIncludes, sViewsWithIds));
     }
     private ActivityDoctorInfoBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.EditText) bindings[6]
-            , (android.widget.ProgressBar) bindings[19]
+            , (android.widget.ProgressBar) bindings[17]
             , (android.widget.Button) bindings[1]
             , (android.widget.EditText) bindings[5]
             , (android.widget.EditText) bindings[2]
@@ -62,11 +60,9 @@ public class ActivityDoctorInfoBindingImpl extends ActivityDoctorInfoBinding imp
             , (android.widget.ImageView) bindings[13]
             , (android.widget.ImageView) bindings[14]
             , (android.widget.ImageView) bindings[16]
-            , (android.widget.ImageButton) bindings[18]
             , (android.widget.EditText) bindings[8]
             , (android.widget.EditText) bindings[9]
             , (android.widget.EditText) bindings[3]
-            , (android.widget.TextView) bindings[17]
             );
         this.createAccountButton.setTag(null);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];

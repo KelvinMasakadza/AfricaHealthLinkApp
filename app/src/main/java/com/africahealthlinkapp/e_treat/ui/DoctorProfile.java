@@ -123,6 +123,7 @@ public class DoctorProfile extends AppCompatActivity {
                    Intent intent = new Intent(this, Appointments.class);
                    intent.putExtra("doctorId", mDoctorUid);
                    startActivity(intent);
+                   dialog.cancel();
         });
 
     }

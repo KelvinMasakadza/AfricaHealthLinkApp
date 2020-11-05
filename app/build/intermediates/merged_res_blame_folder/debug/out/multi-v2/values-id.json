@@ -4,6 +4,23 @@
             "outputFile": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Aisac\\.gradle\\caches\\transforms-2\\files-2.1\\788639b8cb90529bbb9f41c737c7fd7a\\jetified-android-image-cropper-2.8.0\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,170,226,281,367,449,537,600",
+                        "endColumns": "114,55,54,85,81,87,62,72",
+                        "endOffsets": "165,221,276,362,444,532,595,668"
+                    },
+                    "to": {
+                        "startLines": "24,25,26,27,28,29,30,31",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "2103,2218,2274,2329,2415,2497,2585,2648",
+                        "endColumns": "114,55,54,85,81,87,62,72",
+                        "endOffsets": "2213,2269,2324,2410,2492,2580,2643,2716"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Aisac\\.gradle\\caches\\transforms-2\\files-2.1\\60be65ffa586b85d556f6004466c6a86\\jetified-facebook-common-5.15.3\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",

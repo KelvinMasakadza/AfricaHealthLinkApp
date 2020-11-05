@@ -6,10 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.Guideline;
@@ -65,9 +63,6 @@ public abstract class ActivityDoctorInfoBinding extends ViewDataBinding {
   public final ImageView imageView8;
 
   @NonNull
-  public final ImageButton linkedInAccButton;
-
-  @NonNull
   public final EditText nationalIdText;
 
   @NonNull
@@ -76,9 +71,6 @@ public abstract class ActivityDoctorInfoBinding extends ViewDataBinding {
   @NonNull
   public final EditText specializationText;
 
-  @NonNull
-  public final TextView textView3;
-
   @Bindable
   protected DoctorInfoActivity mActivity;
 
@@ -86,9 +78,8 @@ public abstract class ActivityDoctorInfoBinding extends ViewDataBinding {
       EditText academicFile, ProgressBar accountProgress, Button createAccountButton,
       EditText cvFile, EditText deptText, EditText educationText, Guideline guideline,
       ImageView imageView, ImageView imageView1, ImageView imageView3, ImageView imageView4,
-      ImageView imageView5, ImageView imageView6, ImageView imageView8,
-      ImageButton linkedInAccButton, EditText nationalIdText, EditText qualificationText,
-      EditText specializationText, TextView textView3) {
+      ImageView imageView5, ImageView imageView6, ImageView imageView8, EditText nationalIdText,
+      EditText qualificationText, EditText specializationText) {
     super(_bindingComponent, _root, _localFieldCount);
     this.academicFile = academicFile;
     this.accountProgress = accountProgress;
@@ -104,11 +95,9 @@ public abstract class ActivityDoctorInfoBinding extends ViewDataBinding {
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.imageView8 = imageView8;
-    this.linkedInAccButton = linkedInAccButton;
     this.nationalIdText = nationalIdText;
     this.qualificationText = qualificationText;
     this.specializationText = specializationText;
-    this.textView3 = textView3;
   }
 
   public abstract void setActivity(@Nullable DoctorInfoActivity activity);

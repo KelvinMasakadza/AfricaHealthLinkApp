@@ -11,6 +11,7 @@ import com.africahealthlinkapp.e_treat.databinding.ActivityDoctorInfoBindingImpl
 import com.africahealthlinkapp.e_treat.databinding.ActivityDoctorProfileBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.ActivityHomeBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.ActivityPatientBindingImpl;
+import com.africahealthlinkapp.e_treat.databinding.ActivityProfileBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.ActivitySearchDoctorBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.ActivitySignInBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.ActivitySignUpBindingImpl;
@@ -41,25 +42,27 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYPATIENT = 5;
 
-  private static final int LAYOUT_ACTIVITYSEARCHDOCTOR = 6;
+  private static final int LAYOUT_ACTIVITYPROFILE = 6;
 
-  private static final int LAYOUT_ACTIVITYSIGNIN = 7;
+  private static final int LAYOUT_ACTIVITYSEARCHDOCTOR = 7;
 
-  private static final int LAYOUT_ACTIVITYSIGNUP = 8;
+  private static final int LAYOUT_ACTIVITYSIGNIN = 8;
 
-  private static final int LAYOUT_APPOINTMENTSMODEL = 9;
+  private static final int LAYOUT_ACTIVITYSIGNUP = 9;
 
-  private static final int LAYOUT_DOCTORMODEL = 10;
+  private static final int LAYOUT_APPOINTMENTSMODEL = 10;
 
-  private static final int LAYOUT_DOCTORSMODEL = 11;
+  private static final int LAYOUT_DOCTORMODEL = 11;
 
-  private static final int LAYOUT_INFOMODEL = 12;
+  private static final int LAYOUT_DOCTORSMODEL = 12;
 
-  private static final int LAYOUT_PATIENTMODEL = 13;
+  private static final int LAYOUT_INFOMODEL = 13;
 
-  private static final int LAYOUT_REACHOUT = 14;
+  private static final int LAYOUT_PATIENTMODEL = 14;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(14);
+  private static final int LAYOUT_REACHOUT = 15;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(15);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_appointment, LAYOUT_ACTIVITYAPPOINTMENT);
@@ -67,6 +70,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_doctor_profile, LAYOUT_ACTIVITYDOCTORPROFILE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_home, LAYOUT_ACTIVITYHOME);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_patient, LAYOUT_ACTIVITYPATIENT);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_profile, LAYOUT_ACTIVITYPROFILE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_search_doctor, LAYOUT_ACTIVITYSEARCHDOCTOR);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_sign_in, LAYOUT_ACTIVITYSIGNIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_sign_up, LAYOUT_ACTIVITYSIGNUP);
@@ -116,6 +120,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityPatientBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_patient is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ACTIVITYPROFILE: {
+          if ("layout/activity_profile_0".equals(tag)) {
+            return new ActivityProfileBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for activity_profile is invalid. Received: " + tag);
         }
         case  LAYOUT_ACTIVITYSEARCHDOCTOR: {
           if ("layout/activity_search_doctor_0".equals(tag)) {
@@ -231,7 +241,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(14);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(15);
 
     static {
       sKeys.put("layout/activity_appointment_0", com.africahealthlinkapp.e_treat.R.layout.activity_appointment);
@@ -239,6 +249,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/activity_doctor_profile_0", com.africahealthlinkapp.e_treat.R.layout.activity_doctor_profile);
       sKeys.put("layout/activity_home_0", com.africahealthlinkapp.e_treat.R.layout.activity_home);
       sKeys.put("layout/activity_patient_0", com.africahealthlinkapp.e_treat.R.layout.activity_patient);
+      sKeys.put("layout/activity_profile_0", com.africahealthlinkapp.e_treat.R.layout.activity_profile);
       sKeys.put("layout/activity_search_doctor_0", com.africahealthlinkapp.e_treat.R.layout.activity_search_doctor);
       sKeys.put("layout/activity_sign_in_0", com.africahealthlinkapp.e_treat.R.layout.activity_sign_in);
       sKeys.put("layout/activity_sign_up_0", com.africahealthlinkapp.e_treat.R.layout.activity_sign_up);

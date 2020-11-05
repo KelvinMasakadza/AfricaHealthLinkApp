@@ -27,27 +27,26 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding implements 
         sViewsWithIds.put(R.id.imageView6, 15);
         sViewsWithIds.put(R.id.imageView1, 16);
         sViewsWithIds.put(R.id.textView3, 17);
-        sViewsWithIds.put(R.id.linkedIn_button, 18);
-        sViewsWithIds.put(R.id.progress_bar, 19);
+        sViewsWithIds.put(R.id.progress_bar, 18);
     }
     // views
     @NonNull
     private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback4;
-    @Nullable
-    private final android.view.View.OnClickListener mCallback2;
-    @Nullable
     private final android.view.View.OnClickListener mCallback5;
     @Nullable
     private final android.view.View.OnClickListener mCallback3;
+    @Nullable
+    private final android.view.View.OnClickListener mCallback4;
+    @Nullable
+    private final android.view.View.OnClickListener mCallback2;
     // values
     // listeners
     // Inverse Binding Event Handlers
 
     public ActivitySignUpBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 19, sIncludes, sViewsWithIds));
     }
     private ActivitySignUpBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
@@ -64,9 +63,8 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding implements 
             , (android.widget.ImageView) bindings[14]
             , (android.widget.ImageView) bindings[15]
             , (android.widget.EditText) bindings[10]
-            , (android.widget.ImageButton) bindings[18]
             , (android.widget.EditText) bindings[8]
-            , (android.widget.ProgressBar) bindings[19]
+            , (android.widget.ProgressBar) bindings[18]
             , (android.widget.TextView) bindings[1]
             , (android.widget.Button) bindings[2]
             , (android.widget.TextView) bindings[17]
@@ -79,10 +77,10 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding implements 
         this.signUpButton.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback4 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 3);
-        mCallback2 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 1);
         mCallback5 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 4);
         mCallback3 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 2);
+        mCallback4 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 3);
+        mCallback2 = new com.africahealthlinkapp.e_treat.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -154,40 +152,6 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding implements 
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 3: {
-                // localize variables for thread safety
-                // activity != null
-                boolean activityJavaLangObjectNull = false;
-                // activity
-                com.africahealthlinkapp.e_treat.ui.SignUpActivity activity = mActivity;
-
-
-
-                activityJavaLangObjectNull = (activity) != (null);
-                if (activityJavaLangObjectNull) {
-
-
-                    activity.startFacebookSignUp();
-                }
-                break;
-            }
-            case 1: {
-                // localize variables for thread safety
-                // activity != null
-                boolean activityJavaLangObjectNull = false;
-                // activity
-                com.africahealthlinkapp.e_treat.ui.SignUpActivity activity = mActivity;
-
-
-
-                activityJavaLangObjectNull = (activity) != (null);
-                if (activityJavaLangObjectNull) {
-
-
-                    activity.openLoginScreen();
-                }
-                break;
-            }
             case 4: {
                 // localize variables for thread safety
                 // activity != null
@@ -274,6 +238,40 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding implements 
                             }
                         }
                     }
+                }
+                break;
+            }
+            case 3: {
+                // localize variables for thread safety
+                // activity != null
+                boolean activityJavaLangObjectNull = false;
+                // activity
+                com.africahealthlinkapp.e_treat.ui.SignUpActivity activity = mActivity;
+
+
+
+                activityJavaLangObjectNull = (activity) != (null);
+                if (activityJavaLangObjectNull) {
+
+
+                    activity.startFacebookSignUp();
+                }
+                break;
+            }
+            case 1: {
+                // localize variables for thread safety
+                // activity != null
+                boolean activityJavaLangObjectNull = false;
+                // activity
+                com.africahealthlinkapp.e_treat.ui.SignUpActivity activity = mActivity;
+
+
+
+                activityJavaLangObjectNull = (activity) != (null);
+                if (activityJavaLangObjectNull) {
+
+
+                    activity.openLoginScreen();
                 }
                 break;
             }

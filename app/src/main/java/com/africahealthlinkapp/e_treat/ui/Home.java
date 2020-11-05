@@ -9,7 +9,6 @@ import android.widget.ImageView;
 import android.widget.RadioGroup;
 import android.widget.RatingBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,15 +21,12 @@ import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.adapter.InfoAdapter;
 import com.africahealthlinkapp.e_treat.databinding.ActivityHomeBinding;
 import com.africahealthlinkapp.e_treat.models.Information;
-import com.africahealthlinkapp.e_treat.models.Patients;
-import com.bumptech.glide.Glide;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -38,10 +34,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class Home extends AppCompatActivity {
     private GoogleMap mMap;
@@ -90,8 +84,19 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         mHomeBinding = DataBindingUtil.setContentView(this, R.layout.activity_home);
         showInfo();
-    }
+        mHomeBinding.bottomNavigation.setOnNavigationItemReselectedListener(item -> {
+            int id = item.getItemId();
+            if (id == R.id.profile_home) {
+                startActivity(new Intent(this, Profile.class));
+            } else if (id == R.id.message_home) {
 
+            }else if (id == R.id.notify_home) {
+
+            }
+
+        });
+
+    }
 
 
     public void lookForDoc(View view) {
@@ -117,7 +122,7 @@ public class Home extends AppCompatActivity {
 
                 for (DataSnapshot docts : information) {
                     Information c = docts.getValue(Information.class);
-                   // Log.d("docts:: ", c.getInfo());
+                    // Log.d("docts:: ", c.getInfo());
                     informationList.add(c);
                     mDoctorRecycler = mHomeBinding.infomationRecycler;
                     mHomeBinding.loadingIfor.setVisibility(View.GONE);

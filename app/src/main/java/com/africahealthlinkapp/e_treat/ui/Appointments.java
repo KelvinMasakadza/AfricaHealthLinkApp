@@ -42,9 +42,13 @@ public class Appointments extends AppCompatActivity {
         int year = mCalendar.get(Calendar.YEAR);
         showDate(month, date, year);
 
+        mAppointmentBinding.calenda.setOnDateChangeListener((calendarView, currYear, currMonth, currDay) -> {
+            showDate(currYear, currMonth, currDay);
+        });
     }
 
     private void showDate(int month, int date, int year) {
+
         mAppointmentBinding.selectedDated.setText(String.format("%d/%d/%d", month, date, year));
     }
 

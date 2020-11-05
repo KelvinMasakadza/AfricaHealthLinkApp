@@ -13,6 +13,7 @@ public class Patients implements Parcelable {
     private String name;
     private String uid;
     private String phone;
+    private String email;
     private String profile_pics;
     private String location;
 
@@ -20,9 +21,10 @@ public class Patients implements Parcelable {
     public Patients() {
     }
 
-    public Patients(String name, String uid, String phone, String profile_pics, String location) {
+    public Patients(String name, String uid, String email, String phone, String profile_pics, String location) {
         this.name = name;
         this.uid = uid;
+        this.email = email;
         this.phone = phone;
         this.profile_pics = profile_pics;
         this.location = location;
@@ -33,7 +35,8 @@ public class Patients implements Parcelable {
         phone = in.readString();
         profile_pics = in.readString();
         uid = in.readString();
-        location= in.readString();
+        location = in.readString();
+        email = in.readString();
     }
 
     public static final Creator<Patients> CREATOR = new Creator<Patients>() {
@@ -47,6 +50,14 @@ public class Patients implements Parcelable {
             return new Patients[size];
         }
     };
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public String getLocation() {
         return location;

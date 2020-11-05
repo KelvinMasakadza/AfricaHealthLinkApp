@@ -21,9 +21,8 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
         sViewsWithIds.put(R.id.user_password_text, 9);
         sViewsWithIds.put(R.id.checkBox, 10);
         sViewsWithIds.put(R.id.textView2, 11);
-        sViewsWithIds.put(R.id.imageButton2, 12);
-        sViewsWithIds.put(R.id.textView, 13);
-        sViewsWithIds.put(R.id.load_progress_bar, 14);
+        sViewsWithIds.put(R.id.textView, 12);
+        sViewsWithIds.put(R.id.load_progress_bar, 13);
     }
     // views
     @NonNull
@@ -42,7 +41,7 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
     // Inverse Binding Event Handlers
 
     public ActivitySignInBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 15, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 14, sIncludes, sViewsWithIds));
     }
     private ActivitySignInBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
@@ -50,13 +49,12 @@ public class ActivitySignInBindingImpl extends ActivitySignInBinding implements 
             , (android.widget.ImageButton) bindings[3]
             , (android.widget.ImageButton) bindings[4]
             , (androidx.constraintlayout.widget.Guideline) bindings[6]
-            , (android.widget.ImageButton) bindings[12]
             , (android.widget.ImageView) bindings[5]
             , (android.widget.ImageView) bindings[8]
-            , (android.widget.ProgressBar) bindings[14]
+            , (android.widget.ProgressBar) bindings[13]
             , (android.widget.Button) bindings[1]
             , (android.widget.TextView) bindings[2]
-            , (android.widget.TextView) bindings[13]
+            , (android.widget.TextView) bindings[12]
             , (android.widget.TextView) bindings[11]
             , (android.widget.EditText) bindings[7]
             , (android.widget.EditText) bindings[9]

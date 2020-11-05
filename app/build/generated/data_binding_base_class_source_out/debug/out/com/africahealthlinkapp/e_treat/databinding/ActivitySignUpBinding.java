@@ -62,9 +62,6 @@ public abstract class ActivitySignUpBinding extends ViewDataBinding {
   public final EditText lastNameText;
 
   @NonNull
-  public final ImageButton linkedInButton;
-
-  @NonNull
   public final EditText passwordText;
 
   @NonNull
@@ -86,9 +83,8 @@ public abstract class ActivitySignUpBinding extends ViewDataBinding {
       EditText confirmPasswordText, EditText emailText, ImageButton facebookButton,
       EditText firstNameText, ImageButton googleButton, Guideline guideline, ImageView imageView1,
       ImageView imageView2, ImageView imageView3, ImageView imageView4, ImageView imageView5,
-      ImageView imageView6, EditText lastNameText, ImageButton linkedInButton,
-      EditText passwordText, ProgressBar progressBar, TextView signInView, Button signUpButton,
-      TextView textView3) {
+      ImageView imageView6, EditText lastNameText, EditText passwordText, ProgressBar progressBar,
+      TextView signInView, Button signUpButton, TextView textView3) {
     super(_bindingComponent, _root, _localFieldCount);
     this.confirmPasswordText = confirmPasswordText;
     this.emailText = emailText;
@@ -103,7 +99,6 @@ public abstract class ActivitySignUpBinding extends ViewDataBinding {
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.lastNameText = lastNameText;
-    this.linkedInButton = linkedInButton;
     this.passwordText = passwordText;
     this.progressBar = progressBar;
     this.signInView = signInView;

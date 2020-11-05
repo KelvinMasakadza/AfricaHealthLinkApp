@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-66:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\788639b8cb90529bbb9f41c737c7fd7a\jetified-android-image-cropper-2.8.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:databinding-adapters:4.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\f900336a4ef692e845fc42e6dec7098a\databinding-adapters-4.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\f61014489ffa448fd8621a8dd95127f3\databinding-runtime-4.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\17fba744b25dedec3d1fcad6a290afce\jetified-play-services-auth-18.1.0\AndroidManifest.xml:17:1-40:12
@@ -21,10 +22,11 @@ MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Aisac\.gradle\ca
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\bad9b51902a30e33c793c0d30fab732f\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\a8531e56666b541278ff6a86c6ddfbf9\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\1f9abc0da833120d877dedb8d23b3fd1\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:viewbinding:4.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\276088283d43cdb41d9622ccfee0da67\jetified-viewbinding-4.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.jd-alexander:library:1.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\9b6facaf34bf45ce9423d7309d2fa265\jetified-library-1.1.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\226bd09f0bb9b27d955cfa7b05f8f1c7\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
-MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\a2190fc5b40579baf761ab5b82ba9814\jetified-play-services-auth-api-phone-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\b727a442311948b7b5df18a469595fb6\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\dd2b390f0bf89e753b1cce6e083d7969\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
@@ -79,7 +81,6 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\191466584ce07493168a355f09acab86\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\1d167ce19213901bcff1848038db3b02\jetified-transport-runtime-2.2.3\AndroidManifest.xml:15:1-41:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\85ae78f2ef45a76d11a654d7eb158711\jetified-gifdecoder-4.10.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\1f9abc0da833120d877dedb8d23b3fd1\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\16a0f7e5b0d224a0e679fa5651df8cc4\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\7772137beef66cb6a3a1c6fd067a5840\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\e015228b4d03a9af0e4c5759a25c65c5\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
@@ -98,20 +99,20 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Aisac\.
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\d9e924d41fe3bccfc9d530d8b30820eb\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\dd79d1e01e47b86b980b50da804f4b7b\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\93877cbf6b25ed5e8680f77a19bc3bbd\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-66:12
 	package
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-66:12
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-62:12
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:1-66:12
 		INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -134,7 +135,7 @@ ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidMan
 	android:name
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:8:22-82
 application
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:10:5-60:19
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:10:5-64:19
 MERGED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\17fba744b25dedec3d1fcad6a290afce\jetified-play-services-auth-18.1.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\17fba744b25dedec3d1fcad6a290afce\jetified-play-services-auth-18.1.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\6ba704f0dad235538db014e6288f529a\jetified-facebook-android-sdk-5.15.3\AndroidManifest.xml:28:5-29:19
@@ -157,12 +158,12 @@ MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Aisac\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\0f458b425841e757dac703a4529e92e6\jetified-firebase-auth-19.4.0\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
 MERGED from [com.github.jd-alexander:library:1.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\9b6facaf34bf45ce9423d7309d2fa265\jetified-library-1.1.0\AndroidManifest.xml:11:5-20
 MERGED from [com.github.jd-alexander:library:1.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\9b6facaf34bf45ce9423d7309d2fa265\jetified-library-1.1.0\AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\226bd09f0bb9b27d955cfa7b05f8f1c7\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\226bd09f0bb9b27d955cfa7b05f8f1c7\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
-MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\cbfb0bff034718b3f1146241f72644f6\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\cbfb0bff034718b3f1146241f72644f6\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\7812eaa4917f850c059397accc6318c9\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
@@ -265,12 +266,12 @@ ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidMan
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:28:13-45
-activity#com.africahealthlinkapp.e_treat.ui.SearchDoctor
+activity#com.africahealthlinkapp.e_treat.ui.Home
 ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:label
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:32:13-35
 	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:31:13-44
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:31:13-36
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
@@ -281,12 +282,12 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:36:27-74
-activity#com.africahealthlinkapp.e_treat.ui.Home
+activity#com.africahealthlinkapp.e_treat.ui.SearchDoctor
 ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:39:9-41:36
 	android:label
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:41:13-33
 	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:40:13-36
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:40:13-44
 activity#com.africahealthlinkapp.e_treat.ui.SignUpActivity
 ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:42:9-45:84
 	android:label
@@ -315,20 +316,32 @@ ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidMan
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:54:13-48
-activity#com.africahealthlinkapp.e_treat.ui.DoctorActivity
+activity#com.africahealthlinkapp.e_treat.ui.DoctorHome
 ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:56:9-58:39
 	android:label
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:58:13-36
 	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:57:13-46
-activity#com.africahealthlinkapp.e_treat.MainActivity
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:59:9-50
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:57:13-42
+activity#com.africahealthlinkapp.e_treat.ui.Profile
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:59:9-61:39
+	android:label
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:61:13-36
 	android:name
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:59:19-47
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:60:13-39
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:62:9-85
+	android:name
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:62:19-82
+activity#com.africahealthlinkapp.e_treat.MainActivity
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:63:9-50
+	android:name
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:63:19-47
 uses-sdk
 INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
 INJECTED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\788639b8cb90529bbb9f41c737c7fd7a\jetified-android-image-cropper-2.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\788639b8cb90529bbb9f41c737c7fd7a\jetified-android-image-cropper-2.8.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.databinding:databinding-adapters:4.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\f900336a4ef692e845fc42e6dec7098a\databinding-adapters-4.1.0\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-adapters:4.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\f900336a4ef692e845fc42e6dec7098a\databinding-adapters-4.1.0\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\f61014489ffa448fd8621a8dd95127f3\databinding-runtime-4.1.0\AndroidManifest.xml:22:5-44
@@ -363,14 +376,16 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Aisac\.gradle\ca
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\a8531e56666b541278ff6a86c6ddfbf9\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\9430ce16ec92c809dfdf8b52ef16f948\jetified-firebase-storage-19.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\1f9abc0da833120d877dedb8d23b3fd1\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\1f9abc0da833120d877dedb8d23b3fd1\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\276088283d43cdb41d9622ccfee0da67\jetified-viewbinding-4.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\276088283d43cdb41d9622ccfee0da67\jetified-viewbinding-4.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.jd-alexander:library:1.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\9b6facaf34bf45ce9423d7309d2fa265\jetified-library-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.jd-alexander:library:1.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\9b6facaf34bf45ce9423d7309d2fa265\jetified-library-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\226bd09f0bb9b27d955cfa7b05f8f1c7\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\226bd09f0bb9b27d955cfa7b05f8f1c7\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\825f669c28e2cf722369174635a8c6e3\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\a2190fc5b40579baf761ab5b82ba9814\jetified-play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\a2190fc5b40579baf761ab5b82ba9814\jetified-play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\b727a442311948b7b5df18a469595fb6\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
@@ -479,8 +494,6 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\1d167ce19213901bcff1848038db3b02\jetified-transport-runtime-2.2.3\AndroidManifest.xml:18:5-20:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\85ae78f2ef45a76d11a654d7eb158711\jetified-gifdecoder-4.10.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\85ae78f2ef45a76d11a654d7eb158711\jetified-gifdecoder-4.10.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\1f9abc0da833120d877dedb8d23b3fd1\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\1f9abc0da833120d877dedb8d23b3fd1\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\16a0f7e5b0d224a0e679fa5651df8cc4\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\16a0f7e5b0d224a0e679fa5651df8cc4\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Aisac\.gradle\caches\transforms-2\files-2.1\7772137beef66cb6a3a1c6fd067a5840\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:20:5-44
