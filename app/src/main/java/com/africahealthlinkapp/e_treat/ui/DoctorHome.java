@@ -67,7 +67,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DoctorActivity extends FragmentActivity implements OnMapReadyCallback, RoutingListener {
+public class DoctorHome extends FragmentActivity implements OnMapReadyCallback, RoutingListener {
 
     private GoogleMap mMap;
     Location mLastLocation;
@@ -199,7 +199,7 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
         mDbinding.bottomNavigation.setOnNavigationItemReselectedListener(item -> {
             int id = item.getItemId();
             if (id == R.id.appointments_menu) {
-                startActivity(new Intent(this, DoctorActivity.class));
+                startActivity(new Intent(this, DoctorHome.class));
             } else if (id == R.id.history_menu) {
 
             }
@@ -230,9 +230,9 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
                         mPatientRecycler.setVisibility(View.VISIBLE);
                         mDbinding.historyPB.setVisibility(View.GONE);
 
-                        mPatientRecycler.setLayoutManager(new LinearLayoutManager(DoctorActivity.this));
+                        mPatientRecycler.setLayoutManager(new LinearLayoutManager(DoctorHome.this));
 
-                        AppointmentAdapter appointmentAdapter = new AppointmentAdapter(appointmentList, DoctorActivity.this);
+                        AppointmentAdapter appointmentAdapter = new AppointmentAdapter(appointmentList, DoctorHome.this);
                         mPatientRecycler.setAdapter(appointmentAdapter);
                     }
                 } else {
@@ -303,7 +303,7 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
                     getAssignedPatientInfo();
                 } else {
                     //endRide();
-                    Toast.makeText(DoctorActivity.this, "No Patient Requests Available", Toast.LENGTH_LONG).show();
+                    Toast.makeText(DoctorHome.this, "No Patient Requests Available", Toast.LENGTH_LONG).show();
                 }
             }
 
@@ -554,13 +554,13 @@ public class DoctorActivity extends FragmentActivity implements OnMapReadyCallba
                         .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
-                                ActivityCompat.requestPermissions(DoctorActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+                                ActivityCompat.requestPermissions(DoctorHome.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
                             }
                         })
                         .create()
                         .show();
             } else {
-                ActivityCompat.requestPermissions(DoctorActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+                ActivityCompat.requestPermissions(DoctorHome.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
             }
         }
     }
