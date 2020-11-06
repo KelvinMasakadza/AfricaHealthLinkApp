@@ -91,7 +91,7 @@ public class FacebookLoginUtil {
 
                             FirebaseUser user = auth.getCurrentUser();
                             DB_Util db_util = new DB_Util(activity, auth);
-                            db_util.addUserToDatabase(profile.getFirstName(), profile.getLastName(), user.getEmail(), "FACEBOOK");
+                            db_util.addUserToDatabase(profile.getFirstName(), profile.getLastName(), user.getEmail(), ((user.getPhoneNumber()!= null)? user.getPhoneNumber() : "12345678"), "FACEBOOK");
                             Snackbar.make(activity.getWindow().getDecorView(), "Login successful!", Snackbar.LENGTH_SHORT).show();
 
 

@@ -77,7 +77,7 @@ public class DrugAdapter extends RecyclerView.Adapter<DrugAdapter.drugViewHolder
             super(itemView);
 
             nameTV = itemView.findViewById(R.id.textview_name);
-            doseTV = itemView.findViewById(R.id.textview_dose);
+            //doseTV = itemView.findViewById(R.id.d);
             priceTV = itemView.findViewById(R.id.textview_price);
             addButton =itemView.findViewById(R.id.add_drug);
         }

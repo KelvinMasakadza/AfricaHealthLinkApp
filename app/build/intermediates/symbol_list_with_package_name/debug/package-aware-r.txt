@@ -2754,7 +2754,6 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textview_dose
 id textview_hours
 id textview_name
 id textview_price

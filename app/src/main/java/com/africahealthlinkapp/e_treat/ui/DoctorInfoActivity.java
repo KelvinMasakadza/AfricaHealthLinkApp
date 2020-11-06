@@ -38,10 +38,11 @@ public class DoctorInfoActivity extends AppCompatActivity {
 
     private static final int UPLOAD_CV = 1;
     private static final int UPLOAD_DOCS = 2;
-    EditText department, qualification, specialization, education, cV, nationalId, academicDocs;
+    EditText cV, academicDocs;
     Button createAccountBtn;
     ProgressBar progressBar;
     ActivityDoctorInfoBinding bindingUtil;
+    String firstName, lastName, email, phone, userId;
 
     final HashMap<String, String> urls = new HashMap<>();
 
@@ -51,6 +52,12 @@ public class DoctorInfoActivity extends AppCompatActivity {
 
         bindingUtil = DataBindingUtil.setContentView(this, R.layout.activity_doctor_info);
         bindingUtil.setActivity(this);
+
+        Intent intent = getIntent();
+        firstName = intent.getStringExtra("firstName");
+        lastName = intent.getStringExtra("lastName");
+        email = intent.getStringExtra("email");
+        phone = intent.getStringExtra("phone");
 
 
         cV = findViewById(R.id.cv_file);
@@ -162,7 +169,10 @@ public class DoctorInfoActivity extends AppCompatActivity {
         }
         else{
             showDialog();
-            Doctor doctor = new Doctor(department, qualification, specialization, education, urls.get("CV"), nationalId, urls.get("DOCS"));
+
+
+
+            Doctor doctor = new Doctor(firstName, lastName, email, userId , phone, department, qualification, specialization, education, urls.get("CV"), nationalId, urls.get("DOCS"));
             FirebaseDatabase.getInstance().getReference()
                     .child(getString(R.string.doctor_node))
                     .child(FirebaseAuth.getInstance().getUid())
@@ -191,6 +201,7 @@ public class DoctorInfoActivity extends AppCompatActivity {
         finish();
 
     }
+
 
     private boolean isEmpty(String string){
         return string.equals("");
