@@ -78,8 +78,6 @@ public class PharmacyActivity extends AppCompatActivity implements OnMapReadyCal
                 addDummyMarker(mLat, mLongitude);
             }
         });
-
-
     }
 
     void startLocService() {
