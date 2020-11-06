@@ -88,20 +88,20 @@
                 android:id="@+id/checkBox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
                 android:text="Remember me"
                 android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/user_password_text" />
+                app:layout_constraintTop_toBottomOf="@+id/radio_group" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
                 android:text="Forgot Password?"
                 android:textColor="#fff"
                 app:layout_constraintBottom_toBottomOf="@+id/checkBox"
@@ -112,11 +112,11 @@
                 android:id="@+id/sign_in_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="30dp"
+                android:onClick="@{()-> activity.authenticateUser(userEmailText.getText().toString(), userPasswordText.getText().toString())}"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="Sign In"
-                android:onClick="@{()-> activity.authenticateUser(userEmailText.getText().toString(), userPasswordText.getText().toString())}"
                 android:textAllCaps="false"
                 android:textColor="@color/themeBlue"
                 android:textSize="18sp"
@@ -191,6 +191,39 @@
                 app:layout_constraintEnd_toEndOf="@+id/sign_in_button"
                 app:layout_constraintStart_toStartOf="@+id/sign_in_button"
                 app:layout_constraintTop_toTopOf="@+id/sign_in_button" />
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/user_password_text">
+
+                <RadioButton
+                    android:id="@+id/patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="100dp"
+                    android:layout_marginRight="100dp"
+                    android:padding="10dp"
+                    android:text="Patient"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/doctor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Doctor"
+                    android:textColor="#FFFFFF" />
+
+            </RadioGroup>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>

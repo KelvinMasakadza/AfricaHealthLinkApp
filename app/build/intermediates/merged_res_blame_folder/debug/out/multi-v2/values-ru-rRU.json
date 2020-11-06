@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru-rRU\\values-ru-rRU.xml",
+            "outputFile": "/Users/merry/Documents/AfricaHealthLinkApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru-rRU/values-ru-rRU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aisac\\.gradle\\caches\\transforms-2\\files-2.1\\788639b8cb90529bbb9f41c737c7fd7a\\jetified-android-image-cropper-2.8.0\\res\\values-ru-rRU\\values-ru-rRU.xml",
+                    "source": "/Users/merry/.gradle/caches/transforms-2/files-2.1/788639b8cb90529bbb9f41c737c7fd7a/jetified-android-image-cropper-2.8.0/res/values-ru-rRU/values-ru-rRU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

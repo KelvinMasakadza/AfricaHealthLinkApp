@@ -16,6 +16,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
 public class GoogleLoginUtil {
@@ -57,9 +58,9 @@ public class GoogleLoginUtil {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            //FirebaseUser user = mAuth.getCurrentUser();
+                            FirebaseUser user = auth.getCurrentUser();
                             DB_Util db_util = new DB_Util(activity, auth);
-                            db_util.addUserToDatabase(account.getGivenName(),account.getFamilyName() ,account.getEmail(), "GOOGLE");
+                            db_util.addUserToDatabase(account.getGivenName(),account.getFamilyName() ,account.getEmail(), ((user.getPhoneNumber()!= null)? user.getPhoneNumber() : "12345678"), "GOOGLE");
 
                         } else {
 

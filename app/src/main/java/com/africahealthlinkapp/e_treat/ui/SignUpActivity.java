@@ -27,6 +27,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class SignUpActivity extends AppCompatActivity {
 
@@ -44,6 +45,8 @@ public class SignUpActivity extends AppCompatActivity {
     private FacebookLoginUtil facebookLoginUtil;
     ActivitySignUpBinding bindingUtil;
 
+    String role = "";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,8 +59,54 @@ public class SignUpActivity extends AppCompatActivity {
         signUpButton = findViewById(R.id.sign_up_button);
         progressBar = findViewById(R.id.progress_bar);
 
+        Intent intent = getIntent();
+        role = intent.getStringExtra("role") == null ? role : intent.getStringExtra("role");
+        Log.d("ROLE", role);
+        if (role.equals("doctor")) {
+            signUpButton.setVisibility(View.INVISIBLE);
+            findViewById(R.id.next_button).setVisibility(View.VISIBLE);
+        }else{ //(role.equals("patient"))
+            signUpButton.setVisibility(View.VISIBLE);
+            findViewById(R.id.next_button).setVisibility(View.INVISIBLE);
+        }
+
+
+
 
     }
+
+    public void openDoctorInfo(String firstName, String lastName, String email, String phone, String password, String confirmPassword ){
+
+        if(firstName.isEmpty() || lastName.isEmpty() || email.isEmpty() || phone.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()){
+            Snackbar.make(getWindow().getDecorView(), "Please make sure you have filled all the inputs correctly!", Snackbar.LENGTH_SHORT).show();
+        }
+        else if(!doStringsMatch(password, confirmPassword)){
+            Snackbar.make(getWindow().getDecorView(),  "Passwords do not Match", Snackbar.LENGTH_SHORT).show();
+        }
+        else{
+            FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password)
+                    .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if(task.isSuccessful()){
+                                FirebaseUser user = mAuth.getCurrentUser();
+                                user.sendEmailVerification();
+                                Intent intent = new Intent(SignUpActivity.this, DoctorInfoActivity.class);
+                                intent.putExtra("firstName", firstName);
+                                intent.putExtra("lastName", lastName);
+                                intent.putExtra("email", email);
+                                intent.putExtra("phone", phone);
+                                startActivity(intent);
+                                finish();
+                            }
+
+                        }});
+        }
+
+
+
+    }
+
 
     public void startFacebookSignUp() {
 
@@ -99,13 +148,13 @@ public class SignUpActivity extends AppCompatActivity {
         finish();
     }
 
-    public void registerNewUserAccount(final String firstName, final String lastName, final String email, String password, String confirmPassword){
+    public void registerNewUserAccount(final String firstName, final String lastName, final String email, final String phone, String password, String confirmPassword){
 
         AlertDialogHelper dialogHelper = new AlertDialogHelper(this);
         if(!dialogHelper.isNetworkAvailable()){
             dialogHelper.showNoInternetAlertDialog();
         }
-        else if(firstName.isEmpty() || lastName.isEmpty() || email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()){
+        else if(firstName.isEmpty() || lastName.isEmpty() || email.isEmpty() || phone.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()){
             Snackbar.make(getWindow().getDecorView(), "Please make sure you have filled all the inputs correctly!", Snackbar.LENGTH_SHORT).show();
         }
         else if(!doStringsMatch(password,confirmPassword)){
@@ -119,20 +168,24 @@ public class SignUpActivity extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
 
                             if (task.isSuccessful()){
-                                Log.d(TAG, "onComplete: AuthState: " + FirebaseAuth.getInstance().getCurrentUser().getUid());
+                                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                                Log.d(TAG, "onComplete: AuthState: " + user.getUid() );
+                                user.sendEmailVerification();
                                 DB_Util db_util = new DB_Util(SignUpActivity.this, mAuth);
-                                db_util.addUserToDatabase(firstName, lastName, email, "BASIC");
+                                db_util.addUserToDatabase(firstName, lastName, email, phone, "BASIC");
+
 
                             }
-                            if (!task.isSuccessful()) {
+                            else if (!task.isSuccessful()) {
                                 Toast.makeText(SignUpActivity.this, "Unable to Register", Toast.LENGTH_SHORT).show();
                             }
-                            hideDialog();
+
                         }
                     });
         }
 
     }
+
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {

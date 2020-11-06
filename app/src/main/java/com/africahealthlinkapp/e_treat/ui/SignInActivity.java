@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -17,6 +18,7 @@ import com.africahealthlinkapp.e_treat.MainActivity;
 import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.databinding.ActivitySignInBinding;
 import com.africahealthlinkapp.e_treat.helpers.AlertDialogHelper;
+import com.africahealthlinkapp.e_treat.helpers.DB_Util;
 import com.africahealthlinkapp.e_treat.helpers.FacebookLoginUtil;
 import com.africahealthlinkapp.e_treat.helpers.GoogleLoginUtil;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -46,6 +48,9 @@ public class SignInActivity extends AppCompatActivity {
 
     ActivitySignInBinding bindingUtil;
 
+    private String role = null;
+    DB_Util dbUtil;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +62,21 @@ public class SignInActivity extends AppCompatActivity {
 
         signInBtn = findViewById(R.id.sign_in_button);
         progressBar = findViewById(R.id.load_progress_bar);
+
+        RadioGroup group = findViewById(R.id.radio_group);
+        group.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                if(i == R.id.patient){
+                    // search patient within patients node
+                    role = "patient";
+                }
+                else if (i == R.id.doctor){
+                    // search doctor within doctors node
+                    role = "doctor";
+                }
+            }
+        });
 
 
 
@@ -91,6 +111,7 @@ public class SignInActivity extends AppCompatActivity {
 
         }
         else{
+            dbUtil = new DB_Util(this, auth);
             showDialog();
             auth.signInWithEmailAndPassword(email, password)
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -99,17 +120,14 @@ public class SignInActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 FirebaseUser user = auth.getCurrentUser();
                                 Log.d(TAG, "signIn:: success "+ user.getUid());
-                                Intent intent = new Intent(SignInActivity.this, MainActivity.class);
-                                intent.putExtra("id", user.getUid());
-                                startActivity(intent);
-                                finish();
+                                checkIfEmailVerified();
 
                             } else {
                                 Log.d(TAG, "signIn::failure", task.getException());
-                                Toast.makeText(SignInActivity.this, "Authentication failed.",
-                                        Toast.LENGTH_SHORT).show();
-                                hideDialog();
+                                Snackbar.make(getWindow().getDecorView(), "Authentication failed.", Snackbar.LENGTH_SHORT).show();
+
                             }
+                            hideDialog();
 
                         }
                     });
@@ -118,6 +136,25 @@ public class SignInActivity extends AppCompatActivity {
 
 
     }
+
+    private void checkIfEmailVerified()
+    {
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
+        if (user.isEmailVerified())
+        {
+            dbUtil.isUserAvailable(role, user.getUid());
+            //finish();
+            //Snackbar.make(getWindow().getDecorView(), "Login Successful!", Snackbar.LENGTH_SHORT).show();
+        }
+        else
+        {
+            FirebaseAuth.getInstance().signOut();
+            Snackbar.make(getWindow().getDecorView(), "Please verify you email", Snackbar.LENGTH_SHORT).show();
+
+        }
+    }
+
 
     private void showDialog() {
         signInBtn.setVisibility(View.INVISIBLE);

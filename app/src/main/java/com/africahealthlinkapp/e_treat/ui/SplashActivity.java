@@ -5,13 +5,16 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Toast;
 
 import com.africahealthlinkapp.e_treat.R;
+import com.africahealthlinkapp.e_treat.helpers.AlertDialogHelper;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -35,9 +38,24 @@ public class SplashActivity extends AppCompatActivity {
             }
         }
         else{
-            openSignUp();
+            //openSignUp();
+            showRoleDialog();
+
         }
 
+
+    }
+
+    private void showRoleDialog() {
+        AlertDialogHelper dialogHelper = new AlertDialogHelper(this);
+        SharedPreferences pref = getSharedPreferences(getString(R.string.preference_name), Context.MODE_PRIVATE);
+        String role = pref.getString("role","");
+        if(role == "") {
+            dialogHelper.showSetRoleAlertDialog();
+        }
+        else{
+            dialogHelper.startSignUp(role);
+        }
     }
 
     @Override
@@ -49,7 +67,8 @@ public class SplashActivity extends AppCompatActivity {
                 if (grantResults.length>0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
                     if (ContextCompat.checkSelfPermission(SplashActivity.this,
                             Manifest.permission.ACCESS_FINE_LOCATION)==PackageManager.PERMISSION_GRANTED){
-                        openSignUp();
+                        //openSignUp();
+                        showRoleDialog();
 
                     }
                 }else{
@@ -60,6 +79,7 @@ public class SplashActivity extends AppCompatActivity {
             }
         }
     }
+
 
     private void openSignUp() {
         Intent intent = new Intent(SplashActivity.this , SignUpActivity.class);

@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/E:/SDK/sdk/icons/material/materialicons/photo_camera/baseline_photo_camera_24.xml" />
+                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/local_phone/baseline_local_phone_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,9 +28,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="88b7c4" />
-                            <entry key="outputName" value="camera" />
-                            <entry key="sourceFile" value="D:\New\Gads_project_phase\AfricaHealthLinkApp" />
+                            <entry key="color" value="ffffff" />
+                            <entry key="outputName" value="ic_phone" />
+                            <entry key="sourceFile" value="/D:\New\Gads_project_phase\AfricaHealthLinkApp" />
                           </map>
                         </option>
                       </PersistentState>
