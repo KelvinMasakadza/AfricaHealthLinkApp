@@ -14,13 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/AppColor"
-        android:fitsSystemWindows="true"
         tools:context=".Auths.Profile">
 
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/app_bar"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="250dp"
             android:background="@color/AppColor"
             android:fitsSystemWindows="true"
             android:theme="@style/AppTheme.AppBarOverlay">
@@ -108,16 +107,18 @@
 
         <Button
             android:onClick="reachOut"
+            app:cornerRadius= "@dimen/_20ssp"
+            android:padding="10dp"
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
             android:layout_margin="20dp"
-            android:background="@drawable/round"
+            android:backgroundTint="@android:color/white"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:text="Reach Out"
-            android:textColor="@android:color/white"
+            android:textColor="@color/AppColor"
             android:textSize="18sp"
             android:textStyle="bold" />
 

@@ -2,12 +2,10 @@ package com.africahealthlinkapp.e_treat.models;
 
 public class Drug {
     String name;
-    String dose;
-    int price;
+    String price;
 
-    public Drug(String name, String dose, int price) {
+    public Drug(String name, String price) {
         this.name = name;
-        this.dose = dose;
         this.price = price;
     }
 
@@ -19,19 +17,12 @@ public class Drug {
         this.name = name;
     }
 
-    public String getDose() {
-        return dose;
-    }
 
-    public void setDose(String dose) {
-        this.dose = dose;
-    }
-
-    public int getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 }

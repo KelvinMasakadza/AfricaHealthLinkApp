@@ -11,6 +11,7 @@ import com.africahealthlinkapp.e_treat.databinding.ActivityDoctorInfoBindingImpl
 import com.africahealthlinkapp.e_treat.databinding.ActivityDoctorProfileBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.ActivityHomeBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.ActivityPatientBindingImpl;
+import com.africahealthlinkapp.e_treat.databinding.ActivityPharmacydetailBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.ActivityProfileBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.ActivitySearchDoctorBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.ActivitySignInBindingImpl;
@@ -18,6 +19,7 @@ import com.africahealthlinkapp.e_treat.databinding.ActivitySignUpBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.AppointmentsmodelBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.DoctormodelBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.DoctorsModelBindingImpl;
+import com.africahealthlinkapp.e_treat.databinding.DrugListItemBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.InfoModelBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.PatientmodelBindingImpl;
 import com.africahealthlinkapp.e_treat.databinding.ReachoutBindingImpl;
@@ -42,27 +44,31 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYPATIENT = 5;
 
-  private static final int LAYOUT_ACTIVITYPROFILE = 6;
+  private static final int LAYOUT_ACTIVITYPHARMACYDETAIL = 6;
 
-  private static final int LAYOUT_ACTIVITYSEARCHDOCTOR = 7;
+  private static final int LAYOUT_ACTIVITYPROFILE = 7;
 
-  private static final int LAYOUT_ACTIVITYSIGNIN = 8;
+  private static final int LAYOUT_ACTIVITYSEARCHDOCTOR = 8;
 
-  private static final int LAYOUT_ACTIVITYSIGNUP = 9;
+  private static final int LAYOUT_ACTIVITYSIGNIN = 9;
 
-  private static final int LAYOUT_APPOINTMENTSMODEL = 10;
+  private static final int LAYOUT_ACTIVITYSIGNUP = 10;
 
-  private static final int LAYOUT_DOCTORMODEL = 11;
+  private static final int LAYOUT_APPOINTMENTSMODEL = 11;
 
-  private static final int LAYOUT_DOCTORSMODEL = 12;
+  private static final int LAYOUT_DOCTORMODEL = 12;
 
-  private static final int LAYOUT_INFOMODEL = 13;
+  private static final int LAYOUT_DOCTORSMODEL = 13;
 
-  private static final int LAYOUT_PATIENTMODEL = 14;
+  private static final int LAYOUT_DRUGLISTITEM = 14;
 
-  private static final int LAYOUT_REACHOUT = 15;
+  private static final int LAYOUT_INFOMODEL = 15;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(15);
+  private static final int LAYOUT_PATIENTMODEL = 16;
+
+  private static final int LAYOUT_REACHOUT = 17;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(17);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_appointment, LAYOUT_ACTIVITYAPPOINTMENT);
@@ -70,6 +76,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_doctor_profile, LAYOUT_ACTIVITYDOCTORPROFILE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_home, LAYOUT_ACTIVITYHOME);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_patient, LAYOUT_ACTIVITYPATIENT);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_pharmacydetail, LAYOUT_ACTIVITYPHARMACYDETAIL);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_profile, LAYOUT_ACTIVITYPROFILE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_search_doctor, LAYOUT_ACTIVITYSEARCHDOCTOR);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.activity_sign_in, LAYOUT_ACTIVITYSIGNIN);
@@ -77,6 +84,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.appointmentsmodel, LAYOUT_APPOINTMENTSMODEL);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.doctormodel, LAYOUT_DOCTORMODEL);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.doctors_model, LAYOUT_DOCTORSMODEL);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.drug_list_item, LAYOUT_DRUGLISTITEM);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.info_model, LAYOUT_INFOMODEL);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.patientmodel, LAYOUT_PATIENTMODEL);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.africahealthlinkapp.e_treat.R.layout.reachout, LAYOUT_REACHOUT);
@@ -121,6 +129,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for activity_patient is invalid. Received: " + tag);
         }
+        case  LAYOUT_ACTIVITYPHARMACYDETAIL: {
+          if ("layout/activity_pharmacydetail_0".equals(tag)) {
+            return new ActivityPharmacydetailBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for activity_pharmacydetail is invalid. Received: " + tag);
+        }
         case  LAYOUT_ACTIVITYPROFILE: {
           if ("layout/activity_profile_0".equals(tag)) {
             return new ActivityProfileBindingImpl(component, view);
@@ -162,6 +176,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new DoctorsModelBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for doctors_model is invalid. Received: " + tag);
+        }
+        case  LAYOUT_DRUGLISTITEM: {
+          if ("layout/drug_list_item_0".equals(tag)) {
+            return new DrugListItemBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for drug_list_item is invalid. Received: " + tag);
         }
         case  LAYOUT_INFOMODEL: {
           if ("layout/info_model_0".equals(tag)) {
@@ -226,7 +246,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(8);
+    static final SparseArray<String> sKeys = new SparseArray<String>(9);
 
     static {
       sKeys.put(1, "Doctors");
@@ -234,14 +254,15 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put(2, "activity");
       sKeys.put(3, "appointment");
       sKeys.put(4, "doctors");
-      sKeys.put(5, "info");
-      sKeys.put(6, "patient");
-      sKeys.put(7, "patients");
+      sKeys.put(5, "drugs");
+      sKeys.put(6, "info");
+      sKeys.put(7, "patient");
+      sKeys.put(8, "patients");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(15);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(17);
 
     static {
       sKeys.put("layout/activity_appointment_0", com.africahealthlinkapp.e_treat.R.layout.activity_appointment);
@@ -249,6 +270,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/activity_doctor_profile_0", com.africahealthlinkapp.e_treat.R.layout.activity_doctor_profile);
       sKeys.put("layout/activity_home_0", com.africahealthlinkapp.e_treat.R.layout.activity_home);
       sKeys.put("layout/activity_patient_0", com.africahealthlinkapp.e_treat.R.layout.activity_patient);
+      sKeys.put("layout/activity_pharmacydetail_0", com.africahealthlinkapp.e_treat.R.layout.activity_pharmacydetail);
       sKeys.put("layout/activity_profile_0", com.africahealthlinkapp.e_treat.R.layout.activity_profile);
       sKeys.put("layout/activity_search_doctor_0", com.africahealthlinkapp.e_treat.R.layout.activity_search_doctor);
       sKeys.put("layout/activity_sign_in_0", com.africahealthlinkapp.e_treat.R.layout.activity_sign_in);
@@ -256,6 +278,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/appointmentsmodel_0", com.africahealthlinkapp.e_treat.R.layout.appointmentsmodel);
       sKeys.put("layout/doctormodel_0", com.africahealthlinkapp.e_treat.R.layout.doctormodel);
       sKeys.put("layout/doctors_model_0", com.africahealthlinkapp.e_treat.R.layout.doctors_model);
+      sKeys.put("layout/drug_list_item_0", com.africahealthlinkapp.e_treat.R.layout.drug_list_item);
       sKeys.put("layout/info_model_0", com.africahealthlinkapp.e_treat.R.layout.info_model);
       sKeys.put("layout/patientmodel_0", com.africahealthlinkapp.e_treat.R.layout.patientmodel);
       sKeys.put("layout/reachout_0", com.africahealthlinkapp.e_treat.R.layout.reachout);

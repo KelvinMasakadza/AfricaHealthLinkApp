@@ -11,9 +11,11 @@ public class BR {
 
   public static final int doctors = 4;
 
-  public static final int info = 5;
+  public static final int drugs = 5;
 
-  public static final int patient = 6;
+  public static final int info = 6;
 
-  public static final int patients = 7;
+  public static final int patient = 7;
+
+  public static final int patients = 8;
 }

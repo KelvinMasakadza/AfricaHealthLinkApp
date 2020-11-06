@@ -6,6 +6,7 @@ com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity.java
  com.africahealthlinkapp.e_treat.ui.DoctorInfoActivity$4
 com/africahealthlinkapp/e_treat/ui/Pharmacydetail.java
  com.africahealthlinkapp.e_treat.ui.Pharmacydetail
+ com.africahealthlinkapp.e_treat.ui.Pharmacydetail$1
 com/africahealthlinkapp/e_treat/databinding/PatientmodelBinding.java
  com.africahealthlinkapp.e_treat.databinding.PatientmodelBinding
 com/africahealthlinkapp/e_treat/ui/Profile.java
@@ -48,6 +49,8 @@ com/africahealthlinkapp/e_treat/ui/DoctorProfile.java
 com/africahealthlinkapp/e_treat/ui/SignUpActivity.java
  com.africahealthlinkapp.e_treat.ui.SignUpActivity
  com.africahealthlinkapp.e_treat.ui.SignUpActivity$1
+com/africahealthlinkapp/e_treat/databinding/ActivityPharmacydetailBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivityPharmacydetailBinding
 com/africahealthlinkapp/e_treat/ui/SearchDoctor.java
  com.africahealthlinkapp.e_treat.ui.SearchDoctor
  com.africahealthlinkapp.e_treat.ui.SearchDoctor$1
@@ -100,6 +103,8 @@ com/africahealthlinkapp/e_treat/ui/DoctorHome.java
  com.africahealthlinkapp.e_treat.ui.DoctorHome$6
  com.africahealthlinkapp.e_treat.ui.DoctorHome$7
  com.africahealthlinkapp.e_treat.ui.DoctorHome$8
+com/africahealthlinkapp/e_treat/databinding/DrugListItemBinding.java
+ com.africahealthlinkapp.e_treat.databinding.DrugListItemBinding
 com/africahealthlinkapp/e_treat/databinding/ReachoutBinding.java
  com.africahealthlinkapp.e_treat.databinding.ReachoutBinding
 com/africahealthlinkapp/e_treat/models/Appointment.java

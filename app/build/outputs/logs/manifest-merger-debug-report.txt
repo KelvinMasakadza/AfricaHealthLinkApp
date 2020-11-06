@@ -311,9 +311,9 @@ ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidMan
 	android:name
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:51:13-46
 activity#com.africahealthlinkapp.e_treat.ui.PharmacyActivity
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:53:9-55:40
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:53:9-55:42
 	android:label
-		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:55:13-37
+		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:55:13-39
 	android:name
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:54:13-48
 activity#com.africahealthlinkapp.e_treat.ui.DoctorHome

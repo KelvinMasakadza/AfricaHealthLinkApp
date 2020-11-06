@@ -404,6 +404,10 @@
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-hdpi\\tablets.png"
     },
     {
+        "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pherarcy.jpg.flat",
+        "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable\\pherarcy.jpg"
+    },
+    {
         "merged": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_round_white.xml.flat",
         "source": "D:\\New\\Gads_project_phase\\AfricaHealthLinkApp\\app\\src\\main\\res\\drawable-v24\\round_white.xml"
     },

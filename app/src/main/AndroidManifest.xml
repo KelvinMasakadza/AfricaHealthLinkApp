@@ -52,7 +52,7 @@
             android:label="Medications" />
         <activity
             android:name=".ui.PharmacyActivity"
-            android:label="Pharmacy" />
+            android:label="Pharmacies" />
         <activity
             android:name=".ui.DoctorHome"
             android:label="Doctors" />

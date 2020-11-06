@@ -136,11 +136,11 @@
 71            android:label="Medications" />
 71-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:52:13-40
 72        <activity
-72-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:53:9-55:40
+72-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:53:9-55:42
 73            android:name="com.africahealthlinkapp.e_treat.ui.PharmacyActivity"
 73-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:54:13-48
-74            android:label="Pharmacy" />
-74-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:55:13-37
+74            android:label="Pharmacies" />
+74-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:55:13-39
 75        <activity
 75-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:56:9-58:39
 76            android:name="com.africahealthlinkapp.e_treat.ui.DoctorHome"

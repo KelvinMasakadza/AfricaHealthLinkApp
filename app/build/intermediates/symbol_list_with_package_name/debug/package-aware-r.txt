@@ -2190,6 +2190,7 @@ drawable notify_panel_notification_icon_bg
 drawable phar
 drawable pharmacy
 drawable pharmacy2
+drawable pherarcy
 drawable pill
 drawable places_autocomplete_toolbar_shadow
 drawable places_powered_by_google_dark
@@ -2333,6 +2334,7 @@ id call_doc
 id cancel
 id cancel_action
 id cancel_button
+id cardCardview
 id card_doc
 id card_job
 id center
@@ -2376,6 +2378,7 @@ id content
 id contentPanel
 id coordinator
 id cos
+id countbtn
 id coverImage
 id create_account_button
 id cropImageView
@@ -2606,6 +2609,7 @@ id patient_phone
 id peekHeight
 id percent
 id pharmacy_button
+id pharmarcyName
 id phoneLayout
 id phoneTv
 id pin
@@ -2744,7 +2748,6 @@ id textTitle
 id textView
 id textView2
 id textView3
-id textView_myname
 id textWatcher
 id text_input_end_icon
 id text_input_start_icon
@@ -2754,7 +2757,6 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textview_dose
 id textview_hours
 id textview_name
 id textview_price

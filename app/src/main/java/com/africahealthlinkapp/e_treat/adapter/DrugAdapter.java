@@ -9,11 +9,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.africahealthlinkapp.e_treat.R;
+import com.africahealthlinkapp.e_treat.databinding.AppointmentsmodelBinding;
+import com.africahealthlinkapp.e_treat.databinding.DrugListItemBinding;
+import com.africahealthlinkapp.e_treat.models.Appointment;
 import com.africahealthlinkapp.e_treat.models.Drug;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,24 +43,28 @@ public class DrugAdapter extends RecyclerView.Adapter<DrugAdapter.drugViewHolder
     public drugViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.drug_list_item,parent, false);
-        return new DrugAdapter.drugViewHolder(view);
+        DrugListItemBinding binding = DataBindingUtil.inflate(
+                LayoutInflater.from(mContext), R.layout.drug_list_item, parent, false);
+        return new DrugAdapter.drugViewHolder(binding.getRoot());
     }
 
     @Override
     public void onBindViewHolder(@NonNull drugViewHolder holder, final int position) {
 
-        holder.nameTV.setText(DrugList.get(position).getName());
-        holder.doseTV.setText(String.valueOf(DrugList.get(position).getDose()));
-        holder.priceTV.setText(String.valueOf(DrugList.get(position).getPrice()));
-        holder.addButton.setOnClickListener(new View.OnClickListener() {
+        Drug drug = DrugList.get(position);
+        holder.mListItemBinding.setDrugs(drug);
+        holder.mListItemBinding.executePendingBindings();;
+        holder.mListItemBinding.addDrug.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String name = DrugList.get(position).getName();
-                String dose=DrugList.get(position).getDose();
-                int price= DrugList.get(position).getPrice();
-                Drug drug =new Drug(name,dose,price);
+                String price= DrugList.get(position).getPrice();
+                Drug drug =new Drug(name,price);
                 AddedDrugs.add(drug);
+
+                DatabaseReference cartRef = FirebaseDatabase.getInstance().getReference().child("cart");
+                String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
+                cartRef.child(uid).push().setValue(drug);
                 Toast.makeText(mContext,"Medication added",Toast.LENGTH_LONG).show();
 
             }
@@ -71,15 +82,11 @@ public class DrugAdapter extends RecyclerView.Adapter<DrugAdapter.drugViewHolder
     }
 
     public class drugViewHolder extends RecyclerView.ViewHolder {
-        TextView nameTV, doseTV, priceTV;
-        Button addButton;
+        DrugListItemBinding mListItemBinding;
         public drugViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            nameTV = itemView.findViewById(R.id.textview_name);
-            doseTV = itemView.findViewById(R.id.textview_dose);
-            priceTV = itemView.findViewById(R.id.textview_price);
-            addButton =itemView.findViewById(R.id.add_drug);
+            mListItemBinding = DataBindingUtil.bind(itemView);
         }
     }
 }

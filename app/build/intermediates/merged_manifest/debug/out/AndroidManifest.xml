@@ -71,7 +71,7 @@
             android:label="Medications" />
         <activity
             android:name="com.africahealthlinkapp.e_treat.ui.PharmacyActivity"
-            android:label="Pharmacy" />
+            android:label="Pharmacies" />
         <activity
             android:name="com.africahealthlinkapp.e_treat.ui.DoctorHome"
             android:label="Doctors" />

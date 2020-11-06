@@ -82,7 +82,7 @@ public class PharmacyActivity extends AppCompatActivity implements OnMapReadyCal
 
     void startLocService() {
         IntentFilter filter = new IntentFilter("ACT_LOC");
-        registerReceiver(receiver, filter);
+        //registerReceiver(receiver, filter);
         Intent intent = new Intent(PharmacyActivity.this, LocationService.class);
         startService(intent);
     }
@@ -93,7 +93,7 @@ public class PharmacyActivity extends AppCompatActivity implements OnMapReadyCal
         switch (requestCode) {
             case 1:
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                   startLocService();
+                    startLocService();
                 } else {
                     Toast.makeText(this, "Give me permissions", Toast.LENGTH_LONG).show();
                 }
@@ -115,18 +115,20 @@ public class PharmacyActivity extends AppCompatActivity implements OnMapReadyCal
     @Override
     protected void onStop() {
         super.onStop();
-         unregisterReceiver(receiver);
+       // unregisterReceiver(receiver);
 
     }
 
     @Override
     public boolean onMarkerClick(Marker marker) {
-
-        if (mClicked) {
-            startActivity(new Intent(this, Pharmacydetail.class));
-            mClicked = false;
+        if (!mClicked) {
+            String pharmName = marker.getTitle();
+            Intent intent = new Intent(this, Pharmacydetail.class);
+            intent.putExtra("name", pharmName);
+            startActivity(intent);
+                    mClicked = true;
         } else {
-            mClicked = true;
+            mClicked = false;
         }
         return false;
     }
@@ -222,7 +224,6 @@ public class PharmacyActivity extends AppCompatActivity implements OnMapReadyCal
         marker5 = mMap.addMarker(markerOptions5);
         marker5.setTag(5);
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng1, 14));
-
 
 
     }
