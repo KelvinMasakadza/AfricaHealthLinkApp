@@ -13,139 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf8b593-563f-40ce-9d7f-8d77784f54c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityPharmacydetailBindingImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/africahealthlinkapp/e_treat/databinding/DrugListItemBindingImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pherarcy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/africahealthlinkapp/e_treat/BR.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/africahealthlinkapp/e_treat/BR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/africahealthlinkapp/e_treat/DataBinderMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/africahealthlinkapp/e_treat/DataBinderMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_artifact/debug/out/com.africahealthlinkapp.e_treat-br.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_artifact/debug/out/com.africahealthlinkapp.e_treat-br.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.africahealthlinkapp.e_treat-binding_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.africahealthlinkapp.e_treat-binding_classes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/activity_doctor_profile-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/activity_doctor_profile-layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/edit_profile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/databinding/library/baseAdapters/BR.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/databinding/library/baseAdapters/BR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/BR.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/BR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/DataBinderMapperImpl$InnerBrLookup.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/DataBinderMapperImpl$InnerBrLookup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/DataBinderMapperImpl$InnerLayoutIdLookup.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/DataBinderMapperImpl$InnerLayoutIdLookup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/DataBinderMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/DataBinderMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/adapter/DrugAdapter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/adapter/DrugAdapter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/adapter/DrugAdapter$drugViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/adapter/DrugAdapter$drugViewHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/adapter/DrugAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/adapter/DrugAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityAppointmentBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityAppointmentBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityDoctorInfoBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityDoctorInfoBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityDoctorProfileBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityDoctorProfileBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityHomeBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityHomeBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityPatientBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityPatientBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityProfileBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivityProfileBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivitySearchDoctorBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivitySearchDoctorBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivitySignInBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivitySignInBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivitySignUpBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ActivitySignUpBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/InfoModelBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/InfoModelBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/PatientmodelBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/PatientmodelBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ReachoutBindingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/databinding/ReachoutBindingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/helpers/AlertDialogHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/helpers/AlertDialogHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/helpers/ChangePhotoDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/helpers/ChangePhotoDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/models/Appointment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/models/Appointment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/models/Doctors.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/models/Doctors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/models/Drug.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/models/Drug.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/models/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/models/Information.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/models/Patients.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/models/Patients.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/DoctorHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/DoctorHome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/Home.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/PharmacyActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/PharmacyActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/Pharmacydetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/Pharmacydetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/ProfileDoctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/ProfileDoctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/SearchDoctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/SearchDoctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/SignInActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/SignInActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/SignUpActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/africahealthlinkapp/e_treat/ui/SignUpActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/androidx/databinding/library/baseAdapters/BR.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/androidx/databinding/library/baseAdapters/BR.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/c6dac416327bf917d52af0990105d158cf5554b10b50daef8a0e13b46c9c5e60_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/c6dac416327bf917d52af0990105d158cf5554b10b50daef8a0e13b46c9c5e60_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/BR.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/BR.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/DataBinderMapperImpl$InnerBrLookup.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/DataBinderMapperImpl$InnerBrLookup.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/DataBinderMapperImpl$InnerLayoutIdLookup.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/DataBinderMapperImpl$InnerLayoutIdLookup.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/DataBinderMapperImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/DataBinderMapperImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/MainActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/adapter/DrugAdapter$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/adapter/DrugAdapter$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/adapter/DrugAdapter$drugViewHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/adapter/DrugAdapter$drugViewHolder.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/adapter/DrugAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/adapter/DrugAdapter.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityAppointmentBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityAppointmentBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityDoctorInfoBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityDoctorInfoBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityDoctorProfileBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityDoctorProfileBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityHomeBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityHomeBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityPatientBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityPatientBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityProfileBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivityProfileBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivitySearchDoctorBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivitySearchDoctorBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivitySignInBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivitySignInBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivitySignUpBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ActivitySignUpBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/InfoModelBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/InfoModelBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/PatientmodelBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/PatientmodelBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ReachoutBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/databinding/ReachoutBindingImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/helpers/AlertDialogHelper.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/helpers/AlertDialogHelper.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/helpers/ChangePhotoDialog.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/helpers/ChangePhotoDialog.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/models/Appointment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/models/Appointment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/models/Doctors.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/models/Doctors.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/models/Drug.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/models/Drug.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/models/Information.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/models/Information.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/models/Patients.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/models/Patients.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorHome.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorHome.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/Home.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/Home.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/PharmacyActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/PharmacyActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/Pharmacydetail.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/Pharmacydetail.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/Profile.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/Profile.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/ProfileDoctor.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/ProfileDoctor.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/SearchDoctor.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/SearchDoctor.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/SignInActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/SignInActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/SignUpActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/SignUpActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-v24_round.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-v24_round.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_doctor_profile.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_doctor_profile.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_pharmacydetail.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_pharmacydetail.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_drug_list_item.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_drug_list_item.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/adapter/DrugAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/adapter/DrugAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/models/Drug.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/models/Drug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/ui/PharmacyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/ui/PharmacyActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/ui/Pharmacydetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/ui/Pharmacydetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_doctor_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_doctor_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pharmacydetail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pharmacydetail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/drug_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/drug_list_item.xml" afterDir="false" />
-    </list>
+    <list default="true" id="daf8b593-563f-40ce-9d7f-8d77784f54c9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +100,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="method" value="Automatic" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="resolutions" value="MDPI&#10;HDPI&#10;XXXHDPI&#10;XXHDPI&#10;XHDPI" />
@@ -244,16 +112,6 @@
     <option name="MODULE_TAB" value="Default Config" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.africahealthlinkapp.e_treat" />
-      <recent name="com.africahealthlinkapp.e_treat.helpers" />
-      <recent name="com.africahealthlinkapp.e_treat.ui" />
-      <recent name="com.africahealthlinkapp.e_treat.models" />
-      <recent name="layout" />
-    </key>
-    <key name="android.template.712712141">
-      <recent name="com.africahealthlinkapp.e_treat" />
-    </key>
     <key name="android.template.-1111167874">
       <recent name="com.africahealthlinkapp.e_treat.ui" />
     </key>
@@ -264,8 +122,18 @@
       <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\res\drawable-v24" />
       <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\java\com\africahealthlinkapp\e_treat" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.africahealthlinkapp.e_treat" />
+      <recent name="com.africahealthlinkapp.e_treat.helpers" />
+      <recent name="com.africahealthlinkapp.e_treat.ui" />
+      <recent name="com.africahealthlinkapp.e_treat.models" />
+      <recent name="layout" />
+    </key>
+    <key name="android.template.712712141">
+      <recent name="com.africahealthlinkapp.e_treat" />
+    </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Gradle.AfricaHealthLinkApp [installDebug]">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -411,10 +279,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="200" y="110" key="#PSD" timestamp="1603037302387">
+    <state x="200" y="110" key="#PSD" timestamp="1604658470983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="200" y="110" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1603037302387" />
+    <state x="200" y="110" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1604658470983" />
     <state x="392" y="0" key="#app" timestamp="1603090365307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -465,22 +333,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604093235433" />
-    <state width="1322" height="172" key="GridCell.Tab.0.bottom" timestamp="1604656169799">
+    <state width="1322" height="172" key="GridCell.Tab.0.bottom" timestamp="1604658444747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604656169799" />
-    <state width="1322" height="172" key="GridCell.Tab.0.center" timestamp="1604656169798">
+    <state width="1322" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604658444747" />
+    <state width="1322" height="172" key="GridCell.Tab.0.center" timestamp="1604658444747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604656169798" />
-    <state width="1322" height="172" key="GridCell.Tab.0.left" timestamp="1604656169798">
+    <state width="1322" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604658444747" />
+    <state width="1322" height="172" key="GridCell.Tab.0.left" timestamp="1604658444747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604656169798" />
-    <state width="1322" height="172" key="GridCell.Tab.0.right" timestamp="1604656169798">
+    <state width="1322" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604658444747" />
+    <state width="1322" height="172" key="GridCell.Tab.0.right" timestamp="1604658444747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604656169798" />
+    <state width="1322" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604658444747" />
     <state x="228" y="161" key="IDE.errors.dialog" timestamp="1602768448832">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
