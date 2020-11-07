@@ -13,7 +13,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf8b593-563f-40ce-9d7f-8d77784f54c9" name="Default Changelist" comment="" />
+    <list default="true" id="daf8b593-563f-40ce-9d7f-8d77784f54c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/helpers/DB_Util.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/helpers/DB_Util.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$4.dex" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,16 +74,23 @@
         <option value="resourceFile" />
         <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Abili Isaac &lt;abiliisaac@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="Feature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectId" id="1iurt6VfE5sBBTJsp8gb1ltktUU" />
   <component name="ProjectLevelVcsManager">
@@ -98,7 +111,7 @@
     <property name="format" value="PNG" />
     <property name="lastFolderRoot" value="$USER_HOME$/Desktop/Andela comunity project/assets/user_image.png" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="method" value="Automatic" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
@@ -112,28 +125,37 @@
     <option name="MODULE_TAB" value="Default Config" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.-1111167874">
-      <recent name="com.africahealthlinkapp.e_treat.ui" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\res\drawable" />
-      <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\res\layout" />
-      <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\res\values" />
-      <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\res\drawable-v24" />
-      <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\java\com\africahealthlinkapp\e_treat" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.africahealthlinkapp.e_treat.adapter" />
       <recent name="com.africahealthlinkapp.e_treat" />
       <recent name="com.africahealthlinkapp.e_treat.helpers" />
       <recent name="com.africahealthlinkapp.e_treat.ui" />
       <recent name="com.africahealthlinkapp.e_treat.models" />
-      <recent name="layout" />
+    </key>
+    <key name="android.template.-18239177">
+      <recent name="com.africahealthlinkapp.e_treat.ui" />
+    </key>
+    <key name="android.template.-1111167874">
+      <recent name="com.africahealthlinkapp.e_treat.ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\res\layout" />
+      <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\res\drawable" />
+      <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\res\values" />
+      <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\res\drawable-v24" />
+      <recent name="D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\java\com\africahealthlinkapp\e_treat" />
     </key>
     <key name="android.template.712712141">
       <recent name="com.africahealthlinkapp.e_treat" />
     </key>
+    <key name="android.template.1499259471">
+      <recent name="com.africahealthlinkapp.e_treat" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.africahealthlinkapp.e_treat.adapter" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.AfricaHealthLinkApp [installDebug]">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -269,6 +291,14 @@
       <option name="presentableId" value="Default" />
       <updated>1602768529424</updated>
     </task>
+    <task id="LOCAL-00001" summary="cart">
+      <created>1604773852644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604773852644</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +306,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="200" y="110" key="#PSD" timestamp="1604658470983">
@@ -295,36 +326,36 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="526" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1602847439183" />
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1604585360927">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1604750273861">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604585360927" />
-    <state x="346" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604129533010">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604750273861" />
+    <state x="346" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604767928643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1604129533010" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604134852220">
+    <state x="346" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1604767928643" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604737220037">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604134852220" />
-    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1603097005699">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604737220037" />
+    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1604761890636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1603097005699" />
-    <state x="243" y="141" key="AndroidCreateResourceFileDialog" timestamp="1603015217309">
+    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1604761890636" />
+    <state x="243" y="141" key="AndroidCreateResourceFileDialog" timestamp="1604659035347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="243" y="141" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1603015217309" />
+    <state x="243" y="141" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1604659035347" />
     <state x="228" y="173" key="AndroidCreateResourceFileDialog/0.23.1280.777@0.23.1280.777" timestamp="1602782307724" />
     <state x="506" y="162" key="AndroidCreateXmlResourceDialog" timestamp="1604582495121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="506" y="162" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1604582495121" />
     <state x="474" y="196" key="AndroidCreateXmlResourceDialog/0.23.1280.777@0.23.1280.777" timestamp="1602782941910" />
-    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1602847439198">
+    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1604773806319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602847439198" />
+    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604773806319" />
     <state x="227" y="54" key="DiffContextDialog" timestamp="1602838544250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -333,22 +364,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604093235433" />
-    <state width="1322" height="172" key="GridCell.Tab.0.bottom" timestamp="1604658444747">
+    <state width="1322" height="169" key="GridCell.Tab.0.bottom" timestamp="1604773146818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604658444747" />
-    <state width="1322" height="172" key="GridCell.Tab.0.center" timestamp="1604658444747">
+    <state width="1322" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604773146818" />
+    <state width="1322" height="169" key="GridCell.Tab.0.center" timestamp="1604773146818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604658444747" />
-    <state width="1322" height="172" key="GridCell.Tab.0.left" timestamp="1604658444747">
+    <state width="1322" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604773146818" />
+    <state width="1322" height="169" key="GridCell.Tab.0.left" timestamp="1604773146818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604658444747" />
-    <state width="1322" height="172" key="GridCell.Tab.0.right" timestamp="1604658444747">
+    <state width="1322" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604773146818" />
+    <state width="1322" height="169" key="GridCell.Tab.0.right" timestamp="1604773146818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604658444747" />
+    <state width="1322" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604773146818" />
+    <state width="1322" height="171" key="GridCell.Tab.1.bottom" timestamp="1604767237008">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="171" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604767237008" />
+    <state width="1322" height="171" key="GridCell.Tab.1.center" timestamp="1604767237007">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="171" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604767237007" />
+    <state width="1322" height="171" key="GridCell.Tab.1.left" timestamp="1604767237007">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="171" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604767237007" />
+    <state width="1322" height="171" key="GridCell.Tab.1.right" timestamp="1604767237008">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="171" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604767237008" />
     <state x="228" y="161" key="IDE.errors.dialog" timestamp="1602768448832">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -357,22 +404,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603097002552" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1604773888537">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604773888537" />
     <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1604648738527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1604648738527" />
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602838564137">
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604773615046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1602838564137" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1604773615046" />
     <state x="406" y="101" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602832306820">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="406" y="101" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1602832306820" />
     <state x="380" y="131" key="git4idea.branch.GitSmartOperationDialog/0.23.1280.777@0.23.1280.777" timestamp="1602768421019" />
-    <state width="300" height="84" key="javadoc.popup.new" timestamp="1604656018274">
+    <state width="300" height="84" key="javadoc.popup.new" timestamp="1604769938717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="300" height="84" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1604656018274" />
+    <state width="300" height="84" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1604769938717" />
   </component>
 </project>

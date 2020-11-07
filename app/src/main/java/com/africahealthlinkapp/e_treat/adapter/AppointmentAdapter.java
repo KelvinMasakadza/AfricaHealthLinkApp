@@ -1,9 +1,12 @@
 package com.africahealthlinkapp.e_treat.adapter;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
@@ -12,6 +15,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.databinding.AppointmentsmodelBinding;
 import com.africahealthlinkapp.e_treat.models.Appointment;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.List;
 
@@ -39,20 +48,46 @@ public class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.
         Appointment appointment = mAppointments.get(position);
         holder.mBinding.setAppointment(appointment);
         holder.mBinding.executePendingBindings();
-//        holder.itemView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-////                String mUID = FirebaseAuth.getInstance().getCurrentUser().getUid();
-//                DatabaseReference nDoctors = FirebaseDatabase.getInstance().getReference().child("users").child("doctors");
-//                //String uid = nDoctors.getKey();
-//                Doctors doctors = mDoctors.get(position);
-//                String uid = doctors.getUid();
-//                Intent doctorsIntent = new Intent(mContext, DoctorProfile.class);
-//               // doctorsIntent.putExtra("doctor", doctors);
-//                doctorsIntent.putExtra("uid", uid);
-//                mContext.startActivity(doctorsIntent);
-//            }
-//        });
+        holder.itemView.setOnClickListener(v -> {
+            String mUID = FirebaseAuth.getInstance().getCurrentUser().getUid();
+            DatabaseReference nDoctors = FirebaseDatabase.getInstance().getReference().child("users").child("doctors");
+            AlertDialog.Builder closeAppointment = new AlertDialog.Builder(mContext);
+            closeAppointment.setMessage("Finished Appointment ?");
+            closeAppointment.setPositiveButton("Close", (dialogInterface, i) -> {
+
+                dialogInterface.cancel();
+                DatabaseReference history = FirebaseDatabase.getInstance().getReference().child("History").child(mUID);
+                DatabaseReference appointments = FirebaseDatabase.getInstance().getReference().child("Appointments");
+                String uid = appointments.getKey();
+
+                assert uid != null;
+                appointments.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        String uid = snapshot.getKey();
+                        Appointment app = snapshot.getValue(Appointment.class);
+                        assert app != null;
+                        Appointment histAppointmnts = new Appointment(
+                                app.getProfile_pics(), null, null, app.getPatientName(),
+                                app.getPatientPhone(), app.getPatientLocation(), app.getTime(), app.getDate());
+                        history.push().setValue(histAppointmnts);
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+                        Toast.makeText(mContext, error.getMessage().toString(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+
+            }).setNegativeButton("cancel", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.cancel();
+                }
+            });
+            closeAppointment.show();
+        });
 
     }
 

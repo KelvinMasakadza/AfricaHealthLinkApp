@@ -39,7 +39,7 @@ public class DB_Util {
 
         String uId = auth.getCurrentUser().getUid();
         Patient patient = new Patient(firstName, lastName, email, phone, uId);
-        DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference();
+        DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("users");
 
         dbRef.child(activity.getString(R.string.user_node)).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -122,7 +122,7 @@ public class DB_Util {
     }
 
     public void isUserAvailable(String role, String userId) {
-        DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference();
+        DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("users");
         if (role.equals("patient")) {
             dbRef.child(activity.getString(R.string.user_node)).addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override

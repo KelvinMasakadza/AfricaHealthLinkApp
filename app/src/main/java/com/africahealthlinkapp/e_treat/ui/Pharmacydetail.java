@@ -1,6 +1,9 @@
 package com.africahealthlinkapp.e_treat.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,9 +11,9 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-
-import com.africahealthlinkapp.e_treat.adapter.DrugAdapter;
+import com.africahealthlinkapp.e_treat.Cart;
 import com.africahealthlinkapp.e_treat.R;
+import com.africahealthlinkapp.e_treat.adapter.DrugAdapter;
 import com.africahealthlinkapp.e_treat.databinding.ActivityPharmacydetailBinding;
 import com.africahealthlinkapp.e_treat.models.Drug;
 import com.google.firebase.auth.FirebaseAuth;
@@ -37,6 +40,7 @@ public class Pharmacydetail extends AppCompatActivity {
     RecyclerView mRecyclerView;
     private ActivityPharmacydetailBinding mPharmacydetailBinding;
     private String mUid;
+    private DatabaseReference mCartRef;
 
 
     @Override
@@ -51,11 +55,11 @@ public class Pharmacydetail extends AppCompatActivity {
 
         drugslist = new ArrayList<>();
 //dummy drugs
-        Drug drug1 = new Drug("plavix",  "100");
+        Drug drug1 = new Drug("plavix", "100");
         drugslist.add(drug1);
         Drug drug2 = new Drug("crestor", "150");
         drugslist.add(drug2);
-        Drug drug3 = new Drug("Aspirin" , "75");
+        Drug drug3 = new Drug("Aspirin", "75");
         drugslist.add(drug3);
         Drug drug4 = new Drug("cidophage", "200");
         drugslist.add(drug4);
@@ -83,14 +87,18 @@ public class Pharmacydetail extends AppCompatActivity {
         mDrugAdapter.notifyDataSetChanged();
 
 
-        DatabaseReference cartRef = FirebaseDatabase.getInstance().getReference().child("cart").child(mUid);
+        mCartRef = FirebaseDatabase.getInstance().getReference().child("cart").child(mUid);
 
-        cartRef.addValueEventListener(new ValueEventListener() {
+        mCartRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                long count = snapshot.getChildrenCount();
-                String amountCount = String.valueOf(count);
-                mPharmacydetailBinding.countbtn.setText(amountCount);
+                if (snapshot.getChildrenCount()>0) {
+                    mPharmacydetailBinding.cartCardview.setVisibility(View.VISIBLE);
+
+                    long count = snapshot.getChildrenCount();
+                    String amountCount = String.valueOf(count);
+                    mPharmacydetailBinding.countbtn.setText(amountCount);
+                }
             }
 
             @Override
@@ -100,6 +108,28 @@ public class Pharmacydetail extends AppCompatActivity {
         });
 
 
+    }
 
+    public void viewCart(View view) {
+        mCartRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if(snapshot.getChildrenCount()==0){
+                    mPharmacydetailBinding.cartCardview.setVisibility(View.GONE);
+                }else {
+                    mPharmacydetailBinding.cartCardview.setVisibility(View.VISIBLE);
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+        String key = mCartRef.getKey();
+        Intent intent = new Intent(Pharmacydetail.this, Cart.class);
+        intent.putExtra("uid", mUid);
+        intent.putExtra("key", key);
+        startActivity(intent);
     }
 }

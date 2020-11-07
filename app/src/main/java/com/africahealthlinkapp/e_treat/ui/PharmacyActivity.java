@@ -126,6 +126,7 @@ public class PharmacyActivity extends AppCompatActivity implements OnMapReadyCal
             Intent intent = new Intent(this, Pharmacydetail.class);
             intent.putExtra("name", pharmName);
             startActivity(intent);
+            finish();
                     mClicked = true;
         } else {
             mClicked = false;

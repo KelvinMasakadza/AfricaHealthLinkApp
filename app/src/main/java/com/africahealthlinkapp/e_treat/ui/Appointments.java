@@ -1,6 +1,7 @@
 package com.africahealthlinkapp.e_treat.ui;
 
 import android.app.TimePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -94,6 +95,7 @@ public class Appointments extends AppCompatActivity {
                 appointMentsRef.child(patientId).setValue(appointment);
                 doctorsRef.setValue(patientId);
                 Toast.makeText(Appointments.this, "Booked", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(Appointments.this, Home.class));
             }
 
             @Override

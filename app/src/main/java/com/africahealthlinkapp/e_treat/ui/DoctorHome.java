@@ -27,7 +27,6 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.africahealthlinkapp.e_treat.MainActivity;
 import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.adapter.AppointmentAdapter;
 import com.africahealthlinkapp.e_treat.databinding.ActivityPatientBinding;
@@ -133,67 +132,6 @@ public class DoctorHome extends FragmentActivity implements OnMapReadyCallback, 
             mDriverRef.removeValue();
         });
 
-        //mPatientProfileImage = findViewById(R.id.docs_ProfilePic);
-
-//        welcome = findViewById(R.id.welcome);
-//        rideStatus = findViewById(R.id.ride_status);
-
-//        mWorkingSwitch = findViewById(R.id.turnOnline);
-//        mWorkingSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
-//            if (isChecked) {
-//                welcome.setVisibility(View.GONE);
-//                connectDriver();
-//            } else {
-//                disconnectDriver();
-//            }
-//        });
-
-//        mSettings = findViewById(R.id.settings_profile);
-//        mLogout = findViewById(R.id.logout);
-//        mRideStatus = findViewById(R.id.rideStatus);
-//        mHistory = findViewById(R.id.jobs);
-
-//        mRideStatus.setOnClickListener(v -> {
-//            switch (status) {
-//                case 1:
-//                    status = 2;
-//                    erasePolylines();
-//                    if (destinationLatLng.latitude != 0.0 && destinationLatLng.longitude != 0.0) {
-//                        getRouteToMarker(destinationLatLng);
-//                    }
-//                    welcome.setVisibility(View.VISIBLE);
-//                    welcome.setText("Meeting completed");
-//
-//                    break;
-//                case 2:
-//                    recordRide();
-//                    endRide();
-//                    break;
-//            }
-//        });
-
-//        mLogout.setOnClickListener(v -> {
-//            isLoggingOut = true;
-//
-//            disconnectDriver();
-//
-//            FirebaseAuth.getInstance().signOut();
-//            Intent intent = new Intent(this, MainActivity.class);
-//            startActivity(intent);
-//            finish();
-//            return;
-//        });
-//        mSettings.setOnClickListener(v -> {
-//            Intent intent = new Intent(this, MainActivity.class);
-//            startActivity(intent);
-//            return;
-//        });
-//        mHistory.setOnClickListener(v -> {
-//            Intent intent = new Intent(this, MainActivity.class);
-//            intent.putExtra("patientOrDoctor", "doctors");
-//            startActivity(intent);
-//            return;
-//        });
         getAssignedPatient();
         //mDbinding.cardJob.setVisibility(View.VISIBLE);
         mDbinding.bottomNavigation.setOnNavigationItemReselectedListener(item -> {
@@ -201,7 +139,7 @@ public class DoctorHome extends FragmentActivity implements OnMapReadyCallback, 
             if (id == R.id.appointments_menu) {
                 startActivity(new Intent(this, DoctorHome.class));
             } else if (id == R.id.history_menu) {
-
+                startActivity(new Intent(this, History.class));
             }
 
         });
@@ -669,7 +607,7 @@ public class DoctorHome extends FragmentActivity implements OnMapReadyCallback, 
         super.onStart();
         mUser = FirebaseAuth.getInstance().getCurrentUser();
         if (mUser == null) {
-            startActivity(new Intent(this, MainActivity.class));
+            //startActivity(new Intent(this, MainActivity.class));
         }
     }
 }

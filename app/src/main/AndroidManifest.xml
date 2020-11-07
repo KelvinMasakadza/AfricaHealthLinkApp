@@ -14,8 +14,16 @@
         android:roundIcon="@drawable/auth_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.Appointments"></activity>
-        <activity android:name=".ui.ProfileDoctor" />
+        <activity android:name=".ui.History"></activity>
+        <activity
+            android:name=".Cart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Appointments"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ProfileDoctor"
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -26,10 +34,16 @@
 
         <activity
             android:name=".ui.DoctorProfile"
-            android:label="Profile" />
+            android:label="Profile"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.Home"
-            android:label="SignIn">
+            android:name=".ui.SignInActivity"
+            android:label="SignIn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,29 +52,42 @@
         </activity>
         <activity
             android:name=".ui.SearchDoctor"
-            android:label="Jobs" />
+            android:label="Doctors"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.SignUpActivity"
+            android:name=".ui.Home"
             android:label="SignUp"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
         <activity
-            android:name=".ui.SignInActivity"
+            android:name=".ui.SignUpActivity"
             android:label="Home"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
         <activity
             android:name=".ui.Pharmacydetail"
-            android:label="Medications" />
+            android:label="Medications"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.PharmacyActivity"
-            android:label="Pharmacies" />
+            android:label="Pharmacies"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.DoctorHome"
-            android:label="Doctors" />
+            android:label="Doctors"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.Profile"
-            android:label="Doctors" />
+            android:label="Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.DoctorInfoActivity"
+            android:label="Profile"
+            android:screenOrientation="portrait" />
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

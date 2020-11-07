@@ -1,13 +1,11 @@
 package com.africahealthlinkapp.e_treat.models;
 
 public class Doctor {
-    private String firstName;
+    private String name;
     private String lastName;
     private String email;
     private String userId;
     private String phone;
-
-
     private String department;
     private String qualification;
     private String specialization;
@@ -17,8 +15,10 @@ public class Doctor {
     private String academicDocs;
 
 
-    public Doctor(String firstName, String lastName, String email, String userId, String phone, String department, String qualification, String specialization, String education, String CV, String nationalId, String academicDocs) {
-        this.firstName = firstName;
+    public Doctor(String name, String lastName, String email, String userId, String phone,
+                  String department, String qualification, String specialization, String education,
+                  String CV, String nationalId, String academicDocs) {
+        this.name = name;
         this.lastName = lastName;
         this.email = email;
         this.userId = userId;
@@ -35,12 +35,12 @@ public class Doctor {
     public Doctor() {
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getName() {
+        return name;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getLastName() {

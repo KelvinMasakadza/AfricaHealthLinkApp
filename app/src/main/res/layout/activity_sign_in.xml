@@ -5,9 +5,14 @@
     <data>
         <variable name="activity" type="com.africahealthlinkapp.e_treat.ui.SignInActivity" />
     </data>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:background="@color/themeBlue"
             tools:context=".ui.SignInActivity">
 
@@ -147,9 +152,13 @@
                 android:layout_height="30dp"
                 android:layout_marginStart="152dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="16dp"
                 android:background="@android:color/transparent"
                 android:onClick="@{()-> activity.startFacebookSignIn()}"
                 android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/google_sign_in"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView"
                 app:srcCompat="@drawable/facebook_icon" />
@@ -160,10 +169,11 @@
                 android:layout_height="30dp"
                 android:layout_marginStart="40dp"
                 android:layout_marginEnd="152dp"
+                android:layout_marginBottom="16dp"
                 android:background="@android:color/transparent"
                 android:onClick="@{()-> activity.startGoogleSignIn()}"
                 android:scaleType="fitCenter"
-                app:layout_constraintBottom_toBottomOf="@+id/facebook_sign_in"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/facebook_sign_in"
                 app:layout_constraintTop_toTopOf="@+id/facebook_sign_in"
@@ -225,6 +235,6 @@
 
             </RadioGroup>
         </androidx.constraintlayout.widget.ConstraintLayout>
-
+    </ScrollView>
 </layout>
 

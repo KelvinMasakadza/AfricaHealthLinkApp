@@ -16,7 +16,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
 
-import com.africahealthlinkapp.e_treat.MainActivity;
 import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.databinding.ActivityDoctorInfoBinding;
 import com.africahealthlinkapp.e_treat.models.Doctor;
@@ -42,7 +41,7 @@ public class DoctorInfoActivity extends AppCompatActivity {
     Button createAccountBtn;
     ProgressBar progressBar;
     ActivityDoctorInfoBinding bindingUtil;
-    String firstName, lastName, email, phone, userId;
+    String name, lastName, email, phone, userId;
 
     final HashMap<String, String> urls = new HashMap<>();
 
@@ -54,7 +53,7 @@ public class DoctorInfoActivity extends AppCompatActivity {
         bindingUtil.setActivity(this);
 
         Intent intent = getIntent();
-        firstName = intent.getStringExtra("firstName");
+        name = intent.getStringExtra("firstName");
         lastName = intent.getStringExtra("lastName");
         email = intent.getStringExtra("email");
         phone = intent.getStringExtra("phone");
@@ -172,8 +171,8 @@ public class DoctorInfoActivity extends AppCompatActivity {
 
 
 
-            Doctor doctor = new Doctor(firstName, lastName, email, userId , phone, department, qualification, specialization, education, urls.get("CV"), nationalId, urls.get("DOCS"));
-            FirebaseDatabase.getInstance().getReference()
+            Doctor doctor = new Doctor(name, lastName, email, userId , phone, department, qualification, specialization, education, urls.get("CV"), nationalId, urls.get("DOCS"));
+            FirebaseDatabase.getInstance().getReference().child("users")
                     .child(getString(R.string.doctor_node))
                     .child(FirebaseAuth.getInstance().getUid())
                     .setValue(doctor)
@@ -182,7 +181,7 @@ public class DoctorInfoActivity extends AppCompatActivity {
                         public void onComplete(@NonNull Task<Void> task) {
                             Toast.makeText(DoctorInfoActivity.this, "Account was successfully created!", Toast.LENGTH_SHORT).show();
                             hideDialog();
-                            openMainActivity();
+                            oepDoctorHomePage();
                             //clearFields();
                         }
                     }).addOnFailureListener(new OnFailureListener() {
@@ -195,8 +194,8 @@ public class DoctorInfoActivity extends AppCompatActivity {
         }
     }
 
-    private void openMainActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
+    private void oepDoctorHomePage() {
+        Intent intent = new Intent(this, DoctorHome.class);
         startActivity(intent);
         finish();
 
