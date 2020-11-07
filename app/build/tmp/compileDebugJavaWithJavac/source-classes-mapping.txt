@@ -1,0 +1,183 @@
+com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity.java
+ com.africahealthlinkapp.e_treat.ui.DoctorInfoActivity
+ com.africahealthlinkapp.e_treat.ui.DoctorInfoActivity$1
+ com.africahealthlinkapp.e_treat.ui.DoctorInfoActivity$2
+ com.africahealthlinkapp.e_treat.ui.DoctorInfoActivity$3
+ com.africahealthlinkapp.e_treat.ui.DoctorInfoActivity$4
+com/africahealthlinkapp/e_treat/databinding/CartBinding.java
+ com.africahealthlinkapp.e_treat.databinding.CartBinding
+com/africahealthlinkapp/e_treat/ui/Pharmacydetail.java
+ com.africahealthlinkapp.e_treat.ui.Pharmacydetail
+ com.africahealthlinkapp.e_treat.ui.Pharmacydetail$1
+ com.africahealthlinkapp.e_treat.ui.Pharmacydetail$2
+com/africahealthlinkapp/e_treat/databinding/PatientmodelBinding.java
+ com.africahealthlinkapp.e_treat.databinding.PatientmodelBinding
+com/africahealthlinkapp/e_treat/ui/Profile.java
+ com.africahealthlinkapp.e_treat.ui.Profile
+ com.africahealthlinkapp.e_treat.ui.Profile$1
+ com.africahealthlinkapp.e_treat.ui.Profile$2
+ com.africahealthlinkapp.e_treat.ui.Profile$3
+ com.africahealthlinkapp.e_treat.ui.Profile$4
+ com.africahealthlinkapp.e_treat.ui.Profile$BackgroundImageResize
+com/africahealthlinkapp/e_treat/databinding/ActivitySignInBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivitySignInBinding
+com/africahealthlinkapp/e_treat/models/Patient.java
+ com.africahealthlinkapp.e_treat.models.Patient
+com/africahealthlinkapp/e_treat/FilePaths.java
+ com.africahealthlinkapp.e_treat.FilePaths
+com/africahealthlinkapp/e_treat/ui/PharmacyActivity.java
+ com.africahealthlinkapp.e_treat.ui.PharmacyActivity
+ com.africahealthlinkapp.e_treat.ui.PharmacyActivity$1
+ com.africahealthlinkapp.e_treat.ui.PharmacyActivity$LocationBroadcastReceiver
+com/africahealthlinkapp/e_treat/adapter/AppointmentAdapter.java
+ com.africahealthlinkapp.e_treat.adapter.AppointmentAdapter
+ com.africahealthlinkapp.e_treat.adapter.AppointmentAdapter$BinginHolder
+com/africahealthlinkapp/e_treat/adapter/DrugAdapter.java
+ com.africahealthlinkapp.e_treat.adapter.DrugAdapter
+ com.africahealthlinkapp.e_treat.adapter.DrugAdapter$1
+ com.africahealthlinkapp.e_treat.adapter.DrugAdapter$drugViewHolder
+com/africahealthlinkapp/e_treat/databinding/ActivityDoctorInfoBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivityDoctorInfoBinding
+com/africahealthlinkapp/e_treat/databinding/InfoModelBinding.java
+ com.africahealthlinkapp.e_treat.databinding.InfoModelBinding
+com/africahealthlinkapp/e_treat/helpers/DB_Util.java
+ com.africahealthlinkapp.e_treat.helpers.DB_Util
+ com.africahealthlinkapp.e_treat.helpers.DB_Util$1
+ com.africahealthlinkapp.e_treat.helpers.DB_Util$1$1
+ com.africahealthlinkapp.e_treat.helpers.DB_Util$1$2
+ com.africahealthlinkapp.e_treat.helpers.DB_Util$1$2$1
+ com.africahealthlinkapp.e_treat.helpers.DB_Util$2
+ com.africahealthlinkapp.e_treat.helpers.DB_Util$3
+com/africahealthlinkapp/e_treat/models/Patients.java
+ com.africahealthlinkapp.e_treat.models.Patients
+ com.africahealthlinkapp.e_treat.models.Patients$1
+com/africahealthlinkapp/e_treat/ui/DoctorProfile.java
+ com.africahealthlinkapp.e_treat.ui.DoctorProfile
+ com.africahealthlinkapp.e_treat.ui.DoctorProfile$1
+com/africahealthlinkapp/e_treat/models/Doctors.java
+ com.africahealthlinkapp.e_treat.models.Doctors
+ com.africahealthlinkapp.e_treat.models.Doctors$1
+com/africahealthlinkapp/e_treat/adapter/CartAdapter.java
+ com.africahealthlinkapp.e_treat.adapter.CartAdapter
+ com.africahealthlinkapp.e_treat.adapter.CartAdapter$1
+ com.africahealthlinkapp.e_treat.adapter.CartAdapter$1$1
+ com.africahealthlinkapp.e_treat.adapter.CartAdapter$drugViewHolder
+com/africahealthlinkapp/e_treat/databinding/ActivityPharmacydetailBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivityPharmacydetailBinding
+com/africahealthlinkapp/e_treat/ui/SearchDoctor.java
+ com.africahealthlinkapp.e_treat.ui.SearchDoctor
+ com.africahealthlinkapp.e_treat.ui.SearchDoctor$1
+ com.africahealthlinkapp.e_treat.ui.SearchDoctor$2
+ com.africahealthlinkapp.e_treat.ui.SearchDoctor$2$1
+ com.africahealthlinkapp.e_treat.ui.SearchDoctor$3
+ com.africahealthlinkapp.e_treat.ui.SearchDoctor$4
+ com.africahealthlinkapp.e_treat.ui.SearchDoctor$5
+ com.africahealthlinkapp.e_treat.ui.SearchDoctor$6
+ com.africahealthlinkapp.e_treat.ui.SearchDoctor$7
+ com.africahealthlinkapp.e_treat.ui.SearchDoctor$8
+com/africahealthlinkapp/e_treat/databinding/ActivityProfileBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivityProfileBinding
+com/africahealthlinkapp/e_treat/databinding/ActivityHomeBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivityHomeBinding
+com/africahealthlinkapp/e_treat/databinding/DoctorsModelBinding.java
+ com.africahealthlinkapp.e_treat.databinding.DoctorsModelBinding
+com/africahealthlinkapp/e_treat/helpers/GoogleLoginUtil.java
+ com.africahealthlinkapp.e_treat.helpers.GoogleLoginUtil
+ com.africahealthlinkapp.e_treat.helpers.GoogleLoginUtil$1
+com/africahealthlinkapp/e_treat/databinding/AppointmentsmodelBinding.java
+ com.africahealthlinkapp.e_treat.databinding.AppointmentsmodelBinding
+com/africahealthlinkapp/e_treat/databinding/ActivityPatientBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivityPatientBinding
+com/africahealthlinkapp/e_treat/models/Information.java
+ com.africahealthlinkapp.e_treat.models.Information
+com/africahealthlinkapp/e_treat/models/Doctor.java
+ com.africahealthlinkapp.e_treat.models.Doctor
+com/africahealthlinkapp/e_treat/adapter/DoctorsAdapter.java
+ com.africahealthlinkapp.e_treat.adapter.DoctorsAdapter
+ com.africahealthlinkapp.e_treat.adapter.DoctorsAdapter$1
+ com.africahealthlinkapp.e_treat.adapter.DoctorsAdapter$BinginHolder
+com/africahealthlinkapp/e_treat/MainActivity.java
+ com.africahealthlinkapp.e_treat.MainActivity
+ com.africahealthlinkapp.e_treat.MainActivity$1
+ com.africahealthlinkapp.e_treat.MainActivity$2
+com/africahealthlinkapp/e_treat/models/Drug.java
+ com.africahealthlinkapp.e_treat.models.Drug
+com/africahealthlinkapp/e_treat/ui/Appointments.java
+ com.africahealthlinkapp.e_treat.ui.Appointments
+ com.africahealthlinkapp.e_treat.ui.Appointments$1
+com/africahealthlinkapp/e_treat/ui/DoctorHome.java
+ com.africahealthlinkapp.e_treat.ui.DoctorHome
+ com.africahealthlinkapp.e_treat.ui.DoctorHome$1
+ com.africahealthlinkapp.e_treat.ui.DoctorHome$2
+ com.africahealthlinkapp.e_treat.ui.DoctorHome$2$1
+ com.africahealthlinkapp.e_treat.ui.DoctorHome$3
+ com.africahealthlinkapp.e_treat.ui.DoctorHome$4
+ com.africahealthlinkapp.e_treat.ui.DoctorHome$5
+ com.africahealthlinkapp.e_treat.ui.DoctorHome$6
+ com.africahealthlinkapp.e_treat.ui.DoctorHome$7
+ com.africahealthlinkapp.e_treat.ui.DoctorHome$8
+com/africahealthlinkapp/e_treat/databinding/DrugListItemBinding.java
+ com.africahealthlinkapp.e_treat.databinding.DrugListItemBinding
+com/africahealthlinkapp/e_treat/databinding/ReachoutBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ReachoutBinding
+com/africahealthlinkapp/e_treat/Cart.java
+ com.africahealthlinkapp.e_treat.Cart
+ com.africahealthlinkapp.e_treat.Cart$1
+ com.africahealthlinkapp.e_treat.Cart$2
+com/africahealthlinkapp/e_treat/databinding/ActivityCartBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivityCartBinding
+com/africahealthlinkapp/e_treat/models/Appointment.java
+ com.africahealthlinkapp.e_treat.models.Appointment
+com/africahealthlinkapp/e_treat/BuildConfig.java
+ com.africahealthlinkapp.e_treat.BuildConfig
+com/africahealthlinkapp/e_treat/databinding/DoctormodelBinding.java
+ com.africahealthlinkapp.e_treat.databinding.DoctormodelBinding
+com/africahealthlinkapp/e_treat/LocationService.java
+ com.africahealthlinkapp.e_treat.LocationService
+ com.africahealthlinkapp.e_treat.LocationService$1
+com/africahealthlinkapp/e_treat/helpers/FacebookLoginUtil.java
+ com.africahealthlinkapp.e_treat.helpers.FacebookLoginUtil
+ com.africahealthlinkapp.e_treat.helpers.FacebookLoginUtil$1
+ com.africahealthlinkapp.e_treat.helpers.FacebookLoginUtil$2
+com/africahealthlinkapp/e_treat/ui/ProfileDoctor.java
+ com.africahealthlinkapp.e_treat.ui.ProfileDoctor
+com/africahealthlinkapp/e_treat/models/User.java
+ com.africahealthlinkapp.e_treat.models.User
+com/africahealthlinkapp/e_treat/adapter/InfoAdapter.java
+ com.africahealthlinkapp.e_treat.adapter.InfoAdapter
+ com.africahealthlinkapp.e_treat.adapter.InfoAdapter$BinginHolder
+com/africahealthlinkapp/e_treat/databinding/ActivityDoctorProfileBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivityDoctorProfileBinding
+com/africahealthlinkapp/e_treat/ui/Home.java
+ com.africahealthlinkapp.e_treat.ui.Home
+ com.africahealthlinkapp.e_treat.ui.Home$1
+com/africahealthlinkapp/e_treat/databinding/ActivitySearchDoctorBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivitySearchDoctorBinding
+com/africahealthlinkapp/e_treat/databinding/ActivityAppointmentBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivityAppointmentBinding
+com/africahealthlinkapp/e_treat/DataBindingTriggerClass.java
+ com.africahealthlinkapp.e_treat.DataBindingTriggerClass
+com/africahealthlinkapp/e_treat/helpers/ChangePhotoDialog.java
+ com.africahealthlinkapp.e_treat.helpers.ChangePhotoDialog
+ com.africahealthlinkapp.e_treat.helpers.ChangePhotoDialog$1
+ com.africahealthlinkapp.e_treat.helpers.ChangePhotoDialog$2
+ com.africahealthlinkapp.e_treat.helpers.ChangePhotoDialog$OnPhotoReceivedListener
+com/africahealthlinkapp/e_treat/databinding/ActivitySignUpBinding.java
+ com.africahealthlinkapp.e_treat.databinding.ActivitySignUpBinding
+com/africahealthlinkapp/e_treat/helpers/AlertDialogHelper.java
+ com.africahealthlinkapp.e_treat.helpers.AlertDialogHelper
+ com.africahealthlinkapp.e_treat.helpers.AlertDialogHelper$1
+ com.africahealthlinkapp.e_treat.helpers.AlertDialogHelper$1$1
+ com.africahealthlinkapp.e_treat.helpers.AlertDialogHelper$2
+ com.africahealthlinkapp.e_treat.helpers.AlertDialogHelper$3
+com/africahealthlinkapp/e_treat/ui/SignInActivity.java
+ com.africahealthlinkapp.e_treat.ui.SignInActivity
+ com.africahealthlinkapp.e_treat.ui.SignInActivity$1
+ com.africahealthlinkapp.e_treat.ui.SignInActivity$2
+com/africahealthlinkapp/e_treat/ui/SplashActivity.java
+ com.africahealthlinkapp.e_treat.ui.SplashActivity
+ com.africahealthlinkapp.e_treat.ui.SplashActivity$1
+com/africahealthlinkapp/e_treat/ui/SignUpActivity.java
+ com.africahealthlinkapp.e_treat.ui.SignUpActivity
+ com.africahealthlinkapp.e_treat.ui.SignUpActivity$1
+ com.africahealthlinkapp.e_treat.ui.SignUpActivity$2

@@ -65,7 +65,7 @@ public class DrugAdapter extends RecyclerView.Adapter<DrugAdapter.drugViewHolder
                 DatabaseReference cartRef = FirebaseDatabase.getInstance().getReference().child("cart");
                 String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
                 cartRef.child(uid).push().setValue(drug);
-                Toast.makeText(mContext,"Medication added",Toast.LENGTH_LONG).show();
+                Toast.makeText(mContext,"Medication added",Toast.LENGTH_SHORT).show();
 
             }
         });

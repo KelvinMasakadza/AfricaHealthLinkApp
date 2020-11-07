@@ -6,8 +6,6 @@ public class Doctor {
     private String email;
     private String userId;
     private String phone;
-
-
     private String department;
     private String qualification;
     private String specialization;
@@ -17,7 +15,9 @@ public class Doctor {
     private String academicDocs;
 
 
-    public Doctor(String firstName, String lastName, String email, String userId, String phone, String department, String qualification, String specialization, String education, String CV, String nationalId, String academicDocs) {
+    public Doctor(String firstName, String lastName, String email, String userId, String phone,
+                  String department, String qualification, String specialization, String education,
+                  String CV, String nationalId, String academicDocs) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;

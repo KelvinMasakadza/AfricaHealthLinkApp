@@ -69,15 +69,12 @@ public class SignUpActivity extends AppCompatActivity {
             signUpButton.setVisibility(View.VISIBLE);
             findViewById(R.id.next_button).setVisibility(View.INVISIBLE);
         }
-
-
-
-
     }
 
     public void openDoctorInfo(String firstName, String lastName, String email, String phone, String password, String confirmPassword ){
 
-        if(firstName.isEmpty() || lastName.isEmpty() || email.isEmpty() || phone.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()){
+        if(firstName.isEmpty() || lastName.isEmpty() || email.isEmpty() || phone.isEmpty()
+                || password.isEmpty() || confirmPassword.isEmpty()){
             Snackbar.make(getWindow().getDecorView(), "Please make sure you have filled all the inputs correctly!", Snackbar.LENGTH_SHORT).show();
         }
         else if(!doStringsMatch(password, confirmPassword)){
@@ -103,11 +100,8 @@ public class SignUpActivity extends AppCompatActivity {
                         }});
         }
 
-
-
     }
-
-
+    
     public void startFacebookSignUp() {
 
         facebookLoginUtil = new FacebookLoginUtil(SignUpActivity.this, mAuth, "SIGN_UP");

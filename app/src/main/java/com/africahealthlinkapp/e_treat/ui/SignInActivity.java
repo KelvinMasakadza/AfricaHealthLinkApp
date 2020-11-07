@@ -77,9 +77,6 @@ public class SignInActivity extends AppCompatActivity {
                 }
             }
         });
-
-
-
     }
 
     public void openSignUpScreen(){

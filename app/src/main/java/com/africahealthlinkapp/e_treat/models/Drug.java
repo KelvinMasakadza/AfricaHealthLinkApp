@@ -4,6 +4,9 @@ public class Drug {
     String name;
     String price;
 
+    public Drug() {
+    }
+
     public Drug(String name, String price) {
         this.name = name;
         this.price = price;
