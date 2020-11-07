@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_layout">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/auth_logo" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/message_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Who Are You"
+        android:textAllCaps="false"
+        android:textColor="@color/themeBlue"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_20ssp"
+            android:id="@+id/patient_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="PATIENT"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:backgroundTint="@color/themeBlue"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_20ssp"
+            android:id="@+id/doctor_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="DOCTOR"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:backgroundTint="@color/themeBlue"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -58,15 +58,13 @@ public class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.
                 dialogInterface.cancel();
                 DatabaseReference history = FirebaseDatabase.getInstance().getReference().child("History").child(mUID);
                 DatabaseReference appointments = FirebaseDatabase.getInstance().getReference().child("Appointments");
-                String uid = appointments.getKey();
+                String uid = FirebaseAuth.getInstance().getUid();
 
                 assert uid != null;
-                appointments.addValueEventListener(new ValueEventListener() {
+                appointments.child(uid).addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        String uid = snapshot.getKey();
                         Appointment app = snapshot.getValue(Appointment.class);
-                        assert app != null;
                         Appointment histAppointmnts = new Appointment(
                                 app.getProfile_pics(), null, null, app.getPatientName(),
                                 app.getPatientPhone(), app.getPatientLocation(), app.getTime(), app.getDate());
