@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
@@ -19,12 +20,16 @@ public abstract class ActivityHistoryBinding extends ViewDataBinding {
   public final RecyclerView historyRecyclerview;
 
   @NonNull
+  public final TextView noHistory;
+
+  @NonNull
   public final ProgressBar progressHist;
 
   protected ActivityHistoryBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      RecyclerView historyRecyclerview, ProgressBar progressHist) {
+      RecyclerView historyRecyclerview, TextView noHistory, ProgressBar progressHist) {
     super(_bindingComponent, _root, _localFieldCount);
     this.historyRecyclerview = historyRecyclerview;
+    this.noHistory = noHistory;
     this.progressHist = progressHist;
   }
 

@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.databinding.AppointmentsmodelBinding;
+import com.africahealthlinkapp.e_treat.databinding.HistorymodelBinding;
 import com.africahealthlinkapp.e_treat.models.Appointment;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -36,7 +37,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.BinginHo
     @NonNull
     @Override
     public BinginHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        AppointmentsmodelBinding binding = DataBindingUtil.inflate(
+        HistorymodelBinding binding = DataBindingUtil.inflate(
                 LayoutInflater.from(mContext), R.layout.historymodel, parent, false);
         return new BinginHolder(binding.getRoot());
     }
@@ -56,7 +57,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.BinginHo
 
     public static class BinginHolder extends RecyclerView.ViewHolder {
         //        @BindView(R.id.drugName)
-        AppointmentsmodelBinding mBinding;
+        HistorymodelBinding mBinding;
         //OnDoctorClickListener mOnDoctorClickListener;
 
 

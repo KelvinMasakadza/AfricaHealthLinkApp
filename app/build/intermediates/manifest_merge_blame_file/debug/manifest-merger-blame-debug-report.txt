@@ -65,7 +65,7 @@
 35        android:theme="@style/AppTheme" >
 35-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:16:9-40
 36        <activity android:name="com.africahealthlinkapp.e_treat.ui.History" />
-36-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:17:9-57
+36-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:17:9-47
 36-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:17:19-45
 37        <activity
 37-->D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:18:9-20:52

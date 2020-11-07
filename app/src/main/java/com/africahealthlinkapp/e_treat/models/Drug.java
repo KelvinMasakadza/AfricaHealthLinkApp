@@ -2,14 +2,24 @@ package com.africahealthlinkapp.e_treat.models;
 
 public class Drug {
     String name;
+    String key;
     String price;
 
     public Drug() {
     }
 
-    public Drug(String name, String price) {
+    public Drug(String name, String key, String price) {
         this.name = name;
+        this.key = key;
         this.price = price;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
     }
 
     public String getName() {

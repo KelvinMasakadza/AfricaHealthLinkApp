@@ -66,7 +66,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DoctorHome extends FragmentActivity implements OnMapReadyCallback, RoutingListener {
+public class DoctorHome extends FragmentActivity implements OnMapReadyCallback, RoutingListener, AppointmentAdapter.OnDoctorClickListener {
 
     private GoogleMap mMap;
     Location mLastLocation;
@@ -106,6 +106,7 @@ public class DoctorHome extends FragmentActivity implements OnMapReadyCallback, 
     private DatabaseReference mDriverRef;
     private DatabaseReference mHistoryRef;
     private DatabaseReference mPatientRequest;
+    private String mUid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -163,6 +164,7 @@ public class DoctorHome extends FragmentActivity implements OnMapReadyCallback, 
                     for (DataSnapshot hist : appoinment) {
                         Appointment c = hist.getValue(Appointment.class);
                         Log.d("hist:: ", c.getPatientName() + " " + c.getPatientPhone());
+                        mUid = c.getUid();
                         appointmentList.add(c);
                         RecyclerView mPatientRecycler = mDbinding.historyRecycler;
                         mPatientRecycler.setVisibility(View.VISIBLE);
@@ -170,7 +172,8 @@ public class DoctorHome extends FragmentActivity implements OnMapReadyCallback, 
 
                         mPatientRecycler.setLayoutManager(new LinearLayoutManager(DoctorHome.this));
 
-                        AppointmentAdapter appointmentAdapter = new AppointmentAdapter(appointmentList, DoctorHome.this);
+                        AppointmentAdapter appointmentAdapter = new AppointmentAdapter(appointmentList,
+                                DoctorHome.this, DoctorHome.this);
                         mPatientRecycler.setAdapter(appointmentAdapter);
                     }
                 } else {
@@ -609,5 +612,49 @@ public class DoctorHome extends FragmentActivity implements OnMapReadyCallback, 
         if (mUser == null) {
             //startActivity(new Intent(this, MainActivity.class));
         }
+    }
+
+
+    @Override
+    public void onAppointmentclick(int position) {
+        DatabaseReference appointments = FirebaseDatabase.getInstance().getReference().child("Appointments");
+        DatabaseReference history = FirebaseDatabase.getInstance().getReference().child("History");
+
+        AlertDialog.Builder closeAppointment = new AlertDialog.Builder(this);
+        closeAppointment.setMessage("Appoinment Finished?")
+                .setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.cancel();
+                        if (mUid == null) {
+                            Toast.makeText(DoctorHome.this, "appointment removed", Toast.LENGTH_SHORT).show();
+                        }
+                        appointments.child(mUid).addValueEventListener(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                                if (!snapshot.exists()) {
+                                    Toast.makeText(DoctorHome.this, "Appointment closed", Toast.LENGTH_SHORT).show();
+                                } else {
+                                    Appointment app = snapshot.getValue(Appointment.class);
+                                    Appointment appointment = new Appointment(
+                                            app.getProfile_pics(),
+                                            null, null, app.getPatientName(),
+                                            app.getPatientPhone(), app.getPatientLocation(),
+                                            app.getTime(), app.getDate()
+                                    );
+                                    history.push().setValue(appointment);
+                                    appointments.child(mUid).removeValue();
+                                }
+                            }
+
+                            @Override
+                            public void onCancelled(@NonNull DatabaseError error) {
+
+                            }
+                        });
+                    }
+                }).setNegativeButton(
+                "cancel", (dialogInterface, i) -> dialogInterface.cancel()).show();
+
     }
 }

@@ -55,25 +55,25 @@ public class Pharmacydetail extends AppCompatActivity {
 
         drugslist = new ArrayList<>();
 //dummy drugs
-        Drug drug1 = new Drug("plavix", "100");
+        Drug drug1 = new Drug("plavix", null,"100");
         drugslist.add(drug1);
-        Drug drug2 = new Drug("crestor", "150");
+        Drug drug2 = new Drug("crestor",null, "150");
         drugslist.add(drug2);
-        Drug drug3 = new Drug("Aspirin", "75");
+        Drug drug3 = new Drug("Aspirin",null, "75");
         drugslist.add(drug3);
-        Drug drug4 = new Drug("cidophage", "200");
+        Drug drug4 = new Drug("cidophage",null, "200");
         drugslist.add(drug4);
-        Drug drug5 = new Drug("concor", "50");
+        Drug drug5 = new Drug("concor",null, "50");
         drugslist.add(drug5);
-        Drug drug6 = new Drug("capotin", "180");
+        Drug drug6 = new Drug("capotin",null, "180");
         drugslist.add(drug6);
-        Drug drug7 = new Drug("adancor", "30");
+        Drug drug7 = new Drug("adancor",null, "30");
         drugslist.add(drug7);
-        Drug drug8 = new Drug("vastarel", "18");
+        Drug drug8 = new Drug("vastarel",null, "18");
         drugslist.add(drug8);
-        Drug drug9 = new Drug("clexan", "10");
+        Drug drug9 = new Drug("clexan",null, "10");
         drugslist.add(drug9);
-        Drug drug10 = new Drug("seloken", "100");
+        Drug drug10 = new Drug("seloken",null, "100");
         drugslist.add(drug10);
 
 

@@ -50,6 +50,9 @@ public class DrugAdapter extends RecyclerView.Adapter<DrugAdapter.drugViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull drugViewHolder holder, final int position) {
+        DatabaseReference cartRef = FirebaseDatabase.getInstance().getReference().child("cart");
+        String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        String key = cartRef.child(uid).push().getKey();
 
         Drug drug = DrugList.get(position);
         holder.mListItemBinding.setDrugs(drug);
@@ -59,13 +62,10 @@ public class DrugAdapter extends RecyclerView.Adapter<DrugAdapter.drugViewHolder
             public void onClick(View v) {
                 String name = DrugList.get(position).getName();
                 String price= DrugList.get(position).getPrice();
-                Drug drug =new Drug(name,price);
+                Drug drug =new Drug(name,key,price);
                 AddedDrugs.add(drug);
 
-                DatabaseReference cartRef = FirebaseDatabase.getInstance().getReference().child("cart");
-                String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
-                cartRef.child(uid).push().setValue(drug);
-                Toast.makeText(mContext,"Medication added",Toast.LENGTH_SHORT).show();
+                cartRef.child(uid).child(key).setValue(drug);
 
             }
         });
