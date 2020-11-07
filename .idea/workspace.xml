@@ -13,10 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf8b593-563f-40ce-9d7f-8d77784f54c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/adapter/AppointmentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/adapter/AppointmentAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/ui/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/africahealthlinkapp/e_treat/ui/History.java" afterDir="false" />
-    </list>
+    <list default="true" id="daf8b593-563f-40ce-9d7f-8d77784f54c9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +29,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
           <activation />
         </task>
         <projects_view>
@@ -55,6 +55,24 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="E-Treat" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="E-Treat" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="E-Treat" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="E-Treat" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="install" type="c8890929:TasksNode$1" />
               </path>
@@ -99,6 +117,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_4_API_27" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-09T08:02:05.536Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -309,7 +329,28 @@
       <option name="project" value="LOCAL" />
       <updated>1604774454465</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cart and auth edits&#10;&#10;Signed-off-by: Abili Isaac &lt;abiliisaac@gmail.com&gt;">
+      <created>1604775256361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604775256361</updated>
+    </task>
+    <task id="LOCAL-00005" summary="final code">
+      <created>1604855588228</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604855588229</updated>
+    </task>
+    <task id="LOCAL-00006" summary="final code&#10;&#10;Signed-off-by: Abili Isaac &lt;abiliisaac@gmail.com&gt;">
+      <created>1604915583739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604915583739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,7 +361,10 @@
     <MESSAGE value="cart" />
     <MESSAGE value="cart&#10;&#10;Signed-off-by: Abili Isaac &lt;abiliisaac@gmail.com&gt;" />
     <MESSAGE value="cart and auth edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart and auth edits" />
+    <MESSAGE value="cart and auth edits&#10;&#10;Signed-off-by: Abili Isaac &lt;abiliisaac@gmail.com&gt;" />
+    <MESSAGE value="final code" />
+    <MESSAGE value="final code&#10;&#10;Signed-off-by: Abili Isaac &lt;abiliisaac@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="final code&#10;&#10;Signed-off-by: Abili Isaac &lt;abiliisaac@gmail.com&gt;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="200" y="110" key="#PSD" timestamp="1604658470983">
@@ -331,18 +375,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="0" key="#app/0.0.1366.728@0.0.1366.728" timestamp="1603090365307" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603097433020">
+    <state x="154" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604906777417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603097433020" />
+    <state x="154" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604906777417" />
     <state x="526" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602847439183">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="526" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1602847439183" />
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1604750273861">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1604853024583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604750273861" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604853024583" />
     <state x="346" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604767928643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -351,10 +395,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604737220037" />
-    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1604761890636">
+    <state x="-61" y="83" width="1182" height="544" key="AVDManager" timestamp="1604912262442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1604761890636" />
+    <state x="-61" y="83" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1604912262442" />
     <state x="243" y="141" key="AndroidCreateResourceFileDialog" timestamp="1604659035347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -365,10 +409,10 @@
     </state>
     <state x="506" y="162" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1604582495121" />
     <state x="474" y="196" key="AndroidCreateXmlResourceDialog/0.23.1280.777@0.23.1280.777" timestamp="1602782941910" />
-    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1604774445536">
+    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1604915551899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604774445536" />
+    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604915551899" />
     <state x="227" y="54" key="DiffContextDialog" timestamp="1602838544250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -377,22 +421,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604093235433" />
-    <state width="1322" height="169" key="GridCell.Tab.0.bottom" timestamp="1604773945829">
+    <state width="1322" height="159" key="GridCell.Tab.0.bottom" timestamp="1604914985426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604773945829" />
-    <state width="1322" height="169" key="GridCell.Tab.0.center" timestamp="1604773945828">
+    <state width="1322" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604914985426" />
+    <state width="1322" height="159" key="GridCell.Tab.0.center" timestamp="1604914985426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604773945828" />
-    <state width="1322" height="169" key="GridCell.Tab.0.left" timestamp="1604773945828">
+    <state width="1322" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604914985426" />
+    <state width="1322" height="159" key="GridCell.Tab.0.left" timestamp="1604914985425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604773945828" />
-    <state width="1322" height="169" key="GridCell.Tab.0.right" timestamp="1604773945828">
+    <state width="1322" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604914985425" />
+    <state width="1322" height="159" key="GridCell.Tab.0.right" timestamp="1604914985426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604773945828" />
+    <state width="1322" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604914985426" />
     <state width="1322" height="171" key="GridCell.Tab.1.bottom" timestamp="1604767237008">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -417,34 +461,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604774203241" />
-    <state x="314" y="125" key="MultipleFileMergeDialog" timestamp="1604774272174">
+    <state x="314" y="125" key="MultipleFileMergeDialog" timestamp="1604775319144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="314" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604774272174" />
+    <state x="314" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604775319144" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1603097002552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603097002552" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1604774470810">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1604915638837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604774470810" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604915638837" />
     <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1604648738527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1604648738527" />
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604773615046">
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604775390494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1604773615046" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1604775390494" />
     <state x="406" y="101" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602832306820">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="406" y="101" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1602832306820" />
     <state x="380" y="131" key="git4idea.branch.GitSmartOperationDialog/0.23.1280.777@0.23.1280.777" timestamp="1602768421019" />
-    <state width="300" height="84" key="javadoc.popup.new" timestamp="1604775105821">
+    <state width="300" height="84" key="javadoc.popup.new" timestamp="1604914150500">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="300" height="84" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1604775105821" />
+    <state width="300" height="84" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1604914150500" />
+    <state x="459" y="122" key="refactoring.ChangeSignatureDialog" timestamp="1604852370513">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="459" y="122" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1604852370513" />
   </component>
 </project>

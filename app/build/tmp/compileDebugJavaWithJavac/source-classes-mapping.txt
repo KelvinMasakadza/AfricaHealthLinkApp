@@ -31,9 +31,8 @@ com/africahealthlinkapp/e_treat/ui/PharmacyActivity.java
  com.africahealthlinkapp.e_treat.ui.PharmacyActivity$LocationBroadcastReceiver
 com/africahealthlinkapp/e_treat/adapter/AppointmentAdapter.java
  com.africahealthlinkapp.e_treat.adapter.AppointmentAdapter
- com.africahealthlinkapp.e_treat.adapter.AppointmentAdapter$1
- com.africahealthlinkapp.e_treat.adapter.AppointmentAdapter$2
  com.africahealthlinkapp.e_treat.adapter.AppointmentAdapter$BinginHolder
+ com.africahealthlinkapp.e_treat.adapter.AppointmentAdapter$OnDoctorClickListener
 com/africahealthlinkapp/e_treat/adapter/DrugAdapter.java
  com.africahealthlinkapp.e_treat.adapter.DrugAdapter
  com.africahealthlinkapp.e_treat.adapter.DrugAdapter$1
@@ -58,14 +57,15 @@ com/africahealthlinkapp/e_treat/models/Patients.java
 com/africahealthlinkapp/e_treat/ui/DoctorProfile.java
  com.africahealthlinkapp.e_treat.ui.DoctorProfile
  com.africahealthlinkapp.e_treat.ui.DoctorProfile$1
+ com.africahealthlinkapp.e_treat.ui.DoctorProfile$2
+ com.africahealthlinkapp.e_treat.ui.DoctorProfile$3
 com/africahealthlinkapp/e_treat/ui/SignUpActivity.java
  com.africahealthlinkapp.e_treat.ui.SignUpActivity
  com.africahealthlinkapp.e_treat.ui.SignUpActivity$1
  com.africahealthlinkapp.e_treat.ui.SignUpActivity$2
 com/africahealthlinkapp/e_treat/adapter/CartAdapter.java
  com.africahealthlinkapp.e_treat.adapter.CartAdapter
- com.africahealthlinkapp.e_treat.adapter.CartAdapter$1
- com.africahealthlinkapp.e_treat.adapter.CartAdapter$1$1
+ com.africahealthlinkapp.e_treat.adapter.CartAdapter$OnRemoveItem
  com.africahealthlinkapp.e_treat.adapter.CartAdapter$drugViewHolder
 com/africahealthlinkapp/e_treat/databinding/ActivityPharmacydetailBinding.java
  com.africahealthlinkapp.e_treat.databinding.ActivityPharmacydetailBinding
@@ -121,6 +121,8 @@ com/africahealthlinkapp/e_treat/ui/DoctorHome.java
  com.africahealthlinkapp.e_treat.ui.DoctorHome$6
  com.africahealthlinkapp.e_treat.ui.DoctorHome$7
  com.africahealthlinkapp.e_treat.ui.DoctorHome$8
+ com.africahealthlinkapp.e_treat.ui.DoctorHome$9
+ com.africahealthlinkapp.e_treat.ui.DoctorHome$9$1
 com/africahealthlinkapp/e_treat/databinding/DrugListItemBinding.java
  com.africahealthlinkapp.e_treat.databinding.DrugListItemBinding
 com/africahealthlinkapp/e_treat/databinding/ReachoutBinding.java

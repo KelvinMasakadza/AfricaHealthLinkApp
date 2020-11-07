@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.RadioGroup;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -84,7 +85,7 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         mHomeBinding = DataBindingUtil.setContentView(this, R.layout.activity_home);
         showInfo();
-        mHomeBinding.bottomNavigation.setOnNavigationItemReselectedListener(item -> {
+        mHomeBinding.bottomNavigation.setOnNavigationItemSelectedListener(item -> {
             int id = item.getItemId();
             if (id == R.id.profile_home) {
                 startActivity(new Intent(this, Profile.class));
@@ -94,6 +95,7 @@ public class Home extends AppCompatActivity {
 
             }
 
+            return true;
         });
 
     }
@@ -108,7 +110,7 @@ public class Home extends AppCompatActivity {
     }
 
     public void openDiagnosis(View view) {
-        //startActivity(new Intent(this, MapsActivity.class));
+        Toast.makeText(Home.this, "Not Implemented Yet", Toast.LENGTH_LONG).show();
     }
 
     private void showInfo() {

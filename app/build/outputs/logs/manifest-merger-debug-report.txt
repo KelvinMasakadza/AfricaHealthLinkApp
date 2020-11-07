@@ -241,7 +241,7 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Aisac\.gr
 	android:theme
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:16:9-40
 activity#com.africahealthlinkapp.e_treat.ui.History
-ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:17:9-57
+ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:17:9-47
 	android:name
 		ADDED from D:\New\Gads_project_phase\AfricaHealthLinkApp\app\src\main\AndroidManifest.xml:17:19-45
 activity#com.africahealthlinkapp.e_treat.Cart

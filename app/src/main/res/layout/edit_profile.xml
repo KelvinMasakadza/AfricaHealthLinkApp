@@ -19,7 +19,7 @@
         android:id="@+id/textTitle"
         android:layout_width="wrap_content"
         android:text="Type your name"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/text_size"
         android:layout_height="wrap_content"/>
 
@@ -27,6 +27,7 @@
         android:layout_below="@id/textTitle"
         android:layout_marginTop="10dp"
         android:id="@+id/profileEdt"
+        android:textColorHint="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -47,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="cancel"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/text_size"
             android:textStyle="bold" />
 
@@ -57,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="save"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/text_size"
             android:textStyle="bold" />
 

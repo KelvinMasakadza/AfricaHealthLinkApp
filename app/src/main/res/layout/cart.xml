@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -17,11 +16,11 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardCornerRadius="10dp"
-            android:layout_marginBottom="2dp"
-            android:layout_marginEnd="@dimen/_10sdp"
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="2dp"
+            app:cardCornerRadius="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -39,9 +38,8 @@
                 app:layout_constraintEnd_toEndOf="parent">
 
                 <ImageView
-                    android:layout_width="0dp"
+                    android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_weight="1"
                     android:src="@drawable/pill">
 
                 </ImageView>
@@ -53,22 +51,11 @@
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
                     android:padding="@dimen/_3sdp"
+                    android:ellipsize="marquee"
                     android:text="@{drugs.name}"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textColor="@android:color/black" />
-
-
-                <TextView
-                    android:id="@+id/textview_price"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:padding="@dimen/_3sdp"
-                    android:text="@{drugs.price}"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/black"
+                    android:singleLine="true" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -81,14 +68,26 @@
                     android:textColor="@android:color/black" />
 
                 <TextView
+                    android:id="@+id/textview_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/_3sdp"
+                    android:text="@{drugs.price}"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/black" />
+
+
+                <TextView
                     android:id="@+id/removeDrug"
-                    android:layout_width="30dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:layout_gravity="end|center_vertical"
                     android:layout_marginEnd="@dimen/_20ssp"
-                    android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Remove"/>
+                    android:text="Remove" />
 
             </LinearLayout>
 

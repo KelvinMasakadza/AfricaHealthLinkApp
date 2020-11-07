@@ -15,7 +15,6 @@ import com.africahealthlinkapp.e_treat.R;
 import com.africahealthlinkapp.e_treat.adapter.HistoryAdapter;
 import com.africahealthlinkapp.e_treat.databinding.ActivityHistoryBinding;
 import com.africahealthlinkapp.e_treat.models.Appointment;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -36,11 +35,12 @@ public class History extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mHistorymodelBinding = DataBindingUtil.setContentView(this, R.layout.activity_history);
-        showhistory();
+
+        mHistoryRef = FirebaseDatabase.getInstance().getReference().child("History");
         mUid = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
-        mHistoryRef = FirebaseDatabase.getInstance()
-                .getReference().child("History").child(mUid);
+        showhistory();
+
 
     }
 
@@ -49,10 +49,9 @@ public class History extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if (snapshot.getChildrenCount() == 0) {
-                    Toast.makeText(History.this, "No History yet", Toast.LENGTH_SHORT).show();
+                    mHistorymodelBinding.noHistory.setVisibility(View.VISIBLE);
 
                 } else {
-                    int price = 0;
                     List<Appointment> historyList = new ArrayList<>();
                     Iterable<DataSnapshot> history = snapshot.getChildren();
 

@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -117,6 +118,8 @@ public class DoctorProfile extends AppCompatActivity {
     public void reachOut(View view) {
         BottomSheetDialog dialog = new BottomSheetDialog(this);
         dialog.setContentView(R.layout.reachout);
+        TextView request = dialog.findViewById(R.id.request_visit);
+        TextView Video = dialog.findViewById(R.id.videocall);
        TextView appointment = dialog.findViewById(R.id.appointments);
        dialog.show();
                appointment.setOnClickListener(v -> {
@@ -125,6 +128,17 @@ public class DoctorProfile extends AppCompatActivity {
                    startActivity(intent);
                    dialog.cancel();
         });
-
+               request.setOnClickListener(new View.OnClickListener() {
+                   @Override
+                   public void onClick(View view) {
+                       Toast.makeText(DoctorProfile.this, "Not Implemented Yet", Toast.LENGTH_LONG).show();
+                   }
+               });
+               Video.setOnClickListener(new View.OnClickListener() {
+                   @Override
+                   public void onClick(View view) {
+                       Toast.makeText(DoctorProfile.this, "Not Implemented Yet", Toast.LENGTH_LONG).show();
+                   }
+               });
     }
 }

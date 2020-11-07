@@ -178,7 +178,7 @@ public class Profile extends AppCompatActivity implements ChangePhotoDialog.OnPh
 
             case R.id.docs_email:
                 editProfile();
-                mEdit.setHint(mProfileBinding.nameTv.getText().toString());
+                mEdit.setHint(mProfileBinding.emailTv.getText().toString());
                 mText_title.setText("Enter your email address");
                 mConfirm.setOnClickListener(v -> {
                     if (!mEdit.getText().toString().equals("") && mEdit.getText().toString().length() >= 5) {

@@ -1,13 +1,9 @@
 package com.africahealthlinkapp.e_treat;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -18,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.africahealthlinkapp.e_treat.adapter.CartAdapter;
 import com.africahealthlinkapp.e_treat.databinding.ActivityCartBinding;
+import com.africahealthlinkapp.e_treat.databinding.CartBinding;
 import com.africahealthlinkapp.e_treat.models.Drug;
 import com.africahealthlinkapp.e_treat.ui.Home;
 import com.google.firebase.database.DataSnapshot;
@@ -30,12 +27,13 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cart extends AppCompatActivity {
+public class Cart extends AppCompatActivity implements CartAdapter.OnRemoveItem {
 
     private ActivityCartBinding mCartBinding;
     private String mKey;
     private String mUid;
     private DatabaseReference mMCartRef;
+    private String mCKey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,12 +72,13 @@ public class Cart extends AppCompatActivity {
                     mCartBinding.totalAmount.setText("$" + tprice);
 
                     Log.d("drg:: ", c.getName() + " " + c.getPrice());
+                    mCKey = c.getKey();
                     drugList.add(c);
                     RecyclerView mDrugRecycler = mCartBinding.cartrecyclerView;
                     mCartBinding.profressCart.setVisibility(View.GONE);
 
                     mDrugRecycler.setLayoutManager(new LinearLayoutManager(Cart.this));
-                    CartAdapter drugAdapter = new CartAdapter(Cart.this, drugList);
+                    CartAdapter drugAdapter = new CartAdapter(Cart.this, drugList, Cart.this);
                     mDrugRecycler.setAdapter(drugAdapter);
                 }
             }
@@ -114,4 +113,10 @@ public class Cart extends AppCompatActivity {
         finish();
     }
 
+    @Override
+    public void onItemClick(int position, CartBinding listItemBinding) {
+        DatabaseReference cartRef = FirebaseDatabase.getInstance().getReference().child("cart").child(mUid).child(mCKey);
+        cartRef.removeValue();
+
+    }
 }
