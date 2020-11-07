@@ -13,13 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf8b593-563f-40ce-9d7f-8d77784f54c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/helpers/DB_Util.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/helpers/DB_Util.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$3.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/africahealthlinkapp/e_treat/ui/DoctorInfoActivity$4.dex" afterDir="false" />
-    </list>
+    <list default="true" id="daf8b593-563f-40ce-9d7f-8d77784f54c9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -298,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604773852644</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cart&#10;&#10;Signed-off-by: Abili Isaac &lt;abiliisaac@gmail.com&gt;">
+      <created>1604774009877</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604774009877</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +308,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart" />
+    <MESSAGE value="cart&#10;&#10;Signed-off-by: Abili Isaac &lt;abiliisaac@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart&#10;&#10;Signed-off-by: Abili Isaac &lt;abiliisaac@gmail.com&gt;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="200" y="110" key="#PSD" timestamp="1604658470983">
@@ -352,10 +354,10 @@
     </state>
     <state x="506" y="162" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1604582495121" />
     <state x="474" y="196" key="AndroidCreateXmlResourceDialog/0.23.1280.777@0.23.1280.777" timestamp="1602782941910" />
-    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1604773806319">
+    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1604774001631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604773806319" />
+    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604774001631" />
     <state x="227" y="54" key="DiffContextDialog" timestamp="1602838544250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -364,22 +366,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604093235433" />
-    <state width="1322" height="169" key="GridCell.Tab.0.bottom" timestamp="1604773146818">
+    <state width="1322" height="169" key="GridCell.Tab.0.bottom" timestamp="1604773945829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604773146818" />
-    <state width="1322" height="169" key="GridCell.Tab.0.center" timestamp="1604773146818">
+    <state width="1322" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604773945829" />
+    <state width="1322" height="169" key="GridCell.Tab.0.center" timestamp="1604773945828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604773146818" />
-    <state width="1322" height="169" key="GridCell.Tab.0.left" timestamp="1604773146818">
+    <state width="1322" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604773945828" />
+    <state width="1322" height="169" key="GridCell.Tab.0.left" timestamp="1604773945828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604773146818" />
-    <state width="1322" height="169" key="GridCell.Tab.0.right" timestamp="1604773146818">
+    <state width="1322" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604773945828" />
+    <state width="1322" height="169" key="GridCell.Tab.0.right" timestamp="1604773945828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604773146818" />
+    <state width="1322" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604773945828" />
     <state width="1322" height="171" key="GridCell.Tab.1.bottom" timestamp="1604767237008">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -400,14 +402,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="228" y="161" key="IDE.errors.dialog/0.23.1280.777@0.23.1280.777" timestamp="1602768448832" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1604774203241">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604774203241" />
+    <state x="314" y="125" key="MultipleFileMergeDialog" timestamp="1604774272174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="314" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604774272174" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1603097002552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603097002552" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1604773888537">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1604774053575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604773888537" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604774053575" />
     <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1604648738527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
