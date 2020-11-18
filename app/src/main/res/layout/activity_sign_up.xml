@@ -13,11 +13,12 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/themeBlue">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="@color/themeBlue"
             tools:context=".SignUpActivity">
 
@@ -237,13 +238,11 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="46dp"
+                android:layout_marginTop="8dp"
                 android:text="OR"
                 android:textColor="#fff"
                 android:textSize="14sp"
                 android:textStyle="normal"
-                app:layout_constraintBottom_toTopOf="@id/google_button"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/sign_in_view" />
@@ -254,6 +253,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="152dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="16dp"
                 android:background="#00FFFFFF"
@@ -272,14 +272,13 @@
                 android:layout_height="30dp"
                 android:layout_marginStart="40dp"
                 android:layout_marginEnd="152dp"
-                android:layout_marginBottom="16dp"
                 android:background="#00FFFFFF"
                 android:onClick="@{()-> activity.startGoogleSignUp()}"
                 android:scaleType="fitCenter"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/facebook_button"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/facebook_button"
-                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:layout_constraintTop_toTopOf="@+id/facebook_button"
                 app:srcCompat="@drawable/google_icon" />
 
             <ProgressBar
@@ -297,7 +296,6 @@
                 android:layout_width="40dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
                 android:scaleType="centerInside"
                 app:layout_constraintBottom_toBottomOf="@+id/phone_text"
                 app:layout_constraintStart_toStartOf="parent"

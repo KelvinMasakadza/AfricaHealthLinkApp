@@ -5,14 +5,16 @@
     <data>
         <variable name="activity" type="com.africahealthlinkapp.e_treat.ui.SignInActivity" />
     </data>
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/themeBlue">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="@color/themeBlue"
             tools:context=".ui.SignInActivity">
 
@@ -135,7 +137,7 @@
                 android:id="@+id/sign_up_view"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="16dp"
                 android:clickable="true"
                 android:gravity="center"
                 android:onClick="@{()-> activity.openSignUpScreen()}"
@@ -151,7 +153,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="152dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/transparent"
@@ -183,7 +185,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
                 android:text="OR"
                 android:textColor="#fff"
                 android:textSize="14sp"
@@ -201,6 +203,7 @@
                 app:layout_constraintEnd_toEndOf="@+id/sign_in_button"
                 app:layout_constraintStart_toStartOf="@+id/sign_in_button"
                 app:layout_constraintTop_toTopOf="@+id/sign_in_button" />
+
             <RadioGroup
                 android:id="@+id/radio_group"
                 android:layout_width="wrap_content"
